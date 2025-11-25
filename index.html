@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Healthy Diet vs GDP – Dashboard</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            sans-serif;
+            background: #f5f5f7;
+            color: #222;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .landing-wrapper {
+            max-width: 100%; /* allow full width so 10% margins are exact */
+            width: 100%;
+            padding: 40px 24px;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 0 0 10px;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+            color: #555;
+            margin: 0 0 24px;
+        }
+
+        .hero-meta {
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        .plots {
+            display: flex;
+            justify-content: center;
+        }
+
+        .dash-frame {
+            width: 80vw;
+            height: 80vh;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            background: #fff;
+            overflow: hidden;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="landing-wrapper">
+    <header class="hero">
+        <h1 class="hero-title">Healthy Diet & GDP Dashboard</h1>
+        <p class="hero-subtitle">
+            Explore how the cost of a healthy diet relates to GDP and population
+            across countries and time.
+        </p>
+        <p class="hero-meta">Interactive Plotly Dash visualization embedded below</p>
+    </header>
+
+    <main class="plots">
+        <iframe
+                src="http://localhost:8050/"
+                class="dash-frame"
+                scrolling="no"
+        ></iframe>
+    </main>
+</div>
+</body>
+</html>
