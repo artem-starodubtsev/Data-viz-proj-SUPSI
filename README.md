@@ -4,7 +4,7 @@ Data Visualization course
 # Project title
 Authors: [Artem Starodubtsev](https://github.com/artem-starodubtsev), [Petar Hristov Neykov](https://github.com/peykoff), [Author n. 3](https://github.com/giovannipro)
 
-[PAGE PLACEHOLDER](google.com)
+[PAGE PLACEHOLDER](https://google.com)
 
 ## Abstract
 ABOBA
