@@ -2,7 +2,7 @@ SUPSI 2025-26
 Data Visualization course
 
 # Project title
-Authors: [Artem Starodubtsev](https://github.com/artem-starodubtsev), [Petar Hristov Neykov](https://github.com/peykoff), [Author n. 3](https://github.com/giovannipro)
+Authors: [Artem Starodubtsev](https://github.com/artem-starodubtsev), [Petar Hristov Neykov](https://github.com/peykoff), [Mahdi Hamrouni](https://github.com/MahdiHamrouni)
 
 [PAGE PLACEHOLDER](https://google.com)
 
