@@ -1,7 +1,9 @@
 from flask import Flask
-from dash import Dash, dcc, html
+from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
+import plotly.graph_objects as go
 import pandas as pd
+import copy
 
 ANIMATION_DURATION_MS = 1000
 
@@ -82,8 +84,6 @@ if fig_bubbles.layout.updatemenus and fig_bubbles.layout.sliders:
 # -----------------------------
 # App 2 figure (animated map)
 # -----------------------------
-# This uses country names. If some countries don't appear,
-# it's likely a naming mismatch with Plotly's built-in list.
 fig_map = px.choropleth(
     df,
     locations="Entity",
@@ -91,7 +91,7 @@ fig_map = px.choropleth(
     color="Cost of a healthy diet",
     hover_name="Entity",
     animation_frame="Year",
-    range_color=[0, 8],  # matches your scatter range_x
+    range_color=[0, 8],
     color_continuous_scale="Viridis",
     projection="mercator",
     labels={"Cost of a healthy diet": "Cost of a healthy diet"},
@@ -116,8 +116,23 @@ server = Flask(__name__)
 app1 = Dash(__name__, server=server, url_base_pathname="/app1/")
 app1.index_string = INDEX_STRING
 
-app2 = Dash(__name__, server=server, url_base_pathname="/app2/")
+app2 = Dash(
+    __name__,
+    server=server,
+    url_base_pathname="/app2/",
+    assets_folder="assets",       # ensure this path exists next to your .py
+    assets_url_path="assets"
+)
 app2.index_string = INDEX_STRING
+
+# Regions for smooth "zoom" (Geo projection scale)
+REGIONS = {
+    "World":    {"lat": 10, "lon": 0,   "scale": 1.0},
+    "Europe":   {"lat": 54, "lon": 15,  "scale": 3.2},
+    "Africa":   {"lat": 2,  "lon": 20,  "scale": 2.6},
+    "Asia":     {"lat": 35, "lon": 90,  "scale": 2.4},
+    "Americas": {"lat": 10, "lon": -75, "scale": 2.2},
+}
 
 # -----------------------------
 # App 1 layout
@@ -143,6 +158,10 @@ app1.layout = html.Div(
                 figure=fig_bubbles,
                 style={"height": "100%", "width": "100%"},
                 config={"displayModeBar": True},
+                # IMPORTANT:
+                # This figure already has Plotly Express frames.
+                # Let Plotly's own slider/play control handle animation.
+                animate=False,
             ),
         )
     ],
@@ -162,6 +181,10 @@ app2.layout = html.Div(
         "gap": "4px",
     },
     children=[
+        # Store + Interval for React -> Dash bridge
+        dcc.Store(id="region-store", data="World"),
+        dcc.Interval(id="region-poll", interval=200, n_intervals=0),
+
         html.H1(
             "Cost of a Healthy Diet — World Map",
             style={
@@ -185,7 +208,7 @@ app2.layout = html.Div(
             children=[
                 html.Div(
                     style={
-                        "width": "min(92vh, 98vw)",  # keep it square and fit screen
+                        "width": "min(92vh, 98vw)",
                         "aspectRatio": "1 / 1",
                     },
                     children=dcc.Graph(
@@ -193,6 +216,10 @@ app2.layout = html.Div(
                         figure=fig_map,
                         style={"height": "100%", "width": "100%"},
                         config={"displayModeBar": True, "responsive": True},
+                        # IMPORTANT:
+                        # This figure already has Plotly Express frames.
+                        # Turning Dash animate on can prevent layout/geo updates from showing.
+                        animate=False,
                     ),
                 )
             ],
@@ -200,6 +227,57 @@ app2.layout = html.Div(
     ],
 )
 
+# -----------------------------
+# React -> Dash bridge:
+# Read window.__DASH_REGION__ into region-store
+# -----------------------------
+app2.clientside_callback(
+    """
+    function(n) {
+        const current = window.__DASH_REGION__ || "World";
+        window.__LAST_DASH_REGION__ = window.__LAST_DASH_REGION__ || null;
+
+        if (current === window.__LAST_DASH_REGION__) {
+            return window.dash_clientside.no_update;
+        }
+
+        window.__LAST_DASH_REGION__ = current;
+        return current;
+    }
+    """,
+    Output("region-store", "data"),
+    Input("region-poll", "n_intervals"),
+)
+
+# -----------------------------
+# Update map view when region changes
+# -----------------------------
+@app2.callback(
+    Output("diet-map", "figure"),
+    Input("region-store", "data"),
+)
+def zoom_map(region):
+    r = REGIONS.get(region, REGIONS["World"])
+    fig = copy.deepcopy(fig_map)
+
+    # Build an explicit geo update object.
+    # Using projection dict is more reliable with animated (framed) px figures.
+    geo_update = dict(
+        center={"lat": r["lat"], "lon": r["lon"]},
+        projection=dict(type="mercator", scale=r["scale"]),
+    )
+
+    # Update base layout
+    fig.update_layout(geo=geo_update)
+
+    # Update every frame too (critical for px animation figures)
+    if fig.frames:
+        for fr in fig.frames:
+            if fr.layout is None:
+                fr.layout = go.Layout()
+            fr.layout.update(geo=geo_update)
+
+    return fig
 
 # Optional: simple root landing page
 @server.route("/")
@@ -212,9 +290,8 @@ def index():
     </ul>
     """
 
-
 # -----------------------------
 # Run
 # -----------------------------
 if __name__ == "__main__":
-    server.run(host="0.0.0.0", port=8050, debug=False)
+    server.run(host="0.0.0.0", port=8050, debug=True)

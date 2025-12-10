@@ -1,5 +1,4 @@
-import { useState } from "react";
-import EmbedPlaceholder from "@/components/EmbedPlaceholder";
+import { useEffect, useRef, useState } from "react";
 import PageSelector from "@/components/PageSelector";
 import ReportSection from "@/components/ReportSection";
 
@@ -41,8 +40,37 @@ const sectionContent = [
   },
 ];
 
+// Map React pages -> Dash regions
+// Adjust this to whatever logic you want.
+const pageToRegion = [
+  "World",
+  "Europe",
+  "Africa",
+  "Asia",
+  "Americas",
+  "World",
+  "World",
+];
+
 const Index = () => {
   const [activePage, setActivePage] = useState(0);
+
+  // Ref to the app2 (map) iframe
+  const dashMapRef = useRef<HTMLIFrameElement | null>(null);
+
+  const sendRegion = (pageIndex: number) => {
+    const region = pageToRegion[pageIndex] ?? "World";
+
+    dashMapRef.current?.contentWindow?.postMessage(
+      { type: "SET_REGION", region },
+      "*" // dev only. In prod, replace with "http://your-dash-origin"
+    );
+  };
+
+  // Send on page change
+  useEffect(() => {
+    sendRegion(activePage);
+  }, [activePage]);
 
   return (
     <main className="min-h-screen bg-background px-4 py-8 md:px-6 lg:py-12">
@@ -68,15 +96,15 @@ const Index = () => {
           </ReportSection>
         </div>
 
-        {/* Main Embed Placeholder with attached caption - 2:1 ratio (horizontal) */}
+        {/* Main Embed with attached caption - 2:1 ratio (horizontal) */}
         <div className="animate-fade-in [animation-delay:200ms]">
           <ReportSection className="p-4 rounded-b-none">
             <div className="aspect-[2/1]">
               <iframe
-                    src="http://127.0.0.1:8050/app1/"
-                    className="h-full w-full rounded-lg"
-                    allowFullScreen
-                  />
+                src="http://127.0.0.1:8050/app1/"
+                className="h-full w-full rounded-lg"
+                allowFullScreen
+              />
             </div>
           </ReportSection>
           <div className="flex justify-center">
@@ -93,21 +121,29 @@ const Index = () => {
             <div className="flex-1 grid grid-cols-2 gap-6">
               {/* Description */}
               <div className="flex flex-col justify-center space-y-4 p-4">
-                <h2 className="font-display text-xl font-semibold text-card-foreground animate-slide-in" key={`title-${activePage}`}>
+                <h2
+                  className="font-display text-xl font-semibold text-card-foreground animate-slide-in"
+                  key={`title-${activePage}`}
+                >
                   {sectionContent[activePage].title}
                 </h2>
-                <p className="font-body text-sm leading-relaxed text-muted-foreground animate-slide-in [animation-delay:50ms]" key={`desc-${activePage}`}>
+                <p
+                  className="font-body text-sm leading-relaxed text-muted-foreground animate-slide-in [animation-delay:50ms]"
+                  key={`desc-${activePage}`}
+                >
                   {sectionContent[activePage].description}
                 </p>
               </div>
 
-              {/* Secondary Embed - fills its half */}
+              {/* Secondary Embed - app2 map */}
               <div className="h-full">
                 <iframe
-                    src="http://127.0.0.1:8050/app2/"
-                    className="h-full w-full rounded-lg"
-                    allowFullScreen
-                  />
+                  ref={dashMapRef}
+                  src="http://127.0.0.1:8050/app2/"
+                  className="h-full w-full rounded-lg"
+                  allowFullScreen
+                  onLoad={() => sendRegion(activePage)}
+                />
               </div>
             </div>
 
