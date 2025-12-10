@@ -41,7 +41,9 @@ INDEX_STRING = """
 # -----------------------------
 # Load + prep data (shared)
 # -----------------------------
-df = pd.read_excel("data/data.xlsx")
+df = pd.read_csv("data/data.csv")
+
+print(df['Region'].unique())
 
 df = df[df["Entity"] != "World"]
 df = df[df["Entity"].isin(set(df.loc[df["Year"] == 2018, "Entity"]))]
@@ -54,7 +56,7 @@ fig_bubbles = px.scatter(
     y="gdp",
     x="Cost of a healthy diet",
     size="population",
-    color="Entity",
+    color="Region",
     animation_frame="Year",
     animation_group="Entity",
     hover_name="Entity",
@@ -125,14 +127,24 @@ app2 = Dash(
 )
 app2.index_string = INDEX_STRING
 
-# Regions for smooth "zoom" (Geo projection scale)
+ADD_SCALE = 1.5
+
 REGIONS = {
-    "World":    {"lat": 10, "lon": 0,   "scale": 1.0},
-    "Europe":   {"lat": 54, "lon": 15,  "scale": 3.2},
-    "Africa":   {"lat": 2,  "lon": 20,  "scale": 2.6},
-    "Asia":     {"lat": 35, "lon": 90,  "scale": 2.4},
-    "Americas": {"lat": 10, "lon": -75, "scale": 2.2},
+    "World":           {"lat": 10, "lon": 0,    "scale": 1.0},
+
+    "Europe":          {"lat": 54, "lon": 15,   "scale": 3.2*ADD_SCALE},
+    "Africa":          {"lat": 2,  "lon": 20,   "scale": 2.6*ADD_SCALE},
+    "Asia":            {"lat": 35, "lon": 90,   "scale": 2.4*ADD_SCALE},
+    "Oceania":         {"lat": -22,"lon": 133,  "scale": 2.6*ADD_SCALE},
+
+    "North America":   {"lat": 55, "lon": -110, "scale": 2*ADD_SCALE},
+    "Central America": {"lat": 15, "lon": -90,  "scale": 4.0*ADD_SCALE},
+    "Caribbean":       {"lat": 18, "lon": -70,  "scale": 5.0*ADD_SCALE},
+    "South America":   {"lat": -26,"lon": -60,  "scale": 2.8*ADD_SCALE},
+
+    "Europe/Asia":     {"lat": 50, "lon": 55,   "scale": 2.2*ADD_SCALE},
 }
+
 
 # -----------------------------
 # App 1 layout
