@@ -14,12 +14,7 @@ const sectionContent = [
             "PUT\nSOME\nTEXT\nHERE!",
     },
     {
-        title: "Caribbean",
-        description:
-            "PUT\nSOME\nTEXT\nHERE!",
-    },
-    {
-        title: "South America",
+        title: "America",
         description:
             "PUT\nSOME\nTEXT\nHERE!",
     },
@@ -32,21 +27,6 @@ const sectionContent = [
         title: "Oceania",
         description:
             "PUT\nSOME\nTEXT\nHERE!",
-    },
-    {
-        title: "North America",
-        description:
-            "PUT\nSOME\nTEXT\nHERE!",
-    },
-    {
-        title: "Central America",
-        description:
-            "PUT\nSOME\nTEXT\nHERE!",
-    },
-    {
-        title: "Europe/Asia",
-        description:
-            "PUT\nSOME\nTEXT\nHERE!",
     }
 ];
 
@@ -55,13 +35,9 @@ const sectionContent = [
 const pageToRegion = [
     "Europe",
     "Africa",
-    "Caribbean",
-    "South America",
+    "America",
     "Asia",
-    "Oceania",
-    "North America",
-    "Central America",
-    "Europe/Asia"
+    "Oceania"
 ];
 
 const Index = () => {

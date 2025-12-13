@@ -57,6 +57,13 @@ fig_bubbles = px.scatter(
     x="Cost of a healthy diet",
     size="population",
     color="Region",
+    color_discrete_map={
+        "Europe": "#636EFA",  # blue
+        "Africa": "#EF553B",  # red/orange
+        "America": "#00CC96",  # green
+        "Asia": "#AB63FA",  # purple
+        "Oceania": "#FFA15A",  # orange
+    },
     animation_frame="Year",
     animation_group="Entity",
     hover_name="Entity",
@@ -122,7 +129,7 @@ app2 = Dash(
     __name__,
     server=server,
     url_base_pathname="/app2/",
-    assets_folder="assets",       # ensure this path exists next to your .py
+    assets_folder="assets",  # ensure this path exists next to your .py
     assets_url_path="assets"
 )
 app2.index_string = INDEX_STRING
@@ -130,21 +137,17 @@ app2.index_string = INDEX_STRING
 ADD_SCALE = 1.5
 
 REGIONS = {
-    "World":           {"lat": 10, "lon": 0,    "scale": 1.0},
+    "World": {"lat": 10, "lon": 0, "scale": 1.0},
 
-    "Europe":          {"lat": 54, "lon": 15,   "scale": 3.2*ADD_SCALE},
-    "Africa":          {"lat": 2,  "lon": 20,   "scale": 2.6*ADD_SCALE},
-    "Asia":            {"lat": 35, "lon": 90,   "scale": 2.4*ADD_SCALE},
-    "Oceania":         {"lat": -22,"lon": 133,  "scale": 2.6*ADD_SCALE},
+    "Europe": {"lat": 54, "lon": 15, "scale": 3.2 * ADD_SCALE},
+    "Africa": {"lat": 2, "lon": 20, "scale": 2.6 * ADD_SCALE},
+    "Asia": {"lat": 35, "lon": 90, "scale": 2.4 * ADD_SCALE},
+    "Oceania": {"lat": -22, "lon": 133, "scale": 2.6 * ADD_SCALE},
 
-    "North America":   {"lat": 55, "lon": -110, "scale": 2*ADD_SCALE},
-    "Central America": {"lat": 15, "lon": -90,  "scale": 4.0*ADD_SCALE},
-    "Caribbean":       {"lat": 18, "lon": -70,  "scale": 5.0*ADD_SCALE},
-    "South America":   {"lat": -26,"lon": -60,  "scale": 2.8*ADD_SCALE},
 
-    "Europe/Asia":     {"lat": 50, "lon": 55,   "scale": 2.2*ADD_SCALE},
+    "America": {"lat": 20, "lon": -90, "scale": 1.35 * ADD_SCALE},
+
 }
-
 
 # -----------------------------
 # App 1 layout
@@ -261,6 +264,7 @@ app2.clientside_callback(
     Input("region-poll", "n_intervals"),
 )
 
+
 # -----------------------------
 # Update map view when region changes
 # -----------------------------
@@ -291,6 +295,7 @@ def zoom_map(region):
 
     return fig
 
+
 # Optional: simple root landing page
 @server.route("/")
 def index():
@@ -301,6 +306,7 @@ def index():
         <li><a href="/app2/">Animated map: Cost of healthy diet</a></li>
     </ul>
     """
+
 
 # -----------------------------
 # Run
