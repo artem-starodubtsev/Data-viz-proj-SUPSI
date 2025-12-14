@@ -1,0 +1,1380 @@
+Entity,Year,Cost of a healthy diet,gdp,population,Region,bmi,row_added,imputed_from,values_imputed
+Afghanistan,2017,3.1759999999999997,9651.481640000002,85026761,Asia,16.999643999999996,True,"Cost of a healthy diet:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|gdp:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|population:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|bmi:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]",True
+Afghanistan,2018,3.18,9906.601180000001,86117999,Asia,17.759284,True,"Cost of a healthy diet:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|gdp:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|population:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|bmi:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]",True
+Afghanistan,2019,3.2939999999999996,10112.42836,87051649,Asia,18.531742,True,"Cost of a healthy diet:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|gdp:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|population:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|bmi:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]",True
+Afghanistan,2020,3.396,10239.89632,87723448,Asia,19.317522000000004,True,"Cost of a healthy diet:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|gdp:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|population:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|bmi:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]",True
+Afghanistan,2021,3.4779999999999993,10879.2044,88455490,Asia,20.116224,True,"Cost of a healthy diet:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|gdp:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|population:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|bmi:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]",True
+Afghanistan,2022,3.88,11235.66272,89524247,Asia,20.929682,True,"Cost of a healthy diet:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|gdp:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|population:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|bmi:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]",True
+Afghanistan,2023,4.106,11703.65914,90608708,Asia,20.929682,True,"Cost of a healthy diet:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|gdp:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|population:NEI[Uzbekistan,Pakistan,Tajikistan,Iran,China]|bmi:GLB",True
+Albania,2017,3.04,14155.04,2898245,Europe,22.50938,False,,False
+Albania,2018,3.13,14710.982,2894229,Europe,23.27709,False,,False
+Albania,2019,3.32,15078.507,2885011,Europe,24.06825,False,,False
+Albania,2020,3.4,14662.796,2871950,Europe,24.87768,False,,False
+Albania,2021,3.49,16126.777,2849641,Europe,25.72502,False,,False
+Albania,2022,4.14,17111.953,2827614,Europe,26.58335,False,,False
+Albania,2023,4.58,17991.016,2811660,Europe,26.58335,False,bmi:GLB,True
+Algeria,2017,4.09,15427.664,41689302,Africa,20.98617,False,,False
+Algeria,2018,4.16,15343.426,42505033,Africa,21.64547,False,,False
+Algeria,2019,4.18,15199.199,43294551,Africa,22.30026,False,,False
+Algeria,2020,4.2,14194.155,44042094,Africa,22.95371,False,,False
+Algeria,2021,4.47,14496.865,44761099,Africa,23.60328,False,,False
+Algeria,2022,5.01,14782.2,45477391,Africa,24.24859,False,,False
+Algeria,2023,5.41,15159.324,46164222,Africa,24.24859,False,bmi:GLB,True
+Angola,2017,3.18,9042.117,30234836,Africa,8.92534,False,,False
+Angola,2018,3.27,8620.215,31297160,Africa,9.21939,False,,False
+Angola,2019,3.43,8274.543,32375633,Africa,9.52763,False,,False
+Angola,2020,3.7,7556.968,33451139,Africa,9.85061,False,,False
+Angola,2021,4.11,7408.1265,34532427,Africa,10.18675,False,,False
+Angola,2022,4.55,7397.4863,35635028,Africa,10.53502,False,,False
+Angola,2023,4.72,7250.403,36749909,Africa,10.53502,False,bmi:GLB,True
+Antigua and Barbuda,2017,3.77,27199.195,90483,America,30.55123,False,,False
+Antigua and Barbuda,2018,4.24,28878.607,90942,America,31.23646,False,,False
+Antigua and Barbuda,2019,4.38,29651.863,91377,America,31.93299,False,,False
+Antigua and Barbuda,2020,4.67,23930.672,91864,America,32.63795,False,,False
+Antigua and Barbuda,2021,4.92,25745.496,92358,America,33.34641,False,,False
+Antigua and Barbuda,2022,5.46,27941.785,92850,America,34.06155,False,,False
+Antigua and Barbuda,2023,5.8,28474.045,93331,America,34.06155,False,bmi:GLB,True
+Argentina,2017,3.26,28334.904,44288898,America,30.93398,False,,False
+Argentina,2018,3.404,20333.6797,44288898,America,28.70878,True,"Cost of a healthy diet:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]|gdp:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]|bmi:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]",True
+Argentina,2019,3.5200000000000005,20310.856799999998,44288898,America,29.643594,True,"Cost of a healthy diet:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]|gdp:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]|bmi:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]",True
+Argentina,2020,3.6879999999999997,19071.38,44288898,America,30.600892000000005,True,"Cost of a healthy diet:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]|gdp:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]|bmi:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]",True
+Argentina,2021,3.88,20291.561,44288898,America,31.575460000000003,True,"Cost of a healthy diet:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]|gdp:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]|bmi:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]",True
+Argentina,2022,4.319999999999999,20773.8163,44288898,America,32.56794800000001,True,"Cost of a healthy diet:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]|gdp:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]|bmi:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]",True
+Argentina,2023,4.632,21074.560400000002,44288898,America,32.56794800000001,True,"Cost of a healthy diet:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]|gdp:NEI[Chile,Uruguay,Brazil,Bolivia,Paraguay]|bmi:GLB",True
+Armenia,2017,3.22,14243.875,2914966,Asia,24.40158,False,,False
+Armenia,2018,3.31,15037.045,2909971,Asia,25.09498,False,,False
+Armenia,2019,3.44,16215.36,2903975,Asia,25.8029,False,,False
+Armenia,2020,3.54,15052.936,2890893,Asia,26.49705,False,,False
+Armenia,2021,3.8,15921.705,2870339,Asia,27.17718,False,,False
+Armenia,2022,4.27,17886.178,2880880,Asia,27.86621,False,,False
+Armenia,2023,4.33,19402.752,2943398,Asia,27.86621,False,bmi:GLB,True
+Aruba,2017,3.38,38558.004,105737,America,28.227119969298244,False,bmi:REG[America],True
+Aruba,2018,3.55,39419.555,106447,America,28.83634057894737,False,bmi:REG[America],True
+Aruba,2019,3.79,38435.426,107089,America,29.55908851666667,False,bmi:REG[America],True
+Aruba,2020,3.9,28521.69,107411,America,30.303511962280698,False,bmi:REG[America],True
+Aruba,2021,4.0,35696.31,107565,America,31.056122609649123,False,bmi:REG[America],True
+Aruba,2022,4.5,38877.676,107792,America,31.82160144122807,False,bmi:REG[America],True
+Aruba,2023,4.82,40516.81,107946,America,31.82160144122807,False,bmi:GLB,True
+Australia,2017,2.33,56684.65,24731044,Oceania,29.14901,False,,False
+Australia,2018,2.36,57450.383,25119700,Oceania,29.64319,False,,False
+Australia,2019,2.4,57837.062,25482714,Oceania,30.14886,False,,False
+Australia,2020,2.51,57059.742,25743787,Oceania,30.68957,False,,False
+Australia,2021,2.61,58182.336,25956417,Oceania,31.25505,False,,False
+Australia,2022,2.88,59883.65,26200987,Oceania,31.82415,False,,False
+Australia,2023,3.1,60461.156,26451126,Oceania,31.82415,False,bmi:GLB,True
+Austria,2017,2.06,62612.14,8798779,Europe,16.0986,False,,False
+Austria,2018,2.11,63855.78,8841653,Europe,16.26565,False,,False
+Austria,2019,2.19,64688.145,8880876,Europe,16.43674,False,,False
+Austria,2020,2.31,60349.902,8921402,Europe,16.62115,False,,False
+Austria,2021,2.42,62968.94,8967053,Europe,16.82485,False,,False
+Austria,2022,2.75,65661.45,9064678,Europe,17.04036,False,,False
+Austria,2023,2.91,64394.09,9130434,Europe,17.04036,False,bmi:GLB,True
+Azerbaijan,2017,2.9,19659.004,9968510,Asia,23.59459,False,,False
+Azerbaijan,2018,2.95,19781.852,10039782,Asia,24.36877,False,,False
+Azerbaijan,2019,3.1,20101.492,10110483,Asia,25.1584,False,,False
+Azerbaijan,2020,3.28,19126.098,10181736,Asia,25.93212,False,,False
+Azerbaijan,2021,3.45,20111.375,10234372,Asia,26.69587,False,,False
+Azerbaijan,2022,3.92,21051.244,10295307,Asia,27.50411,False,,False
+Azerbaijan,2023,4.13,21310.738,10318209,Asia,27.50411,False,bmi:GLB,True
+Bahamas,2017,4.2,33049.87,390496,America,44.00649,False,,False
+Bahamas,2018,4.23,33650.24,392718,America,44.72953,False,,False
+Bahamas,2019,4.12,33202.355,394684,America,45.44717,False,,False
+Bahamas,2020,4.19,26452.525,395874,America,46.16628,False,,False
+Bahamas,2021,4.28,31064.682,396381,America,46.89243,False,,False
+Bahamas,2022,4.97,34342.79,397542,America,47.61047,False,,False
+Bahamas,2023,5.25,35221.31,399452,America,47.61047,False,bmi:GLB,True
+Bahrain,2017,3.04,53859.773,1482003,Asia,33.70923,False,,False
+Bahrain,2018,3.19,54893.074,1497634,Asia,34.24779,False,,False
+Bahrain,2019,3.3,56749.96,1485675,Asia,34.87986,False,,False
+Bahrain,2020,3.42,53814.246,1483081,Asia,35.67412,False,,False
+Bahrain,2021,3.25,54954.676,1501762,Asia,36.5512,False,,False
+Bahrain,2022,3.74,57572.996,1533460,Asia,37.18739,False,,False
+Bahrain,2023,4.12,57819.906,1569674,Asia,37.18739,False,bmi:GLB,True
+Bangladesh,2017,3.09,6005.707,162186146,Asia,3.69806,False,,False
+Bangladesh,2018,3.26,6392.5933,163523109,Asia,3.98976,False,,False
+Bangladesh,2019,3.41,6838.326,164913060,Asia,4.29426,False,,False
+Bangladesh,2020,3.61,7015.1978,166298024,Asia,4.61226,False,,False
+Bangladesh,2021,3.83,7441.0693,167658855,Asia,4.94368,False,,False
+Bangladesh,2022,4.13,7888.164,169384891,Asia,5.29035,False,,False
+Bangladesh,2023,4.33,8242.398,171466986,Asia,5.29035,False,bmi:GLB,True
+Belarus,2017,3.13,25503.98,9495793,Europe,25.4647,False,,False
+Belarus,2018,3.13,26363.463,9480031,Europe,25.71212,False,,False
+Belarus,2019,3.19,26798.82,9435415,Europe,25.94651,False,,False
+Belarus,2020,3.22,26731.496,9350943,Europe,26.15491,False,,False
+Belarus,2021,3.3,27611.18,9251368,Europe,26.34413,False,,False
+Belarus,2022,3.6,26537.508,9173240,Europe,26.55127,False,,False
+Belarus,2023,3.72,27782.438,9115679,Europe,26.55127,False,bmi:GLB,True
+Belgium,2017,2.0,58555.152,11376583,Europe,20.70753,False,,False
+Belgium,2018,2.07,59383.88,11428608,Europe,20.94379,False,,False
+Belgium,2019,2.16,60506.66,11490623,Europe,21.18782,False,,False
+Belgium,2020,2.28,57358.836,11540102,Europe,21.44325,False,,False
+Belgium,2021,2.26,60669.215,11570843,Europe,21.71175,False,,False
+Belgium,2022,2.49,62744.203,11641814,Europe,22.00038,False,,False
+Belgium,2023,2.77,62920.645,11712891,Europe,22.00038,False,bmi:GLB,True
+Belize,2017,2.56,11574.452,373215,America,37.97209,False,,False
+Belize,2018,2.69,11486.803,380232,America,38.73309,False,,False
+Belize,2019,2.9,11803.088,385833,America,39.50306,False,,False
+Belize,2020,3.16,10032.545,390819,America,40.29014,False,,False
+Belize,2021,3.52,11677.461,395355,America,41.09466,False,,False
+Belize,2022,3.85,12569.818,402741,America,41.91092,False,,False
+Belize,2023,4.32,12455.296,411112,America,41.91092,False,bmi:GLB,True
+Benin,2017,2.85,3041.7793,12039777,Africa,8.23948,False,,False
+Benin,2018,2.87,3155.4512,12383349,Africa,8.53092,False,,False
+Benin,2019,2.89,3281.1047,12726760,Africa,8.84295,False,,False
+Benin,2020,2.91,3317.8596,13070169,Africa,9.1767,False,,False
+Benin,2021,3.07,3464.2886,13413423,Africa,9.5273,False,,False
+Benin,2022,3.25,3588.3252,13759507,Africa,9.8947,False,,False
+Benin,2023,3.3,3721.2126,14111035,Africa,9.8947,False,bmi:GLB,True
+Bermuda,2017,2.88,96437.195,63603,America,30.88301,False,,False
+Bermuda,2018,2.94,95639.23,63852,America,31.51013,False,,False
+Bermuda,2019,3.12,95519.92,64130,America,32.13849,False,,False
+Bermuda,2020,3.33,88618.086,64404,America,32.76849,False,,False
+Bermuda,2021,3.55,92319.67,64672,America,33.39849,False,,False
+Bermuda,2022,3.96,98145.17,64772,America,34.00804,False,,False
+Bermuda,2023,4.23,103052.35,64721,America,34.00804,False,bmi:GLB,True
+Bhutan,2017,4.13,13482.343,754343,Asia,8.85692,False,,False
+Bhutan,2018,4.32,13854.8545,759766,Asia,9.43668,False,,False
+Bhutan,2019,4.44,14555.188,764830,Asia,10.04012,False,,False
+Bhutan,2020,4.87,12979.937,770013,Asia,10.66656,False,,False
+Bhutan,2021,5.14,13458.8125,775450,Asia,11.31482,False,,False
+Bhutan,2022,5.48,14061.3125,780921,Asia,11.98425,False,,False
+Bhutan,2023,5.69,14645.266,786386,Asia,11.98425,False,bmi:GLB,True
+Bolivia,2017,3.62,9642.813,11344591,America,23.20854,False,,False
+Bolivia,2018,3.61,9907.0625,11508370,America,24.08427,False,,False
+Bolivia,2019,3.75,9985.23,11671386,America,24.98196,False,,False
+Bolivia,2020,3.78,9000.976,11816301,America,25.90197,False,,False
+Bolivia,2021,3.96,9454.198,11937369,America,26.84188,False,,False
+Bolivia,2022,4.3,9681.707,12077156,America,27.80303,False,,False
+Bolivia,2023,4.57,9843.97,12244161,America,27.80303,False,bmi:GLB,True
+Bosnia and Herzegovina,2017,4.07,15554.06,3428684,Europe,22.42233,False,,False
+Bosnia and Herzegovina,2018,4.13,16348.134,3386999,Europe,22.98452,False,,False
+Bosnia and Herzegovina,2019,4.34,17028.643,3345532,Europe,23.5717,False,,False
+Bosnia and Herzegovina,2020,4.34,16746.39,3299352,Europe,24.18778,False,,False
+Bosnia and Herzegovina,2021,4.54,18285.672,3244912,Europe,24.82762,False,,False
+Bosnia and Herzegovina,2022,5.48,19297.072,3204802,Europe,25.46701,False,,False
+Bosnia and Herzegovina,2023,5.95,19803.846,3185072,Europe,25.46701,False,bmi:GLB,True
+Botswana,2017,3.01,17352.896,2266749,Africa,15.0859,False,,False
+Botswana,2018,3.0,17825.02,2299149,Africa,15.5446,False,,False
+Botswana,2019,3.04,18106.01,2332082,Africa,16.01181,False,,False
+Botswana,2020,3.21,16289.392,2365895,Africa,16.48969,False,,False
+Botswana,2021,3.41,17960.625,2401448,Africa,16.97099,False,,False
+Botswana,2022,3.62,18647.373,2439895,Africa,17.45848,False,,False
+Botswana,2023,4.01,18932.48,2480242,Africa,17.45848,False,bmi:GLB,True
+Brazil,2017,3.15,17724.48,204703440,America,23.65411,False,,False
+Brazil,2018,3.23,17917.75,206107265,America,24.64102,False,,False
+Brazil,2019,3.39,18018.621,207455459,America,25.64392,False,,False
+Brazil,2020,3.69,17327.516,208660845,America,26.6663,False,,False
+Brazil,2021,3.97,18075.705,209550291,America,27.70533,False,,False
+Brazil,2022,4.39,18554.047,210306411,America,28.76292,False,,False
+Brazil,2023,4.55,19079.812,211140731,America,28.76292,False,bmi:GLB,True
+Brunei,2017,4.11,78966.87,432787,Asia,28.20222,False,,False
+Brunei,2018,4.26,78099.05,437811,Asia,29.05845,False,,False
+Brunei,2019,4.36,80228.16,442690,Asia,29.9032,False,,False
+Brunei,2020,4.55,80280.9,447411,Asia,30.73948,False,,False
+Brunei,2021,4.86,78248.8,451722,Asia,31.56486,False,,False
+Brunei,2022,5.32,76357.83,455374,Asia,32.37802,False,,False
+Brunei,2023,5.67,76616.7,458959,Asia,32.37802,False,bmi:GLB,True
+Bulgaria,2017,3.39,26681.43,7075642,Europe,22.22754,False,,False
+Bulgaria,2018,3.47,27739.502,7024745,Europe,22.64054,False,,False
+Bulgaria,2019,3.67,29199.834,6975466,Europe,23.05409,False,,False
+Bulgaria,2020,3.8,28545.709,6933656,Europe,23.45558,False,,False
+Bulgaria,2021,3.93,30971.914,6877222,Europe,23.85309,False,,False
+Bulgaria,2022,4.72,32433.15,6825862,Europe,24.24786,False,,False
+Bulgaria,2023,5.16,33139.938,6795805,Europe,24.24786,False,bmi:GLB,True
+Burkina Faso,2017,2.77,2232.2878,19894413,Africa,4.43681,False,,False
+Burkina Faso,2018,2.82,2316.3943,20438289,Africa,4.72953,False,,False
+Burkina Faso,2019,2.72,2391.5364,20961956,Africa,5.04297,False,,False
+Burkina Faso,2020,2.8,2380.9316,21478691,Africa,5.37614,False,,False
+Burkina Faso,2021,2.97,2486.431,21995249,Africa,5.72836,False,,False
+Burkina Faso,2022,3.48,2466.0532,22509038,Africa,6.10077,False,,False
+Burkina Faso,2023,3.55,2482.0723,23025777,Africa,6.10077,False,bmi:GLB,True
+Burundi,2017,3.4,880.99347,11506764,Africa,3.33906,False,,False
+Burundi,2018,3.12,868.5555,11859444,Africa,3.55096,False,,False
+Burundi,2019,3.1,855.7327,12255339,Africa,3.77201,False,,False
+Burundi,2020,3.33,833.9202,12617041,Africa,4.00917,False,,False
+Burundi,2021,3.54,836.6656,12965487,Africa,4.26484,False,,False
+Burundi,2022,4.0,829.38715,13321102,Africa,4.5345,False,,False
+Burundi,2023,4.5,828.58295,13689455,Africa,4.5345,False,bmi:GLB,True
+Cambodia,2017,3.55,5632.0312,16073374,Asia,3.09308,False,,False
+Cambodia,2018,3.62,6050.591,16274522,Asia,3.32775,False,,False
+Cambodia,2019,3.68,6448.885,16481305,Asia,3.57531,False,,False
+Cambodia,2020,3.84,6128.782,16725484,Asia,3.83571,False,,False
+Cambodia,2021,3.95,6225.5327,16974309,Asia,4.1057,False,,False
+Cambodia,2022,4.25,6458.368,17201721,Asia,4.38646,False,,False
+Cambodia,2023,4.47,6695.292,17423884,Asia,4.38646,False,bmi:GLB,True
+Cameroon,2017,2.6,4797.9756,24128609,Africa,11.53443,False,,False
+Cameroon,2018,2.74,4851.48,24806377,Africa,11.87083,False,,False
+Cameroon,2019,2.9,4882.3555,25506095,Africa,12.21992,False,,False
+Cameroon,2020,3.1,4763.482,26210566,Africa,12.5851,False,,False
+Cameroon,2021,3.41,4793.556,26915765,Africa,12.96291,False,,False
+Cameroon,2022,3.91,4843.6504,27632770,Africa,13.35076,False,,False
+Cameroon,2023,4.2,4870.571,28372690,Africa,13.35076,False,bmi:GLB,True
+Canada,2017,3.08,56612.33,36808498,America,26.5356,False,,False
+Canada,2018,3.13,57337.492,37294996,America,26.66823,False,,False
+Canada,2019,3.19,57583.848,37782934,America,26.80227,False,,False
+Canada,2020,3.33,54092.88,38171903,America,26.96251,False,,False
+Canada,2021,3.52,56995.117,38454058,America,27.14013,False,,False
+Canada,2022,3.92,58321.062,38821259,America,27.31915,False,,False
+Canada,2023,4.27,57517.44,39299098,America,27.31915,False,bmi:GLB,True
+Cape Verde,2017,3.16,8234.56,512899,Africa,12.13457,False,,False
+Cape Verde,2018,2.92,8531.13,513418,Africa,12.66729,False,,False
+Cape Verde,2019,2.86,9111.63,514116,Africa,13.23063,False,,False
+Cape Verde,2020,2.83,7207.8687,514683,Africa,13.82397,False,,False
+Cape Verde,2021,2.92,7685.4194,516655,Africa,14.44278,False,,False
+Cape Verde,2022,3.38,8850.106,519750,Africa,15.08562,False,,False
+Cape Verde,2023,3.69,9280.9795,522335,Africa,15.08562,False,bmi:GLB,True
+Cayman Islands,2017,3.5,74564.74,64561,America,28.22711996929824,False,bmi:REG[America],True
+Cayman Islands,2018,3.64,76088.9,65962,America,28.836340578947368,False,bmi:REG[America],True
+Cayman Islands,2019,3.61,77440.555,67346,America,29.559088516666673,False,bmi:REG[America],True
+Cayman Islands,2020,3.81,72149.33,68703,America,30.3035119622807,False,bmi:REG[America],True
+Cayman Islands,2021,4.09,74150.86,70126,America,31.056122609649126,False,bmi:REG[America],True
+Cayman Islands,2022,4.34,76359.09,71610,America,31.82160144122807,False,bmi:REG[America],True
+Cayman Islands,2023,4.61,78109.35,73055,America,31.82160144122807,False,bmi:GLB,True
+Central African Republic,2017,2.95,1103.8661,4793512,Africa,6.21553,False,,False
+Central African Republic,2018,3.08,1125.7009,4878663,Africa,6.47109,False,,False
+Central African Republic,2019,3.22,1145.0956,4944708,Africa,6.73959,False,,False
+Central African Republic,2020,3.38,1136.5706,5026629,Africa,7.02508,False,,False
+Central African Republic,2021,3.63,1128.5524,5112103,Africa,7.33513,False,,False
+Central African Republic,2022,3.92,1136.8018,5098038,Africa,7.66854,False,,False
+Central African Republic,2023,4.09,1132.6764,5152415,Africa,7.66854,False,bmi:GLB,True
+Chad,2017,2.82,2496.4927,15622756,Africa,4.58459,False,,False
+Chad,2018,2.8,2552.6062,16156535,Africa,4.77826,False,,False
+Chad,2019,2.8,2604.9163,16685223,Africa,4.98983,False,,False
+Chad,2020,2.95,2513.0159,17224686,Africa,5.21694,False,,False
+Chad,2021,3.04,2435.0728,17828274,Africa,5.4568,False,,False
+Chad,2022,3.49,2655.71,18455319,Africa,5.71398,False,,False
+Chad,2023,3.77,2641.4329,19319075,Africa,5.71398,False,bmi:GLB,True
+Chile,2017,3.38,27892.994,18558868,America,34.60929,False,,False
+Chile,2018,3.52,28492.662,18893185,America,35.54849,False,,False
+Chile,2019,3.67,28218.535,19197748,America,36.50273,False,,False
+Chile,2020,3.79,26248.562,19370621,America,37.4911,False,,False
+Chile,2021,3.87,29089.85,19456323,America,38.49999,False,,False
+Chile,2022,4.43,29569.479,19553033,America,39.52288,False,,False
+Chile,2023,5.04,29563.678,19658833,America,39.52288,False,bmi:GLB,True
+China,2017,2.8,16757.973,1412354730,Asia,6.22041,False,,False
+China,2018,2.82,17806.791,1419008954,Asia,6.58455,False,,False
+China,2019,3.0,18820.514,1423520357,Asia,6.96223,False,,False
+China,2020,3.25,19215.154,1426106093,Asia,7.36105,False,,False
+China,2021,3.13,20843.297,1426437269,Asia,7.77825,False,,False
+China,2022,3.41,21499.383,1425179562,Asia,8.21126,False,,False
+China,2023,3.53,22687.076,1422584930,Asia,8.21126,False,bmi:GLB,True
+Colombia,2017,2.84,16986.033,48131076,America,20.89002,False,,False
+Colombia,2018,2.87,17104.13,49024463,America,21.44693,False,,False
+Colombia,2019,2.95,17336.771,49907987,America,22.01124,False,,False
+Colombia,2020,3.15,15861.5,50629997,America,22.60079,False,,False
+Colombia,2021,3.3,17383.09,51188174,America,23.2106,False,,False
+Colombia,2022,4.06,18458.72,51737944,America,23.85454,False,,False
+Colombia,2023,4.69,18382.998,52321152,America,23.85454,False,bmi:GLB,True
+Comoros,2017,4.61,3236.986,756672,Africa,12.31146,False,,False
+Comoros,2018,4.55,3303.2568,771597,Africa,12.90641,False,,False
+Comoros,2019,4.54,3357.898,786582,Africa,13.53001,False,,False
+Comoros,2020,4.49,3424.5398,802172,Africa,14.17787,False,,False
+Comoros,2021,4.48,3449.0435,818178,Africa,14.84834,False,,False
+Comoros,2022,4.75,3478.1736,834191,Africa,15.54546,False,,False
+Comoros,2023,4.93,3516.4817,850390,Africa,15.54546,False,bmi:GLB,True
+Congo,2017,3.04,7372.7705,5351013,Africa,7.26138,False,,False
+Congo,2018,3.16,7029.3364,5483128,Africa,7.39443,False,,False
+Congo,2019,3.24,6939.369,5616656,Africa,7.52993,False,,False
+Congo,2020,3.43,6350.5093,5752792,Africa,7.66996,False,,False
+Congo,2021,3.74,6263.2114,5892187,Africa,7.8124,False,,False
+Congo,2022,4.16,6205.105,6035104,Africa,7.95688,False,,False
+Congo,2023,4.33,6172.2876,6182890,Africa,7.95688,False,bmi:GLB,True
+Costa Rica,2017,3.54,22622.553,4913177,America,28.30181,False,,False
+Costa Rica,2018,3.58,23005.312,4957813,America,29.01541,False,,False
+Costa Rica,2019,3.67,23364.783,4999549,America,29.735,False,,False
+Costa Rica,2020,3.56,22211.861,5034323,America,30.46733,False,,False
+Costa Rica,2021,3.7,23852.926,5059991,America,31.21397,False,,False
+Costa Rica,2022,4.13,24831.719,5081764,America,31.97244,False,,False
+Costa Rica,2023,4.52,25979.629,5105526,America,31.97244,False,bmi:GLB,True
+Cote d'Ivoire,2017,2.66,5556.114,26733376,Africa,8.70969,False,,False
+Cote d'Ivoire,2018,2.69,5670.2,27464175,Africa,9.04399,False,,False
+Cote d'Ivoire,2019,2.66,5894.879,28193014,Africa,9.39894,False,,False
+Cote d'Ivoire,2020,2.73,5787.8154,28915452,Africa,9.77623,False,,False
+Cote d'Ivoire,2021,2.91,6045.2046,29639737,Africa,10.17216,False,,False
+Cote d'Ivoire,2022,3.25,6272.264,30395004,Africa,10.58711,False,,False
+Cote d'Ivoire,2023,3.45,6511.751,31165653,Africa,10.58711,False,bmi:GLB,True
+Croatia,2017,3.31,32351.873,4079198,Europe,30.90548,False,,False
+Croatia,2018,3.36,33730.875,4024868,Europe,31.81545,False,,False
+Croatia,2019,3.44,35123.49,3986338,Europe,32.74408,False,,False
+Croatia,2020,3.53,32493.625,3953956,Europe,33.69365,False,,False
+Croatia,2021,3.71,36930.47,3924607,Europe,34.66637,False,,False
+Croatia,2022,4.21,39861.79,3907031,Europe,35.65174,False,,False
+Croatia,2023,4.53,41135.086,3896023,Europe,35.65174,False,bmi:GLB,True
+Cuba,2017,4.018,14418.01808,9588144,America,26.514636000000003,True,"Cost of a healthy diet:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|gdp:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|population:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|bmi:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]",True
+Cuba,2018,4.042,14831.03516,9765209,America,27.180240000000005,True,"Cost of a healthy diet:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|gdp:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|population:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|bmi:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]",True
+Cuba,2019,4.124,14903.06214,9943637,America,27.8533,True,"Cost of a healthy diet:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|gdp:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|population:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|bmi:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]",True
+Cuba,2020,4.296,12801.79892,10119638,America,28.535847999999998,True,"Cost of a healthy diet:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|gdp:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|population:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|bmi:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]",True
+Cuba,2021,4.4559999999999995,14406.64724,10289881,America,29.229404,True,"Cost of a healthy diet:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|gdp:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|population:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|bmi:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]",True
+Cuba,2022,4.966,15360.407379999999,10463880,America,29.935613999999998,True,"Cost of a healthy diet:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|gdp:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|population:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|bmi:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]",True
+Cuba,2023,5.292,15652.039440000002,10644853,America,29.935613999999998,True,"Cost of a healthy diet:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|gdp:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|population:NEI[Jamaica,Bahamas,Haiti,Dominican Republic,Honduras]|bmi:GLB",True
+Curacao,2017,2.95,29729.102,168525,America,28.227119969298247,False,bmi:REG[America],True
+Curacao,2018,3.13,29256.814,181590,America,28.836340578947365,False,bmi:REG[America],True
+Curacao,2019,3.35,28659.656,189555,America,29.55908851666667,False,bmi:REG[America],True
+Curacao,2020,3.65,23751.498,185029,America,30.303511962280698,False,bmi:REG[America],True
+Curacao,2021,4.0,25163.867,185324,America,31.056122609649123,False,bmi:REG[America],True
+Curacao,2022,4.44,27587.244,185350,America,31.821601441228076,False,bmi:REG[America],True
+Curacao,2023,5.01,27675.572,185437,America,31.821601441228076,False,bmi:GLB,True
+Cyprus,2017,2.89,42128.566,1254274,Asia,23.56579,False,,False
+Cyprus,2018,2.93,44227.91,1270743,Asia,23.8538,False,,False
+Cyprus,2019,3.04,46195.594,1286669,Asia,24.14631,False,,False
+Cyprus,2020,3.14,44203.89,1302250,Asia,24.4562,False,,False
+Cyprus,2021,3.1,48781.277,1317311,Asia,24.78185,False,,False
+Cyprus,2022,3.44,51588.445,1331376,Asia,25.10993,False,,False
+Cyprus,2023,3.65,52190.875,1344981,Asia,25.10993,False,bmi:GLB,True
+Czechia,2017,2.81,45177.523,10541343,Europe,28.36891,False,,False
+Czechia,2018,2.83,46301.082,10548934,Europe,28.96456,False,,False
+Czechia,2019,2.97,47763.617,10554872,Europe,29.56058,False,,False
+Czechia,2020,3.0,45119.938,10550129,Europe,30.16053,False,,False
+Czechia,2021,2.9,47796.035,10530683,Europe,30.75134,False,,False
+Czechia,2022,3.36,48390.66,10673216,Europe,31.29533,False,,False
+Czechia,2023,3.65,47509.523,10809722,Europe,31.29533,False,bmi:GLB,True
+Democratic Republic of Congo,2017,4.27,1253.1874,87083400,Africa,4.5925,False,,False
+Democratic Republic of Congo,2018,3.47,1282.4823,90047647,Africa,4.79826,False,,False
+Democratic Republic of Congo,2019,3.45,1296.9476,92947450,Africa,5.01832,False,,False
+Democratic Republic of Congo,2020,3.21,1277.6328,95990000,Africa,5.2523,False,,False
+Democratic Republic of Congo,2021,3.11,1313.6182,99148930,Africa,5.50006,False,,False
+Democratic Republic of Congo,2022,3.38,1385.4647,102396974,Africa,5.76078,False,,False
+Democratic Republic of Congo,2023,3.55,1456.4824,105789733,Africa,5.76078,False,bmi:GLB,True
+Denmark,2017,2.2,64815.73,5765164,Europe,13.93698,False,,False
+Denmark,2018,2.26,65694.76,5793824,Europe,13.99919,False,,False
+Denmark,2019,2.34,66580.19,5814618,Europe,14.06424,False,,False
+Denmark,2020,2.41,65204.55,5831529,Europe,14.13622,False,,False
+Denmark,2021,2.49,69715.18,5856774,Europe,14.21624,False,,False
+Denmark,2022,2.72,70233.64,5902901,Europe,14.30341,False,,False
+Denmark,2023,2.94,71454.52,5948134,Europe,14.30341,False,bmi:GLB,True
+Djibouti,2017,2.97,5421.9565,1054844,Africa,8.45987,False,,False
+Djibouti,2018,3.0,5590.5044,1071886,Africa,8.8945,False,,False
+Djibouti,2019,3.1,5809.3047,1088710,Africa,9.3504,False,,False
+Djibouti,2020,3.24,5791.4775,1105193,Africa,9.831,False,,False
+Djibouti,2021,3.4,5960.108,1121251,Africa,10.33566,False,,False
+Djibouti,2022,3.86,6180.68,1137101,Africa,10.86511,False,,False
+Djibouti,2023,4.06,6545.1035,1152951,Africa,10.86511,False,bmi:GLB,True
+Dominica,2017,4.28,16314.2295,68514,America,27.77472,False,,False
+Dominica,2018,4.55,16877.125,68195,America,28.50125,False,,False
+Dominica,2019,4.75,17619.434,67901,America,29.2372,False,,False
+Dominica,2020,5.0,14919.531,67588,America,29.98219,False,,False
+Dominica,2021,5.26,15808.975,67222,America,30.7331,False,,False
+Dominica,2022,5.69,17550.8,66847,America,31.50258,False,,False
+Dominica,2023,6.08,18278.225,66531,America,31.50258,False,bmi:GLB,True
+Dominican Republic,2017,3.39,19501.875,10666846,America,25.21962,False,,False
+Dominican Republic,2018,3.48,20662.848,10782048,America,25.97384,False,,False
+Dominican Republic,2019,3.74,21451.287,10894043,America,26.74101,False,,False
+Dominican Republic,2020,4.05,19545.41,11008298,America,27.52163,False,,False
+Dominican Republic,2021,4.41,22053.459,11123480,America,28.31566,False,,False
+Dominican Republic,2022,4.87,22986.959,11230734,America,29.12325,False,,False
+Dominican Republic,2023,5.21,23282.49,11331269,America,29.12325,False,bmi:GLB,True
+Ecuador,2017,2.5,14179.153,16759515,America,22.8519,False,,False
+Ecuador,2018,2.54,14083.507,17049542,America,23.61672,False,,False
+Ecuador,2019,2.63,13870.489,17340017,America,24.40306,False,,False
+Ecuador,2020,2.77,12440.326,17546058,America,25.23245,False,,False
+Ecuador,2021,2.91,13507.444,17682454,America,26.09272,False,,False
+Ecuador,2022,3.2,14186.639,17823900,America,26.98363,False,,False
+Ecuador,2023,3.44,14343.019,17980079,America,26.98363,False,bmi:GLB,True
+Egypt,2017,3.81,14018.36,103696055,Africa,39.25935,False,,False
+Egypt,2018,4.02,14488.209,105682092,Africa,40.03781,False,,False
+Egypt,2019,3.98,15026.568,107553159,Africa,40.7968,False,,False
+Egypt,2020,3.88,15309.236,109315118,Africa,41.54097,False,,False
+Egypt,2021,4.01,15579.016,110957005,Africa,42.26823,False,,False
+Egypt,2022,4.69,16360.391,112618252,Africa,42.98924,False,,False
+Egypt,2023,5.96,16691.387,114535772,Africa,42.98924,False,bmi:GLB,True
+El Salvador,2017,3.285,8552.5332,13077754,America,23.07237,True,"Cost of a healthy diet:NEI[Honduras,Guatemala]|gdp:NEI[Honduras,Guatemala]|population:NEI[Honduras,Guatemala]|bmi:NEI[Honduras,Guatemala]",True
+El Salvador,2018,3.395,8705.826,13305448,America,23.799979999999998,True,"Cost of a healthy diet:NEI[Honduras,Guatemala]|gdp:NEI[Honduras,Guatemala]|population:NEI[Honduras,Guatemala]|bmi:NEI[Honduras,Guatemala]",True
+El Salvador,2019,3.55,8865.1975,13523720,America,24.540480000000002,True,"Cost of a healthy diet:NEI[Honduras,Guatemala]|gdp:NEI[Honduras,Guatemala]|population:NEI[Honduras,Guatemala]|bmi:NEI[Honduras,Guatemala]",True
+El Salvador,2020,3.755,8350.207,13738484,America,25.297285,True,"Cost of a healthy diet:NEI[Honduras,Guatemala]|gdp:NEI[Honduras,Guatemala]|population:NEI[Honduras,Guatemala]|bmi:NEI[Honduras,Guatemala]",True
+El Salvador,2021,3.91,9014.061,13944266,America,26.07311,True,"Cost of a healthy diet:NEI[Honduras,Guatemala]|gdp:NEI[Honduras,Guatemala]|population:NEI[Honduras,Guatemala]|bmi:NEI[Honduras,Guatemala]",True
+El Salvador,2022,4.355,9250.259,14155878,America,26.869335,True,"Cost of a healthy diet:NEI[Honduras,Guatemala]|gdp:NEI[Honduras,Guatemala]|population:NEI[Honduras,Guatemala]|bmi:NEI[Honduras,Guatemala]",True
+El Salvador,2023,4.71,9426.414,14384847,America,26.869335,True,"Cost of a healthy diet:NEI[Honduras,Guatemala]|gdp:NEI[Honduras,Guatemala]|population:NEI[Honduras,Guatemala]|bmi:GLB",True
+Equatorial Guinea,2017,3.7,22250.44,1562401,Africa,14.62189,False,,False
+Equatorial Guinea,2018,3.77,20165.48,1616425,Africa,15.08635,False,,False
+Equatorial Guinea,2019,3.81,18446.592,1670184,Africa,15.56521,False,,False
+Equatorial Guinea,2020,3.93,17089.154,1716479,Africa,16.08392,False,,False
+Equatorial Guinea,2021,4.08,16821.45,1758796,Africa,16.6247,False,,False
+Equatorial Guinea,2022,4.43,16932.771,1803549,Africa,17.16117,False,,False
+Equatorial Guinea,2023,4.62,15688.238,1847556,Africa,17.16117,False,bmi:GLB,True
+Eritrea,2017,2.8333333333333335,3901.9343000000003,42714311,Africa,7.50113,True,"Cost of a healthy diet:NEI[Sudan,Ethiopia,Djibouti]|gdp:NEI[Sudan,Ethiopia,Djibouti]|population:NEI[Sudan,Ethiopia,Djibouti]|bmi:NEI[Sudan,Ethiopia,Djibouti]",True
+Eritrea,2018,2.936666666666667,3906.1097999999997,44230597,Africa,7.871433333333333,True,"Cost of a healthy diet:NEI[Sudan,Ethiopia,Djibouti]|gdp:NEI[Sudan,Ethiopia,Djibouti]|population:NEI[Sudan,Ethiopia,Djibouti]|bmi:NEI[Sudan,Ethiopia,Djibouti]",True
+Eritrea,2019,3.08,3957.5994666666666,45548179,Africa,8.265853333333334,True,"Cost of a healthy diet:NEI[Sudan,Ethiopia,Djibouti]|gdp:NEI[Sudan,Ethiopia,Djibouti]|population:NEI[Sudan,Ethiopia,Djibouti]|bmi:NEI[Sudan,Ethiopia,Djibouti]",True
+Eritrea,2020,3.206666666666667,3903.0921000000003,46789237,Africa,8.68456,True,"Cost of a healthy diet:NEI[Sudan,Ethiopia,Djibouti]|gdp:NEI[Sudan,Ethiopia,Djibouti]|population:NEI[Sudan,Ethiopia,Djibouti]|bmi:NEI[Sudan,Ethiopia,Djibouti]",True
+Eritrea,2021,3.436666666666667,3932.498866666667,48066930,Africa,9.125556666666666,True,"Cost of a healthy diet:NEI[Sudan,Ethiopia,Djibouti]|gdp:NEI[Sudan,Ethiopia,Djibouti]|population:NEI[Sudan,Ethiopia,Djibouti]|bmi:NEI[Sudan,Ethiopia,Djibouti]",True
+Eritrea,2022,3.6333333333333333,3989.449966666667,49383344,Africa,9.589150000000002,True,"Cost of a healthy diet:NEI[Sudan,Ethiopia,Djibouti]|gdp:NEI[Sudan,Ethiopia,Djibouti]|population:NEI[Sudan,Ethiopia,Djibouti]|bmi:NEI[Sudan,Ethiopia,Djibouti]",True
+Eritrea,2023,3.8033333333333332,3828.047233333333,50042800,Africa,9.589150000000002,True,"Cost of a healthy diet:NEI[Sudan,Ethiopia,Djibouti]|gdp:NEI[Sudan,Ethiopia,Djibouti]|population:NEI[Sudan,Ethiopia,Djibouti]|bmi:GLB",True
+Estonia,2017,3.14,39939.457,1317430,Europe,25.41265,False,,False
+Estonia,2018,3.21,41273.2,1321972,Europe,25.67401,False,,False
+Estonia,2019,3.35,42652.535,1326822,Europe,25.93938,False,,False
+Estonia,2020,3.43,41340.766,1329675,Europe,26.19586,False,,False
+Estonia,2021,3.34,44251.54,1331750,Europe,26.428,False,,False
+Estonia,2022,3.76,43690.414,1350093,Europe,26.67095,False,,False
+Estonia,2023,4.21,41706.52,1367195,Europe,26.67095,False,bmi:GLB,True
+Eswatini,2017,3.36,9696.552,1158198,Africa,23.01352,False,,False
+Eswatini,2018,3.31,9632.162,1168933,Africa,23.8697,False,,False
+Eswatini,2019,3.33,10123.316,1179885,Africa,24.7486,False,,False
+Eswatini,2020,3.41,9727.514,1192734,Africa,25.61458,False,,False
+Eswatini,2021,3.62,9946.041,1206598,Africa,26.46157,False,,False
+Eswatini,2022,3.96,9955.709,1218921,Africa,27.31483,False,,False
+Eswatini,2023,4.09,10201.638,1230507,Africa,27.31483,False,bmi:GLB,True
+Ethiopia,2017,2.94,2222.8281,109666482,Africa,1.6931,False,,False
+Ethiopia,2018,3.04,2311.165,112664157,Africa,1.81366,False,,False
+Ethiopia,2019,3.27,2437.9705,115737384,Africa,1.94416,False,,False
+Ethiopia,2020,3.52,2516.549,118917670,Africa,2.08556,False,,False
+Ethiopia,2021,3.88,2588.413,122138588,Africa,2.23925,False,,False
+Ethiopia,2022,4.29,2655.5928,125384285,Africa,2.40611,False,,False
+Ethiopia,2023,4.41,2757.9592,128691695,Africa,2.40611,False,bmi:GLB,True
+Falkland Islands,2017,3.3560000000000003,22190.696399999997,11344591,America,29.249792000000003,True,"Cost of a healthy diet:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|gdp:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|population:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|bmi:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]",True
+Falkland Islands,2018,3.4387999999999996,20816.86564,11508370,America,29.522332,True,"Cost of a healthy diet:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|gdp:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|population:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|bmi:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]",True
+Falkland Islands,2019,3.5460000000000003,20769.303959999997,11671386,America,30.443528800000003,True,"Cost of a healthy diet:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|gdp:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|population:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|bmi:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]",True
+Falkland Islands,2020,3.6876000000000007,19420.1528,11816301,America,31.3878104,True,"Cost of a healthy diet:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|gdp:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|population:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|bmi:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]",True
+Falkland Islands,2021,3.8620000000000005,20734.732200000002,11937369,America,32.349486,True,"Cost of a healthy diet:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|gdp:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|population:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|bmi:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]",True
+Falkland Islands,2022,4.306,21217.77016,12077156,America,33.328953600000006,True,"Cost of a healthy diet:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|gdp:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|population:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|bmi:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]",True
+Falkland Islands,2023,4.6484000000000005,21473.51008,12244161,America,33.328953600000006,True,"Cost of a healthy diet:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|gdp:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|population:NEI[Chile,Argentina,Uruguay,Paraguay,Bolivia]|bmi:GLB",True
+Fiji,2017,3.2,13090.501,918762,Oceania,30.41922,False,,False
+Fiji,2018,3.27,13612.952,917185,Oceania,31.09575,False,,False
+Fiji,2019,3.41,13567.474,914906,Oceania,31.78068,False,,False
+Fiji,2020,3.48,11254.97,914971,Oceania,32.47163,False,,False
+Fiji,2021,3.81,10685.197,916718,Oceania,33.162,False,,False
+Fiji,2022,4.18,12762.347,919428,Oceania,33.84237,False,,False
+Fiji,2023,4.58,13652.491,924150,Oceania,33.84237,False,bmi:GLB,True
+Finland,2017,2.53,55637.227,5508398,Europe,22.70241,False,,False
+Finland,2018,2.61,56226.336,5515730,Europe,22.89806,False,,False
+Finland,2019,2.72,56922.49,5521754,Europe,23.09244,False,,False
+Finland,2020,2.81,55424.86,5529616,Europe,23.29123,False,,False
+Finland,2021,2.87,56790.375,5541069,Europe,23.49279,False,,False
+Finland,2022,3.25,57068.305,5569300,Europe,23.70109,False,,False
+Finland,2023,3.52,56246.44,5601185,Europe,23.70109,False,bmi:GLB,True
+France,2017,2.58,51895.566,65284775,Europe,12.03919,False,,False
+France,2018,2.66,52560.953,65519537,Europe,11.80686,False,,False
+France,2019,2.83,53448.555,65729460,Europe,11.57636,False,,False
+France,2020,2.94,49311.332,65905273,Europe,11.35404,False,,False
+France,2021,2.96,52517.336,66083547,Europe,11.13644,False,,False
+France,2022,3.32,53691.617,66277412,Europe,10.92481,False,,False
+France,2023,3.67,54017.875,66438828,Europe,10.92481,False,bmi:GLB,True
+Gabon,2017,3.24,19555.707,2156902,Africa,16.62083,False,,False
+Gabon,2018,3.31,19225.598,2212320,Africa,17.25933,False,,False
+Gabon,2019,3.44,19491.406,2267711,Africa,17.91805,False,,False
+Gabon,2020,3.6,18681.484,2322538,Africa,18.59753,False,,False
+Gabon,2021,3.81,18523.58,2376729,Africa,19.29325,False,,False
+Gabon,2022,4.18,18662.049,2430750,Africa,20.00162,False,,False
+Gabon,2023,4.45,18702.691,2484790,Africa,20.00162,False,bmi:GLB,True
+Gambia,2017,2.69,2533.1868,2342191,Africa,10.39007,False,,False
+Gambia,2018,2.86,2651.4329,2399633,Africa,10.91117,False,,False
+Gambia,2019,2.98,2750.8213,2456847,Africa,11.45585,False,,False
+Gambia,2020,3.18,2702.319,2515744,Africa,12.02449,False,,False
+Gambia,2021,3.45,2777.7961,2576015,Africa,12.61192,False,,False
+Gambia,2022,3.81,2863.1804,2636472,Africa,13.21974,False,,False
+Gambia,2023,4.13,2932.2805,2697846,Africa,13.21974,False,bmi:GLB,True
+Georgia,2017,2.9550000000000005,24331.31275,46526088,Asia,26.422457499999997,True,"Cost of a healthy diet:NEI[Russia,Armenia,Turkey,Azerbaijan]|gdp:NEI[Russia,Armenia,Turkey,Azerbaijan]|population:NEI[Russia,Armenia,Turkey,Azerbaijan]|bmi:NEI[Russia,Armenia,Turkey,Azerbaijan]",True
+Georgia,2018,3.0324999999999998,24915.263,47227874,Asia,27.0276,True,"Cost of a healthy diet:NEI[Russia,Armenia,Turkey,Azerbaijan]|gdp:NEI[Russia,Armenia,Turkey,Azerbaijan]|population:NEI[Russia,Armenia,Turkey,Azerbaijan]|bmi:NEI[Russia,Armenia,Turkey,Azerbaijan]",True
+Georgia,2019,3.2175,25442.05625,47734076,Asia,27.6394475,True,"Cost of a healthy diet:NEI[Russia,Armenia,Turkey,Azerbaijan]|gdp:NEI[Russia,Armenia,Turkey,Azerbaijan]|population:NEI[Russia,Armenia,Turkey,Azerbaijan]|bmi:NEI[Russia,Armenia,Turkey,Azerbaijan]",True
+Georgia,2020,3.28,24733.480750000002,48136714,Asia,28.23828,True,"Cost of a healthy diet:NEI[Russia,Armenia,Turkey,Azerbaijan]|gdp:NEI[Russia,Armenia,Turkey,Azerbaijan]|population:NEI[Russia,Armenia,Turkey,Azerbaijan]|bmi:NEI[Russia,Armenia,Turkey,Azerbaijan]",True
+Georgia,2021,3.4575000000000005,26502.444,48460313,Asia,28.823075,True,"Cost of a healthy diet:NEI[Russia,Armenia,Turkey,Azerbaijan]|gdp:NEI[Russia,Armenia,Turkey,Azerbaijan]|population:NEI[Russia,Armenia,Turkey,Azerbaijan]|bmi:NEI[Russia,Armenia,Turkey,Azerbaijan]",True
+Georgia,2022,3.93,27475.059,48676888,Asia,29.4189725,True,"Cost of a healthy diet:NEI[Russia,Armenia,Turkey,Azerbaijan]|gdp:NEI[Russia,Armenia,Turkey,Azerbaijan]|population:NEI[Russia,Armenia,Turkey,Azerbaijan]|bmi:NEI[Russia,Armenia,Turkey,Azerbaijan]",True
+Georgia,2023,4.07,28720.84125,48794356,Asia,29.4189725,True,"Cost of a healthy diet:NEI[Russia,Armenia,Turkey,Azerbaijan]|gdp:NEI[Russia,Armenia,Turkey,Azerbaijan]|population:NEI[Russia,Armenia,Turkey,Azerbaijan]|bmi:GLB",True
+Germany,2017,2.64,61991.496,83104010,Europe,23.97949,False,,False
+Germany,2018,2.77,62495.5,83368507,Europe,24.00245,False,,False
+Germany,2019,2.87,62970.715,83559184,Europe,24.02678,False,,False
+Germany,2020,2.97,60342.664,83628711,Europe,24.0571,False,,False
+Germany,2021,3.1,62530.766,83697080,Europe,24.09893,False,,False
+Germany,2022,3.54,62931.97,84086227,Europe,24.16192,False,,False
+Germany,2023,3.89,62686.54,84548233,Europe,24.16192,False,bmi:GLB,True
+Ghana,2017,3.54,5993.631,30008364,Africa,10.47071,False,,False
+Ghana,2018,3.51,6234.512,30637592,Africa,10.782,False,,False
+Ghana,2019,3.48,6508.2466,31258943,Africa,11.10313,False,,False
+Ghana,2020,3.46,6412.6855,31887802,Africa,11.43054,False,,False
+Ghana,2021,3.5,6607.503,32518662,Africa,11.76499,False,,False
+Ghana,2022,3.83,6728.454,33149152,Africa,12.10874,False,,False
+Ghana,2023,4.29,6808.5376,33787916,Africa,12.10874,False,bmi:GLB,True
+Greece,2017,2.93,31995.41,10753532,Europe,31.14925,False,,False
+Greece,2018,2.99,32722.33,10730846,Europe,31.64887,False,,False
+Greece,2019,3.1,33502.75,10718581,Europe,32.15176,False,,False
+Greece,2020,3.13,30487.113,10699370,Europe,32.66149,False,,False
+Greece,2021,3.25,33531.156,10579561,Europe,33.17493,False,,False
+Greece,2022,3.73,35906.613,10412481,Europe,33.68205,False,,False
+Greece,2023,4.16,36854.504,10242910,Europe,33.68205,False,bmi:GLB,True
+Greenland,2017,3.15,51939.25166666667,36808498,America,36.93058333333333,True,"Cost of a healthy diet:NEI[Canada,United States,Bahamas]|gdp:NEI[Canada,United States,Bahamas]|population:NEI[Canada,United States,Bahamas]|bmi:NEI[Canada,United States,Bahamas]",True
+Greenland,2018,3.18,52902.49933333333,37294996,America,37.392739999999996,True,"Cost of a healthy diet:NEI[Canada,United States,Bahamas]|gdp:NEI[Canada,United States,Bahamas]|population:NEI[Canada,United States,Bahamas]|bmi:NEI[Canada,United States,Bahamas]",True
+Greenland,2019,3.1700000000000004,53299.601,37782934,America,37.853010000000005,True,"Cost of a healthy diet:NEI[Canada,United States,Bahamas]|gdp:NEI[Canada,United States,Bahamas]|population:NEI[Canada,United States,Bahamas]|bmi:NEI[Canada,United States,Bahamas]",True
+Greenland,2020,3.266666666666667,49295.825000000004,38171903,America,38.32421333333334,True,"Cost of a healthy diet:NEI[Canada,United States,Bahamas]|gdp:NEI[Canada,United States,Bahamas]|population:NEI[Canada,United States,Bahamas]|bmi:NEI[Canada,United States,Bahamas]",True
+Greenland,2021,3.3866666666666667,53122.399666666664,38454058,America,38.79784333333333,True,"Cost of a healthy diet:NEI[Canada,United States,Bahamas]|gdp:NEI[Canada,United States,Bahamas]|population:NEI[Canada,United States,Bahamas]|bmi:NEI[Canada,United States,Bahamas]",True
+Greenland,2022,3.84,55114.37066666666,38821259,America,39.26583,True,"Cost of a healthy diet:NEI[Canada,United States,Bahamas]|gdp:NEI[Canada,United States,Bahamas]|population:NEI[Canada,United States,Bahamas]|bmi:NEI[Canada,United States,Bahamas]",True
+Greenland,2023,4.093333333333333,55632.49,39299098,America,39.26583,True,"Cost of a healthy diet:NEI[Canada,United States,Bahamas]|gdp:NEI[Canada,United States,Bahamas]|population:NEI[Canada,United States,Bahamas]|bmi:GLB",True
+Grenada,2017,4.43,16301.473,115448,America,26.73455,False,,False
+Grenada,2018,4.5,16975.248,115703,America,27.47328,False,,False
+Grenada,2019,4.44,17047.355,115995,America,28.21835,False,,False
+Grenada,2020,4.51,14656.721,116353,America,28.96445,False,,False
+Grenada,2021,4.59,15298.123,116696,America,29.72041,False,,False
+Grenada,2022,5.11,16386.463,116928,America,30.49136,False,,False
+Grenada,2023,5.58,17128.697,117094,America,30.49136,False,bmi:GLB,True
+Guatemala,2017,2.88,11005.459,16567363,America,21.44647,False,,False
+Guatemala,2018,3.13,11192.372,16845688,America,22.15826,False,,False
+Guatemala,2019,3.45,11466.376,17103803,America,22.88822,False,,False
+Guatemala,2020,3.74,11097.15,17357331,America,23.63658,False,,False
+Guatemala,2021,4.01,11825.141,17598652,America,24.40594,False,,False
+Guatemala,2022,4.43,12147.931,17847877,America,25.19955,False,,False
+Guatemala,2023,4.78,12384.948,18124841,America,25.19955,False,bmi:GLB,True
+Guinea,2017,2.59,3332.7659,12385668,Africa,6.36692,False,,False
+Guinea,2018,2.84,3455.645,12704776,Africa,6.70139,False,,False
+Guinea,2019,3.05,3557.4624,13034349,Africa,7.06064,False,,False
+Guinea,2020,3.36,3630.9934,13371185,Africa,7.4448,False,,False
+Guinea,2021,3.72,3738.8052,13710515,Africa,7.85353,False,,False
+Guinea,2022,4.14,3792.0107,14055136,Africa,8.2886,False,,False
+Guinea,2023,4.65,3904.824,14405469,Africa,8.2886,False,bmi:GLB,True
+Guinea-Bissau,2017,3.01,2314.158,1877074,Africa,8.14253,False,,False
+Guinea-Bissau,2018,3.04,2344.8694,1922167,Africa,8.49033,False,,False
+Guinea-Bissau,2019,3.14,2418.104,1967704,Africa,8.85828,False,,False
+Guinea-Bissau,2020,3.24,2413.6792,2013259,Africa,9.24726,False,,False
+Guinea-Bissau,2021,3.45,2483.8506,2058841,Africa,9.65376,False,,False
+Guinea-Bissau,2022,3.74,2564.424,2105535,Africa,10.07749,False,,False
+Guinea-Bissau,2023,3.98,2619.4136,2153343,Africa,10.07749,False,bmi:GLB,True
+Guyana,2017,4.62,12801.641,768483,America,24.35603,False,,False
+Guyana,2018,4.79,12980.357,791563,America,24.93372,False,,False
+Guyana,2019,5.06,13402.422,807668,America,25.61868,False,,False
+Guyana,2020,5.41,19234.13,807486,America,26.45697,False,,False
+Guyana,2021,5.9,22865.928,815484,America,27.21401,False,,False
+Guyana,2022,6.37,37068.2,821638,America,27.99775,False,,False
+Guyana,2023,6.64,49312.36,826357,America,27.99775,False,bmi:GLB,True
+Haiti,2017,3.93,3474.347,10817759,America,8.80869,False,,False
+Haiti,2018,4.05,3485.6968,10962373,America,9.07098,False,,False
+Haiti,2019,4.28,3381.5847,11105165,America,9.34258,False,,False
+Haiti,2020,4.57,3229.4756,11243846,America,9.62525,False,,False
+Haiti,2021,4.88,3134.9502,11374592,America,9.91953,False,,False
+Haiti,2022,5.3,3047.6519,11503603,America,10.22693,False,,False
+Haiti,2023,5.53,2956.4622,11637402,America,10.22693,False,bmi:GLB,True
+Honduras,2017,3.69,6099.6074,9588144,America,24.69827,False,,False
+Honduras,2018,3.66,6219.28,9765209,America,25.4417,False,,False
+Honduras,2019,3.65,6264.019,9943637,America,26.19274,False,,False
+Honduras,2020,3.77,5603.264,10119638,America,26.95799,False,,False
+Honduras,2021,3.81,6202.981,10289881,America,27.74028,False,,False
+Honduras,2022,4.28,6352.587,10463880,America,28.53912,False,,False
+Honduras,2023,4.64,6467.88,10644853,America,28.53912,False,bmi:GLB,True
+Hong Kong,2017,3.33,65662.81,7444889,Asia,18.73771385666667,False,bmi:REG[Asia],True
+Hong Kong,2018,3.44,66993.93,7471190,Asia,19.24271552,False,bmi:REG[Asia],True
+Hong Kong,2019,3.78,65388.332,7485817,Asia,19.756384936666667,False,bmi:REG[Asia],True
+Hong Kong,2020,4.04,61328.54,7490240,Asia,20.304584199999997,False,bmi:REG[Asia],True
+Hong Kong,2021,4.2,65884.94,7484604,Asia,20.868552846666667,False,bmi:REG[Asia],True
+Hong Kong,2022,4.65,64036.668,7465913,Asia,21.414003236666666,False,bmi:REG[Asia],True
+Hong Kong,2023,4.77,64428.73,7442738,Asia,21.414003236666666,False,bmi:GLB,True
+Hungary,2017,3.36,33828.715,9785608,Europe,32.60182,False,,False
+Hungary,2018,3.45,35798.043,9774395,Europe,33.4127,False,,False
+Hungary,2019,3.6,37662.676,9770346,Europe,34.24142,False,,False
+Hungary,2020,3.69,36119.52,9749459,Europe,35.10341,False,,False
+Hungary,2021,3.68,38887.19,9707848,Europe,35.95836,False,,False
+Hungary,2022,4.46,40656.97,9684308,Europe,36.39898,False,,False
+Hungary,2023,5.08,40368.59,9686465,Europe,36.39898,False,bmi:GLB,True
+Iceland,2017,2.38,63999.16,343537,Europe,21.0519,False,,False
+Iceland,2018,2.41,65354.26,352860,Europe,21.29185,False,,False
+Iceland,2019,2.52,65122.754,360709,Europe,21.55821,False,,False
+Iceland,2020,2.7,59627.242,366626,Europe,21.86269,False,,False
+Iceland,2021,2.77,61610.215,372647,Europe,22.21003,False,,False
+Iceland,2022,3.0,65475.41,380368,Europe,22.58658,False,,False
+Iceland,2023,3.21,67177.2,387559,Europe,22.58658,False,bmi:GLB,True
+India,2017,2.77,7326.607,1359657398,Asia,5.40474,False,,False
+India,2018,2.86,7714.34,1374659067,Asia,5.738,False,,False
+India,2019,3.01,7930.0913,1389030307,Asia,6.08334,False,,False
+India,2020,3.23,7399.531,1402617694,Asia,6.44182,False,,False
+India,2021,3.4,8050.0186,1414203896,Asia,6.81628,False,,False
+India,2022,3.67,8594.392,1425423209,Asia,7.20651,False,,False
+India,2023,3.86,9301.756,1438069597,Asia,7.20651,False,bmi:GLB,True
+Indonesia,2017,3.61,11772.574,267346654,Asia,8.5134,False,,False
+Indonesia,2018,3.68,12262.231,269951847,Asia,9.06837,False,,False
+Indonesia,2019,3.68,12757.785,272489381,Asia,9.64154,False,,False
+Indonesia,2020,3.86,12388.545,274814861,Asia,10.23832,False,,False
+Indonesia,2021,4.0,12757.074,276758056,Asia,10.86129,False,,False
+Indonesia,2022,4.39,13334.266,278830527,Asia,11.50446,False,,False
+Indonesia,2023,4.63,13889.975,281190068,Asia,11.50446,False,bmi:GLB,True
+Iran,2017,3.01,15108.109,85026761,Asia,22.21595,False,,False
+Iran,2018,3.11,14642.498,86117999,Asia,22.85419,False,,False
+Iran,2019,3.35,14040.665,87051649,Asia,23.47068,False,,False
+Iran,2020,3.15,14397.153,87723448,Asia,24.08115,False,,False
+Iran,2021,3.37,14951.895,88455490,Asia,24.681,False,,False
+Iran,2022,4.09,15331.333,89524247,Asia,25.26413,False,,False
+Iran,2023,4.46,15912.03,90608708,Asia,25.26413,False,bmi:GLB,True
+Iraq,2017,3.32,14417.631,39337358,Asia,34.35332,False,,False
+Iraq,2018,3.48,14456.235,40265629,Asia,34.96126,False,,False
+Iraq,2019,3.5,14910.225,41192172,Asia,35.55709,False,,False
+Iraq,2020,3.5,12827.635,42116602,Asia,36.15319,False,,False
+Iraq,2021,3.42,12731.754,43071208,Asia,36.75181,False,,False
+Iraq,2022,3.76,13433.397,44070556,Asia,37.36464,False,,False
+Iraq,2023,3.97,13202.323,45074055,Asia,37.36464,False,bmi:GLB,True
+Ireland,2017,2.33,87942.445,4810258,Europe,28.65383,False,,False
+Ireland,2018,2.27,93214.336,4872559,Europe,29.07512,False,,False
+Ireland,2019,2.3,96369.65,4933493,Europe,29.50083,False,,False
+Ireland,2020,2.22,101970.81,4982602,Europe,29.94154,False,,False
+Ireland,2021,2.29,116903.61,5028428,Europe,30.39106,False,,False
+Ireland,2022,2.52,124489.375,5110015,Europe,30.84253,False,,False
+Ireland,2023,2.74,115505.336,5196629,Europe,30.84253,False,bmi:GLB,True
+Israel,2017,2.51,42947.06,8361796,Asia,22.8913,False,,False
+Israel,2018,2.58,43814.297,8510067,Asia,22.97598,False,,False
+Israel,2019,2.6,44580.81,8657466,Asia,23.0645,False,,False
+Israel,2020,2.61,42915.94,8800380,Asia,23.16605,False,,False
+Israel,2021,2.75,46162.082,8942925,Asia,23.2763,False,,False
+Israel,2022,3.13,48098.188,9103143,Asia,23.39079,False,,False
+Israel,2023,3.24,47527.152,9256311,Asia,23.39079,False,bmi:GLB,True
+Italy,2017,2.74,48849.22,60390317,Europe,20.35389,False,,False
+Italy,2018,2.83,49133.145,60277496,Europe,20.57582,False,,False
+Italy,2019,3.01,49690.63,60130136,Europe,20.80848,False,,False
+Italy,2020,3.09,45505.07,59912763,Europe,21.04995,False,,False
+Italy,2021,3.17,49825.395,59729353,Europe,21.29551,False,,False
+Italy,2022,3.6,52333.33,59619106,Europe,21.55315,False,,False
+Italy,2023,3.96,52725.746,59499452,Europe,21.55315,False,bmi:GLB,True
+Jamaica,2017,4.88,9964.391,2815765,America,29.84011,False,,False
+Jamaica,2018,4.79,10137.111,2820103,America,30.68515,False,,False
+Jamaica,2019,4.83,10216.065,2823275,America,31.543,False,,False
+Jamaica,2020,4.9,9178.32,2830745,America,32.40809,False,,False
+Jamaica,2021,4.9,9577.164,2837680,America,33.27912,False,,False
+Jamaica,2022,5.41,10072.049,2839150,America,34.1783,False,,False
+Jamaica,2023,5.83,10332.055,2839785,America,34.1783,False,bmi:GLB,True
+Japan,2017,5.48,44505.277,127064686,Asia,4.24275,False,,False
+Japan,2018,5.65,44848.49,126913432,Asia,4.36315,False,,False
+Japan,2019,5.57,44730.91,126699421,Asia,4.48997,False,,False
+Japan,2020,5.8,42992.48,126304533,Asia,4.62817,False,,False
+Japan,2021,5.98,44355.348,125679342,Asia,4.778,False,,False
+Japan,2022,6.66,44972.344,124997585,Asia,4.93537,False,,False
+Japan,2023,7.29,45858.66,124370947,Asia,4.93537,False,bmi:GLB,True
+Jordan,2017,2.88,9339.811,10234227,Asia,33.87867,False,,False
+Jordan,2018,2.9,9311.531,10462310,Asia,34.24389,False,,False
+Jordan,2019,2.94,9288.527,10671893,Asia,34.59813,False,,False
+Jordan,2020,3.02,9022.64,10865232,Asia,34.94619,False,,False
+Jordan,2021,2.99,9182.496,11066356,Asia,35.28369,False,,False
+Jordan,2022,3.2,9266.575,11256269,Asia,35.61215,False,,False
+Jordan,2023,3.28,9381.3545,11439220,Asia,35.61215,False,bmi:GLB,True
+Kazakhstan,2017,2.12,31524.441,18651931,Asia,17.4782,False,,False
+Kazakhstan,2018,2.13,32330.227,18932725,Asia,17.86947,False,,False
+Kazakhstan,2019,2.28,33298.21,19209556,Asia,18.26391,False,,False
+Kazakhstan,2020,2.43,32011.549,19482116,Asia,18.64407,False,,False
+Kazakhstan,2021,2.59,32945.85,19743607,Asia,18.99994,False,,False
+Kazakhstan,2022,2.88,33506.26,20034612,Asia,19.34311,False,,False
+Kazakhstan,2023,3.02,34703.234,20330109,Asia,19.34311,False,bmi:GLB,True
+Kenya,2017,2.56,4846.8623,49197757,Africa,8.77852,False,,False
+Kenya,2018,2.62,5017.668,50207109,Africa,9.20955,False,,False
+Kenya,2019,2.83,5171.7124,51202829,Africa,9.6502,False,,False
+Kenya,2020,3.1,5057.4014,52217327,Africa,10.10238,False,,False
+Kenya,2021,3.42,5338.8525,53219167,Africa,10.56741,False,,False
+Kenya,2022,3.87,5491.694,54252458,Africa,11.04457,False,,False
+Kenya,2023,4.1,5682.9893,55339007,Africa,11.04457,False,bmi:GLB,True
+Kosovo,2017,3.2750000000000004,19113.3185,2419561,Europe,22.92521,True,"Cost of a healthy diet:NEI[Albania,North Macedonia,Serbia,Montenegro]|gdp:NEI[Albania,North Macedonia,Serbia,Montenegro]|population:NEI[Albania,North Macedonia,Serbia,Montenegro]|bmi:NEI[Albania,North Macedonia,Serbia,Montenegro]",True
+Kosovo,2018,3.3275,19961.640999999996,2406980,Europe,23.522525,True,"Cost of a healthy diet:NEI[Albania,North Macedonia,Serbia,Montenegro]|gdp:NEI[Albania,North Macedonia,Serbia,Montenegro]|population:NEI[Albania,North Macedonia,Serbia,Montenegro]|bmi:NEI[Albania,North Macedonia,Serbia,Montenegro]",True
+Kosovo,2019,3.535,20804.872499999998,2391327,Europe,24.1420725,True,"Cost of a healthy diet:NEI[Albania,North Macedonia,Serbia,Montenegro]|gdp:NEI[Albania,North Macedonia,Serbia,Montenegro]|population:NEI[Albania,North Macedonia,Serbia,Montenegro]|bmi:NEI[Albania,North Macedonia,Serbia,Montenegro]",True
+Kosovo,2020,3.5524999999999998,19537.5705,2371986,Europe,24.778037500000003,True,"Cost of a healthy diet:NEI[Albania,North Macedonia,Serbia,Montenegro]|gdp:NEI[Albania,North Macedonia,Serbia,Montenegro]|population:NEI[Albania,North Macedonia,Serbia,Montenegro]|bmi:NEI[Albania,North Macedonia,Serbia,Montenegro]",True
+Kosovo,2021,3.7424999999999997,21379.2025,2350375,Europe,25.42637,True,"Cost of a healthy diet:NEI[Albania,North Macedonia,Serbia,Montenegro]|gdp:NEI[Albania,North Macedonia,Serbia,Montenegro]|population:NEI[Albania,North Macedonia,Serbia,Montenegro]|bmi:NEI[Albania,North Macedonia,Serbia,Montenegro]",True
+Kosovo,2022,4.41,22498.75625,2333925,Europe,26.084795,True,"Cost of a healthy diet:NEI[Albania,North Macedonia,Serbia,Montenegro]|gdp:NEI[Albania,North Macedonia,Serbia,Montenegro]|population:NEI[Albania,North Macedonia,Serbia,Montenegro]|bmi:NEI[Albania,North Macedonia,Serbia,Montenegro]",True
+Kosovo,2023,4.8125,23529.53725,2321730,Europe,26.084795,True,"Cost of a healthy diet:NEI[Albania,North Macedonia,Serbia,Montenegro]|gdp:NEI[Albania,North Macedonia,Serbia,Montenegro]|population:NEI[Albania,North Macedonia,Serbia,Montenegro]|bmi:GLB",True
+Kuwait,2017,2.13,52285.586,4154686,Asia,42.6664,False,,False
+Kuwait,2018,2.18,51623.81,4323389,Asia,43.08282,False,,False
+Kuwait,2019,2.19,51380.645,4442201,Asia,43.50241,False,,False
+Kuwait,2020,2.22,49372.574,4400146,Asia,44.21436,False,,False
+Kuwait,2021,2.46,50651.957,4360748,Asia,44.9668,False,,False
+Kuwait,2022,2.74,51379.883,4589514,Asia,45.36456,False,,False
+Kuwait,2023,2.93,47777.402,4838781,Asia,45.36456,False,bmi:GLB,True
+Kyrgyzstan,2017,3.23,5861.222,6220148,Asia,20.68727,False,,False
+Kyrgyzstan,2018,2.98,5951.8286,6341733,Asia,21.40929,False,,False
+Kyrgyzstan,2019,2.94,6087.602,6494036,Asia,22.14383,False,,False
+Kyrgyzstan,2020,3.21,5537.7954,6664143,Asia,22.88817,False,,False
+Kyrgyzstan,2021,3.36,5736.479,6820483,Asia,23.64098,False,,False
+Kyrgyzstan,2022,3.7,6139.778,6955792,Asia,24.41363,False,,False
+Kyrgyzstan,2023,3.77,6575.7754,7073523,Asia,24.41363,False,bmi:GLB,True
+Laos,2017,3.74,7432.4595,7018150,Asia,5.80556,False,,False
+Laos,2018,3.77,7775.086,7128043,Asia,6.15941,False,,False
+Laos,2019,3.92,8075.275,7237635,Asia,6.53021,False,,False
+Laos,2020,4.22,7995.595,7346534,Asia,6.92016,False,,False
+Laos,2021,4.33,8080.4355,7453192,Asia,7.329,False,,False
+Laos,2022,4.6,8183.0327,7559008,Asia,7.75802,False,,False
+Laos,2023,5.07,8372.156,7665001,Asia,7.75802,False,bmi:GLB,True
+Latvia,2017,3.04,33036.39,1942599,Europe,27.70001,False,,False
+Latvia,2018,3.03,34729.707,1927586,Europe,28.15591,False,,False
+Latvia,2019,3.19,35208.195,1914267,Europe,28.59322,False,,False
+Latvia,2020,3.28,34225.9,1901119,Europe,29.01372,False,,False
+Latvia,2021,3.55,36912.01,1885593,Europe,29.41296,False,,False
+Latvia,2022,4.13,37681.047,1881059,Europe,29.81393,False,,False
+Latvia,2023,4.51,38796.55,1882399,Europe,29.81393,False,bmi:GLB,True
+Lebanon,2017,1.71,16128.584,6160129,Asia,28.34066,False,,False
+Lebanon,2018,1.86,16290.052,5984120,Asia,28.89389,False,,False
+Lebanon,2019,1.88,15659.566,5794601,Asia,29.39223,False,,False
+Lebanon,2020,3.15,12507.437,5702400,Asia,29.91751,False,,False
+Lebanon,2021,3.71,11599.775,5718129,Asia,30.47772,False,,False
+Lebanon,2022,5.58,11474.751,5744492,Asia,31.06655,False,,False
+Lebanon,2023,6.46,11330.269,5773494,Asia,31.06655,False,bmi:GLB,True
+Lesotho,2017,3.59,2924.681,2157117,Africa,16.29856,False,,False
+Lesotho,2018,3.63,2846.4182,2183611,Africa,16.85034,False,,False
+Lesotho,2019,3.74,2773.2864,2209414,Africa,17.42796,False,,False
+Lesotho,2020,4.01,2517.1104,2235727,Africa,18.0304,False,,False
+Lesotho,2021,4.31,2544.7825,2261549,Africa,18.65241,False,,False
+Lesotho,2022,4.68,2577.5454,2286112,Africa,19.29229,False,,False
+Lesotho,2023,4.97,2595.8296,2311476,Africa,19.29229,False,bmi:GLB,True
+Liberia,2017,3.24,1661.3029,4848927,Africa,12.30939,False,,False
+Liberia,2018,3.3,1647.9745,4944728,Africa,12.99145,False,,False
+Liberia,2019,3.51,1575.7666,5043719,Africa,13.72221,False,,False
+Liberia,2020,3.78,1497.377,5149470,Africa,14.50258,False,,False
+Liberia,2021,3.67,1539.2089,5259327,Africa,15.3311,False,,False
+Liberia,2022,3.94,1578.9984,5373297,Africa,16.20574,False,,False
+Liberia,2023,4.17,1616.9237,5493035,Africa,16.20574,False,bmi:GLB,True
+Libya,2017,3.3699999999999997,8412.843266666667,31562376,Africa,17.722550000000002,True,"Cost of a healthy diet:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|gdp:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|population:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|bmi:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]",True
+Libya,2018,3.4566666666666666,8489.8051,32346554,Africa,18.231130000000004,True,"Cost of a healthy diet:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|gdp:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|population:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|bmi:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]",True
+Libya,2019,3.4933333333333336,8553.0113,33121158,Africa,18.746685,True,"Cost of a healthy diet:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|gdp:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|population:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|bmi:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]",True
+Libya,2020,3.5500000000000003,8164.819233333333,33879854,Africa,19.271201666666666,True,"Cost of a healthy diet:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|gdp:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|population:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|bmi:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]",True
+Libya,2021,3.7566666666666664,8298.309099999999,34631622,Africa,19.801460000000002,True,"Cost of a healthy diet:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|gdp:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|population:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|bmi:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]",True
+Libya,2022,4.133333333333334,8558.391666666668,35394684,Africa,20.339663333333334,True,"Cost of a healthy diet:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|gdp:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|population:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|bmi:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]",True
+Libya,2023,4.588333333333334,8497.624516666665,36162042,Africa,20.339663333333334,True,"Cost of a healthy diet:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|gdp:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|population:NEI[Sudan,Chad,Niger,Tunisia,Algeria,Egypt]|bmi:GLB",True
+Lithuania,2017,2.85,38774.49,2829317,Europe,29.03651,False,,False
+Lithuania,2018,2.87,41019.79,2802485,Europe,29.45456,False,,False
+Lithuania,2019,3.05,43062.324,2795057,Europe,29.86779,False,,False
+Lithuania,2020,3.07,43091.797,2795766,Europe,30.28593,False,,False
+Lithuania,2021,3.12,45873.527,2794490,Europe,30.70747,False,,False
+Lithuania,2022,3.66,46651.215,2816923,Europe,31.14159,False,,False
+Lithuania,2023,3.97,46159.707,2854104,Europe,31.14159,False,bmi:GLB,True
+Luxembourg,2017,2.46,132169.83,596506,Europe,19.88293,False,,False
+Luxembourg,2018,2.59,131733.89,608109,Europe,19.90855,False,,False
+Luxembourg,2019,2.62,132724.75,620167,Europe,19.94056,False,,False
+Luxembourg,2020,2.62,129865.63,630597,Europe,19.9947,False,,False
+Luxembourg,2021,2.65,136772.44,640276,Europe,20.08777,False,,False
+Luxembourg,2022,2.95,132574.0,653315,Europe,20.21109,False,,False
+Luxembourg,2023,3.27,129021.65,665101,Europe,20.21109,False,bmi:GLB,True
+Madagascar,2017,3.08,1669.7277,26788379,Africa,2.76217,False,,False
+Madagascar,2018,3.18,1678.7863,27494930,Africa,2.94408,False,,False
+Madagascar,2019,3.21,1707.8315,28219559,Africa,3.14214,False,,False
+Madagascar,2020,3.2,1545.7272,28953560,Africa,3.35836,False,,False
+Madagascar,2021,3.34,1577.4325,29691087,Africa,3.59256,False,,False
+Madagascar,2022,3.65,1602.7136,30437261,Africa,3.84666,False,,False
+Madagascar,2023,3.87,1629.4609,31195937,Africa,3.84666,False,bmi:GLB,True
+Malawi,2017,2.38,1613.0593,18039714,Africa,4.81209,False,,False
+Malawi,2018,2.52,1638.9166,18528086,Africa,5.09509,False,,False
+Malawi,2019,2.77,1687.2894,19025748,Africa,5.39181,False,,False
+Malawi,2020,3.1,1656.4398,19533885,Africa,5.70413,False,,False
+Malawi,2021,3.43,1687.5936,20047264,Africa,6.03121,False,,False
+Malawi,2022,3.88,1659.9594,20568731,Africa,6.37348,False,,False
+Malawi,2023,4.29,1648.4365,21104480,Africa,6.37348,False,bmi:GLB,True
+Malaysia,2017,3.1,29551.545,32355642,Asia,19.11271,False,,False
+Malaysia,2018,3.2,30459.965,32910963,Asia,19.75469,False,,False
+Malaysia,2019,3.3,31300.508,33440590,Asia,20.40472,False,,False
+Malaysia,2020,3.43,29200.453,33889554,Asia,21.06332,False,,False
+Malaysia,2021,3.52,29822.85,34282404,Asia,21.73121,False,,False
+Malaysia,2022,3.89,32079.152,34695494,Asia,22.40492,False,,False
+Malaysia,2023,4.15,32812.3,35126295,Asia,22.40492,False,bmi:GLB,True
+Maldives,2017,3.36,20036.717,458297,Asia,13.44732,False,,False
+Maldives,2018,3.34,21072.58,473106,Asia,14.2127,False,,False
+Maldives,2019,3.28,21855.502,487737,Asia,15.00708,False,,False
+Maldives,2020,3.33,14242.975,502127,Asia,15.83932,False,,False
+Maldives,2021,3.39,19052.623,516163,Asia,16.69393,False,,False
+Maldives,2022,3.74,21357.81,524116,Asia,17.57296,False,,False
+Maldives,2023,4.01,22286.98,526009,Asia,17.57296,False,bmi:GLB,True
+Mali,2017,2.97,2816.1934,19813016,Africa,8.02339,False,,False
+Mali,2018,2.97,2862.4062,20442031,Africa,8.37501,False,,False
+Mali,2019,2.97,2916.1707,21068405,Africa,8.74396,False,,False
+Mali,2020,3.04,2796.4104,21713837,Africa,9.12969,False,,False
+Mali,2021,3.16,2796.228,22388637,Africa,9.53207,False,,False
+Mali,2022,3.56,2808.5225,23072641,Africa,9.95287,False,,False
+Mali,2023,3.72,2854.8271,23769130,Africa,9.95287,False,bmi:GLB,True
+Malta,2017,3.35,51578.98,467902,Europe,33.54749,False,,False
+Malta,2018,3.49,53367.95,484560,Europe,33.69421,False,,False
+Malta,2019,3.75,53342.215,504017,Europe,33.85903,False,,False
+Malta,2020,3.75,50392.96,518212,Europe,34.05789,False,,False
+Malta,2021,3.8,56802.01,524383,Europe,34.29222,False,,False
+Malta,2022,4.28,57781.5,528194,Europe,34.62062,False,,False
+Malta,2023,4.66,59293.297,532964,Europe,34.62062,False,bmi:GLB,True
+Mauritania,2017,3.86,6050.6216,4210603,Africa,17.52586,False,,False
+Mauritania,2018,3.92,6153.6377,4337685,Africa,18.15396,False,,False
+Mauritania,2019,4.02,6162.2104,4467714,Africa,18.80263,False,,False
+Mauritania,2020,4.13,5963.2354,4600136,Africa,19.47038,False,,False
+Mauritania,2021,4.43,5836.566,4734874,Africa,20.15104,False,,False
+Mauritania,2022,5.04,6053.2617,4875644,Africa,20.84189,False,,False
+Mauritania,2023,5.28,6258.711,5022442,Africa,20.84189,False,bmi:GLB,True
+Mauritius,2017,3.38,24073.232,1290654,Africa,17.97834,False,,False
+Mauritius,2018,3.41,25024.135,1288836,Africa,18.24899,False,,False
+Mauritius,2019,3.46,25739.355,1286269,Africa,18.53066,False,,False
+Mauritius,2020,3.63,21994.666,1283231,Africa,18.82541,False,,False
+Mauritius,2021,3.77,22737.572,1279628,Africa,19.13919,False,,False
+Mauritius,2022,4.21,24788.766,1276134,Africa,19.47077,False,,False
+Mauritius,2023,4.42,26060.732,1273591,Africa,19.47077,False,bmi:GLB,True
+Mexico,2017,2.9,21777.523,123400052,America,32.4631,False,,False
+Mexico,2018,2.97,21997.773,124573713,America,33.18247,False,,False
+Mexico,2019,2.98,21704.186,125762978,America,33.90095,False,,False
+Mexico,2020,3.07,19728.482,126799053,America,34.62603,False,,False
+Mexico,2021,3.28,20782.588,127648151,America,35.35821,False,,False
+Mexico,2022,3.85,21392.111,128613116,America,36.08603,False,,False
+Mexico,2023,4.2,21905.178,129739761,America,36.08603,False,bmi:GLB,True
+Moldova,2017,2.34,13118.822,3193500,Europe,25.72407,False,,False
+Moldova,2018,2.47,13895.504,3153779,Europe,25.94346,False,,False
+Moldova,2019,2.65,14621.24,3112561,Europe,26.14759,False,,False
+Moldova,2020,2.9,13559.26,3069135,Europe,26.31797,False,,False
+Moldova,2021,3.08,15682.07,3023780,Europe,26.44663,False,,False
+Moldova,2022,3.42,15358.016,3039986,Europe,25.64504,False,,False
+Moldova,2023,3.57,15990.4795,3067072,Europe,25.64504,False,bmi:GLB,True
+Mongolia,2017,4.11,14401.537,3104371,Asia,19.81345,False,,False
+Mongolia,2018,4.26,15230.241,3167714,Asia,20.62924,False,,False
+Mongolia,2019,4.56,15790.696,3232118,Asia,21.46038,False,,False
+Mongolia,2020,5.01,14801.342,3290786,Asia,22.30829,False,,False
+Mongolia,2021,5.55,14792.251,3339676,Asia,23.15272,False,,False
+Mongolia,2022,6.17,15310.435,3386015,Asia,23.98801,False,,False
+Mongolia,2023,6.74,16222.864,3431938,Asia,23.98801,False,bmi:GLB,True
+Montenegro,2017,3.21,22740.387,620112,Europe,18.70458,False,,False
+Montenegro,2018,3.24,23877.725,615798,Europe,19.15578,False,,False
+Montenegro,2019,3.49,24835.375,611671,Europe,19.61707,False,,False
+Montenegro,2020,3.43,21039.322,607934,Europe,20.09107,False,,False
+Montenegro,2021,3.63,23842.062,603854,Europe,20.56728,False,,False
+Montenegro,2022,4.4,25429.025,614649,Europe,21.05212,False,,False
+Montenegro,2023,4.74,27043.328,633553,Europe,21.05212,False,bmi:GLB,True
+Morocco,2017,2.63,8450.009,35446395,Africa,19.05632,False,,False
+Morocco,2018,2.5,8611.75,35839760,Africa,19.67118,False,,False
+Morocco,2019,2.47,8768.176,36210907,Africa,20.2875,False,,False
+Morocco,2020,2.47,8054.563,36584208,Africa,20.90147,False,,False
+Morocco,2021,2.76,8623.266,36954443,Africa,21.51205,False,,False
+Morocco,2022,3.11,8666.079,37329068,Africa,22.12767,False,,False
+Morocco,2023,3.45,8868.712,37712516,Africa,22.12767,False,bmi:GLB,True
+Mozambique,2017,2.74,1532.0073,28166397,Africa,6.68719,False,,False
+Mozambique,2018,2.71,1538.8351,29018647,Africa,7.05647,False,,False
+Mozambique,2019,2.78,1528.8899,29884378,Africa,7.45125,False,,False
+Mozambique,2020,2.93,1466.1248,30783685,Africa,7.87035,False,,False
+Mozambique,2021,3.23,1457.2354,31707798,Africa,8.31276,False,,False
+Mozambique,2022,3.57,1476.6656,32656242,Africa,8.7818,False,,False
+Mozambique,2023,3.82,1511.6365,33635163,Africa,8.7818,False,bmi:GLB,True
+Myanmar,2017,3.56,5877.8745,51894939,Asia,6.22419,False,,False
+Myanmar,2018,3.7,6201.263,52272250,Asia,6.46707,False,,False
+Myanmar,2019,3.93,6562.989,52640718,Asia,6.71965,False,,False
+Myanmar,2020,3.96,5926.8345,53016525,Asia,6.98312,False,,False
+Myanmar,2021,3.64,5178.4473,53387103,Asia,7.25698,False,,False
+Myanmar,2022,3.88,5350.4766,53756791,Asia,7.54058,False,,False
+Myanmar,2023,3.72,5364.138,54133800,Asia,7.54058,False,bmi:GLB,True
+Namibia,2017,3.26,11408.726,2506854,Africa,13.39269,False,,False
+Namibia,2018,3.26,11214.386,2577327,Africa,13.75055,False,,False
+Namibia,2019,3.33,10813.305,2650499,Africa,14.12391,False,,False
+Namibia,2020,3.52,9652.248,2728760,Africa,14.50836,False,,False
+Namibia,2021,3.75,9709.1,2810552,Africa,14.89686,False,,False
+Namibia,2022,4.11,9953.098,2889668,Africa,15.2854,False,,False
+Namibia,2023,4.5,10137.673,2963102,Africa,15.2854,False,bmi:GLB,True
+Nepal,2017,3.35,4071.7043,28011258,Asia,4.63252,False,,False
+Nepal,2018,3.32,4371.3857,28079688,Asia,4.98451,False,,False
+Nepal,2019,3.36,4607.5244,28414066,Asia,5.35632,False,,False
+Nepal,2020,3.52,4412.542,28966580,Asia,5.74113,False,,False
+Nepal,2021,3.62,4546.2295,29475016,Asia,6.14118,False,,False
+Nepal,2022,3.89,4763.3877,29715435,Asia,6.57554,False,,False
+Nepal,2023,4.01,4861.2305,29694614,Asia,6.57554,False,bmi:GLB,True
+Netherlands,2017,2.21,65666.0,17315376,Europe,16.32941,False,,False
+Netherlands,2018,2.27,66758.266,17421285,Europe,16.43257,False,,False
+Netherlands,2019,2.4,67847.85,17537505,Europe,16.5379,False,,False
+Netherlands,2020,2.5,64862.19,17636732,Europe,16.65103,False,,False
+Netherlands,2021,2.54,68573.56,17730565,Europe,16.77178,False,,False
+Netherlands,2022,2.9,71324.04,17904421,Europe,16.91088,False,,False
+Netherlands,2023,3.13,70673.97,18092526,Europe,16.91088,False,bmi:GLB,True
+New Caledonia,2017,2.925,29641.8955,2865756,Oceania,31.256175,True,"Cost of a healthy diet:NEI[Fiji,New Zealand]|gdp:NEI[Fiji,New Zealand]|population:NEI[Fiji,New Zealand]|bmi:NEI[Fiji,New Zealand]",True
+New Caledonia,2018,2.92,30280.445,2909012,Oceania,31.80762,True,"Cost of a healthy diet:NEI[Fiji,New Zealand]|gdp:NEI[Fiji,New Zealand]|population:NEI[Fiji,New Zealand]|bmi:NEI[Fiji,New Zealand]",True
+New Caledonia,2019,3.055,30422.569,2952158,Oceania,32.36526,True,"Cost of a healthy diet:NEI[Fiji,New Zealand]|gdp:NEI[Fiji,New Zealand]|population:NEI[Fiji,New Zealand]|bmi:NEI[Fiji,New Zealand]",True
+New Caledonia,2020,3.1550000000000002,28679.787500000002,2992433,Oceania,32.92573,True,"Cost of a healthy diet:NEI[Fiji,New Zealand]|gdp:NEI[Fiji,New Zealand]|population:NEI[Fiji,New Zealand]|bmi:NEI[Fiji,New Zealand]",True
+New Caledonia,2021,3.335,29340.9385,3012206,Oceania,33.483774999999994,True,"Cost of a healthy diet:NEI[Fiji,New Zealand]|gdp:NEI[Fiji,New Zealand]|population:NEI[Fiji,New Zealand]|bmi:NEI[Fiji,New Zealand]",True
+New Caledonia,2022,3.7299999999999995,31190.435,3025580,Oceania,34.043865,True,"Cost of a healthy diet:NEI[Fiji,New Zealand]|gdp:NEI[Fiji,New Zealand]|population:NEI[Fiji,New Zealand]|bmi:NEI[Fiji,New Zealand]",True
+New Caledonia,2023,4.07,31367.9995,3048494,Oceania,34.043865,True,"Cost of a healthy diet:NEI[Fiji,New Zealand]|gdp:NEI[Fiji,New Zealand]|population:NEI[Fiji,New Zealand]|bmi:GLB",True
+New Zealand,2017,2.65,46193.29,4812749,Oceania,32.09313,False,,False
+New Zealand,2018,2.57,46947.938,4900840,Oceania,32.51949,False,,False
+New Zealand,2019,2.7,47277.664,4989410,Oceania,32.94984,False,,False
+New Zealand,2020,2.83,46104.605,5069895,Oceania,33.37983,False,,False
+New Zealand,2021,2.86,47996.68,5107694,Oceania,33.80555,False,,False
+New Zealand,2022,3.28,49618.523,5131731,Oceania,34.24536,False,,False
+New Zealand,2023,3.56,49083.508,5172837,Oceania,34.24536,False,bmi:GLB,True
+Nicaragua,2017,3.72,7391.197,6316235,America,28.69816,False,,False
+Nicaragua,2018,3.73,7049.0273,6400074,America,29.42765,False,,False
+Nicaragua,2019,3.78,6756.5938,6483660,America,30.16327,False,,False
+Nicaragua,2020,3.89,6523.3696,6565267,America,30.90833,False,,False
+Nicaragua,2021,4.06,7119.1694,6644745,America,31.6623,False,,False
+Nicaragua,2022,4.59,7277.8228,6730662,America,32.42438,False,,False
+Nicaragua,2023,4.9,7496.5293,6823619,America,32.42438,False,bmi:GLB,True
+Niger,2017,3.25,1520.0016,21435449,Africa,4.26063,False,,False
+Niger,2018,3.27,1574.3384,22188074,Africa,4.44253,False,,False
+Niger,2019,3.34,1612.6373,22947765,Africa,4.63934,False,,False
+Niger,2020,3.6,1615.6927,23717615,Africa,4.8523,False,,False
+Niger,2021,4.02,1585.5992,24502145,Africa,5.08075,False,,False
+Niger,2022,4.48,1717.5189,25311978,Africa,5.32594,False,,False
+Niger,2023,4.68,1689.5642,26159863,Africa,5.32594,False,bmi:GLB,True
+Nigeria,2017,2.78,5651.7344,200254580,Africa,9.02521,False,,False
+Nigeria,2018,2.96,5628.7407,204938752,Africa,9.35165,False,,False
+Nigeria,2019,3.17,5628.1777,209485637,Africa,9.69847,False,,False
+Nigeria,2020,3.41,5410.6934,213996185,Africa,10.0632,False,,False
+Nigeria,2021,3.76,5491.7,218529286,Africa,10.44192,False,,False
+Nigeria,2022,4.12,5552.838,223150906,Africa,10.83669,False,,False
+Nigeria,2023,4.39,5593.0566,227882949,Africa,10.83669,False,bmi:GLB,True
+North Korea,2017,3.2600000000000002,32372.004333333334,146186798,Asia,12.616279999999998,True,"Cost of a healthy diet:NEI[Russia,South Korea,China]|gdp:NEI[Russia,South Korea,China]|population:NEI[Russia,South Korea,China]|bmi:NEI[Russia,South Korea,China]",True
+North Korea,2018,3.34,33411.30533333333,146430146,Asia,12.943416666666666,True,"Cost of a healthy diet:NEI[Russia,South Korea,China]|gdp:NEI[Russia,South Korea,China]|population:NEI[Russia,South Korea,China]|bmi:NEI[Russia,South Korea,China]",True
+North Korea,2019,3.4500000000000006,34299.03133333333,146533063,Asia,13.27944,True,"Cost of a healthy diet:NEI[Russia,South Korea,China]|gdp:NEI[Russia,South Korea,China]|population:NEI[Russia,South Korea,China]|bmi:NEI[Russia,South Korea,China]",True
+North Korea,2020,3.6666666666666665,33984.36266666667,146371295,Asia,13.62798,True,"Cost of a healthy diet:NEI[Russia,South Korea,China]|gdp:NEI[Russia,South Korea,China]|population:NEI[Russia,South Korea,China]|bmi:NEI[Russia,South Korea,China]",True
+North Korea,2021,3.8166666666666664,35967.124,145836172,Asia,13.982730000000002,True,"Cost of a healthy diet:NEI[Russia,South Korea,China]|gdp:NEI[Russia,South Korea,China]|population:NEI[Russia,South Korea,China]|bmi:NEI[Russia,South Korea,China]",True
+North Korea,2022,4.183333333333334,36497.26966666667,145579889,Asia,14.331346666666667,True,"Cost of a healthy diet:NEI[Russia,South Korea,China]|gdp:NEI[Russia,South Korea,China]|population:NEI[Russia,South Korea,China]|bmi:NEI[Russia,South Korea,China]",True
+North Korea,2023,4.363333333333332,37662.87433333333,145440502,Asia,14.331346666666667,True,"Cost of a healthy diet:NEI[Russia,South Korea,China]|gdp:NEI[Russia,South Korea,China]|population:NEI[Russia,South Korea,China]|bmi:GLB",True
+North Macedonia,2017,3.29,20119.943,1940877,Europe,27.09101,False,,False
+North Macedonia,2018,3.3,20804.775,1919730,Europe,27.76966,False,,False
+North Macedonia,2019,3.49,21765.686,1897643,Europe,28.47417,False,,False
+North Macedonia,2020,3.52,20970.287,1872021,Europe,29.19683,False,,False
+North Macedonia,2021,3.84,22142.973,1851109,Europe,29.92071,False,,False
+North Macedonia,2022,4.47,22820.977,1840236,Europe,30.6488,False,,False
+North Macedonia,2023,4.74,23343.602,1831800,Europe,30.6488,False,bmi:GLB,True
+Northern Cyprus,2017,2.89,42128.566,1254274,Asia,23.56579,True,Cost of a healthy diet:NEI[Cyprus]|gdp:NEI[Cyprus]|population:NEI[Cyprus]|bmi:NEI[Cyprus],True
+Northern Cyprus,2018,2.93,44227.91,1270743,Asia,23.8538,True,Cost of a healthy diet:NEI[Cyprus]|gdp:NEI[Cyprus]|population:NEI[Cyprus]|bmi:NEI[Cyprus],True
+Northern Cyprus,2019,3.04,46195.594,1286669,Asia,24.14631,True,Cost of a healthy diet:NEI[Cyprus]|gdp:NEI[Cyprus]|population:NEI[Cyprus]|bmi:NEI[Cyprus],True
+Northern Cyprus,2020,3.14,44203.89,1302250,Asia,24.4562,True,Cost of a healthy diet:NEI[Cyprus]|gdp:NEI[Cyprus]|population:NEI[Cyprus]|bmi:NEI[Cyprus],True
+Northern Cyprus,2021,3.1,48781.277,1317311,Asia,24.78185,True,Cost of a healthy diet:NEI[Cyprus]|gdp:NEI[Cyprus]|population:NEI[Cyprus]|bmi:NEI[Cyprus],True
+Northern Cyprus,2022,3.44,51588.445,1331376,Asia,25.10993,True,Cost of a healthy diet:NEI[Cyprus]|gdp:NEI[Cyprus]|population:NEI[Cyprus]|bmi:NEI[Cyprus],True
+Northern Cyprus,2023,3.65,52190.875,1344981,Asia,25.10993,True,Cost of a healthy diet:NEI[Cyprus]|gdp:NEI[Cyprus]|population:NEI[Cyprus]|bmi:GLB,True
+Norway,2017,3.32,87194.11,5276807,Europe,18.4957,False,,False
+Norway,2018,3.43,87338.47,5311751,Europe,18.73816,False,,False
+Norway,2019,3.53,87725.73,5347733,Europe,18.98198,False,,False
+Norway,2020,3.62,86096.055,5379275,Europe,19.2358,False,,False
+Norway,2021,3.63,88984.14,5408082,Europe,19.49927,False,,False
+Norway,2022,3.98,91051.086,5456796,Europe,19.76505,False,,False
+Norway,2023,4.33,90085.555,5519167,Europe,19.76505,False,bmi:GLB,True
+Oman,2017,2.29,38691.11,4537397,Asia,26.22723,False,,False
+Oman,2018,2.39,38673.605,4597878,Asia,26.95943,False,,False
+Oman,2019,2.49,38292.387,4591248,Asia,27.7725,False,,False
+Oman,2020,2.48,37560.6,4522502,Asia,28.67649,False,,False
+Oman,2021,2.45,38719.457,4500429,Asia,29.49348,False,,False
+Oman,2022,2.7,39780.21,4730229,Asia,30.18688,False,,False
+Oman,2023,2.88,37709.066,5049267,Asia,30.18688,False,bmi:GLB,True
+Pakistan,2017,2.97,5031.5605,223273974,Asia,16.35834,False,,False
+Pakistan,2018,2.91,5255.0635,226928893,Asia,17.40055,False,,False
+Pakistan,2019,2.95,5295.953,230800908,Asia,18.46998,False,,False
+Pakistan,2020,3.18,5135.0146,235001745,Asia,19.56702,False,,False
+Pakistan,2021,3.3,5367.2734,239477805,Asia,20.69342,False,,False
+Pakistan,2022,3.7,5526.2793,243700667,Asia,21.84745,False,,False
+Pakistan,2023,4.08,5439.1797,247504505,Asia,21.84745,False,bmi:GLB,True
+Palestine,2017,2.53,6426.7954,4742747,Asia,30.9377,False,,False
+Palestine,2018,2.65,6342.9375,4850593,Asia,31.34411,False,,False
+Palestine,2019,2.76,6269.891,4957773,Asia,31.734,False,,False
+Palestine,2020,2.77,5423.6826,5069692,Asia,32.10747,False,,False
+Palestine,2021,2.72,5663.1216,5185341,Asia,32.46407,False,,False
+Palestine,2022,3.03,5753.084,5305274,Asia,32.8151,False,,False
+Palestine,2023,3.16,5361.131,5409201,Asia,32.8151,False,bmi:GLB,True
+Panama,2017,4.19,31979.812,4098704,America,31.28631,False,,False
+Panama,2018,3.88,32681.447,4167860,America,32.23535,False,,False
+Panama,2019,3.78,33163.727,4234698,America,33.18132,False,,False
+Panama,2020,3.65,26881.799,4293258,America,34.1384,False,,False
+Panama,2021,3.63,30932.764,4345410,America,35.10766,False,,False
+Panama,2022,3.96,33833.027,4400775,America,36.0801,False,,False
+Panama,2023,4.2,35863.88,4458758,America,36.0801,False,bmi:GLB,True
+Papua New Guinea,2017,3.61,11772.574,267346654,Oceania,8.5134,True,Cost of a healthy diet:NEI[Indonesia]|gdp:NEI[Indonesia]|population:NEI[Indonesia]|bmi:NEI[Indonesia],True
+Papua New Guinea,2018,3.68,12262.231,269951847,Oceania,9.06837,True,Cost of a healthy diet:NEI[Indonesia]|gdp:NEI[Indonesia]|population:NEI[Indonesia]|bmi:NEI[Indonesia],True
+Papua New Guinea,2019,3.68,12757.785,272489381,Oceania,9.64154,True,Cost of a healthy diet:NEI[Indonesia]|gdp:NEI[Indonesia]|population:NEI[Indonesia]|bmi:NEI[Indonesia],True
+Papua New Guinea,2020,3.86,12388.545,274814861,Oceania,10.23832,True,Cost of a healthy diet:NEI[Indonesia]|gdp:NEI[Indonesia]|population:NEI[Indonesia]|bmi:NEI[Indonesia],True
+Papua New Guinea,2021,4.0,12757.074,276758056,Oceania,10.86129,True,Cost of a healthy diet:NEI[Indonesia]|gdp:NEI[Indonesia]|population:NEI[Indonesia]|bmi:NEI[Indonesia],True
+Papua New Guinea,2022,4.39,13334.266,278830527,Oceania,11.50446,True,Cost of a healthy diet:NEI[Indonesia]|gdp:NEI[Indonesia]|population:NEI[Indonesia]|bmi:NEI[Indonesia],True
+Papua New Guinea,2023,4.63,13889.975,281190068,Oceania,11.50446,True,Cost of a healthy diet:NEI[Indonesia]|gdp:NEI[Indonesia]|population:NEI[Indonesia]|bmi:GLB,True
+Paraguay,2017,3.74,15320.337,6338658,America,27.28914,False,,False
+Paraguay,2018,3.73,15592.984,6427382,America,28.20804,False,,False
+Paraguay,2019,3.71,15321.324,6515059,America,29.14951,False,,False
+Paraguay,2020,3.73,14991.66,6603741,America,30.10996,False,,False
+Paraguay,2021,3.95,15406.167,6684184,America,31.08697,False,,False
+Paraguay,2022,4.47,15259.1455,6760460,America,32.08339,False,,False
+Paraguay,2023,4.71,15826.088,6844150,America,32.08339,False,bmi:GLB,True
+Peru,2017,3.25,15069.522,31324639,America,22.25411,False,,False
+Peru,2018,3.19,15386.26,31897590,America,23.19111,False,,False
+Peru,2019,3.25,15463.543,32449302,America,24.14778,False,,False
+Peru,2020,3.34,13609.6,32838577,America,25.1392,False,,False
+Peru,2021,3.5,15280.551,33155883,America,26.14957,False,,False
+Peru,2022,3.94,15559.821,33475436,America,27.18473,False,,False
+Peru,2023,4.3,15327.582,33845616,America,27.18473,False,bmi:GLB,True
+Philippines,2017,3.26,8584.136,108119691,Asia,7.01294,False,,False
+Philippines,2018,3.4,9016.286,109465284,Asia,7.3284,False,,False
+Philippines,2019,3.47,9452.294,110804685,Asia,7.6564,False,,False
+Philippines,2020,3.55,8455.185,112081270,Asia,7.99819,False,,False
+Philippines,2021,3.73,8857.79,113100947,Asia,8.35913,False,,False
+Philippines,2022,3.97,9457.104,113964343,Asia,8.73605,False,,False
+Philippines,2023,4.21,9898.533,114891199,Asia,8.73605,False,bmi:GLB,True
+Poland,2017,2.95,34354.598,38254964,Europe,28.17818,False,,False
+Poland,2018,3.03,36500.41,38241070,Europe,28.91616,False,,False
+Poland,2019,3.25,38181.62,38225884,Europe,29.66397,False,,False
+Poland,2020,3.38,37852.8,38171005,Europe,30.4156,False,,False
+Poland,2021,3.36,41059.586,38040303,Europe,31.16302,False,,False
+Poland,2022,3.8,43405.023,38385734,Europe,31.41283,False,,False
+Poland,2023,4.04,43672.766,38762847,Europe,31.41283,False,bmi:GLB,True
+Portugal,2017,2.64,37943.113,10330838,Europe,24.70543,False,,False
+Portugal,2018,2.73,39123.613,10325355,Europe,25.1747,False,,False
+Portugal,2019,2.85,40188.285,10343218,Europe,25.63292,False,,False
+Portugal,2020,2.87,36852.227,10370519,Europe,26.0877,False,,False
+Portugal,2021,2.99,38657.668,10390957,Europe,26.55605,False,,False
+Portugal,2022,3.51,41070.86,10417074,Europe,27.06199,False,,False
+Portugal,2023,3.82,41571.02,10430735,Europe,27.06199,False,bmi:GLB,True
+Puerto Rico,2017,3.9800000000000004,16773.624,6741306,America,22.762157499999997,True,"Cost of a healthy diet:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|gdp:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|population:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|bmi:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]",True
+Puerto Rico,2018,4.047499999999999,17009.81245,6801076,America,23.31185,True,"Cost of a healthy diet:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|gdp:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|population:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|bmi:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]",True
+Puerto Rico,2019,4.195,17210.660925,6858659,America,23.8799575,True,"Cost of a healthy diet:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|gdp:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|population:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|bmi:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]",True
+Puerto Rico,2020,4.407500000000001,15669.1524,6919522,America,24.472602499999997,True,"Cost of a healthy diet:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|gdp:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|population:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|bmi:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]",True
+Puerto Rico,2021,4.654999999999999,16297.5593,6980580,America,25.063382500000003,True,"Cost of a healthy diet:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|gdp:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|population:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|bmi:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]",True
+Puerto Rico,2022,5.140000000000001,16725.014975000002,7034942,America,25.6698575,True,"Cost of a healthy diet:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|gdp:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|population:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|bmi:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]",True
+Puerto Rico,2023,5.48,16941.230799999998,7085527,America,25.6698575,True,"Cost of a healthy diet:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|gdp:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|population:NEI[Dominican Republic,Haiti,Trinidad and Tobago,Jamaica]|bmi:GLB",True
+Qatar,2017,2.32,115064.945,2706716,Asia,39.01982,False,,False
+Qatar,2018,2.43,114909.945,2761144,Asia,39.81867,False,,False
+Qatar,2019,2.45,113160.98,2797927,Asia,40.68851,False,,False
+Qatar,2020,2.44,103061.914,2803375,Asia,41.75581,False,,False
+Qatar,2021,2.35,116832.57,2814988,Asia,42.89238,False,,False
+Qatar,2022,2.52,114740.125,2892466,Asia,43.75553,False,,False
+Qatar,2023,2.58,116159.14,2979086,Asia,43.75553,False,bmi:GLB,True
+Romania,2017,2.79,32849.11,19689405,Europe,31.33332,False,,False
+Romania,2018,2.84,35065.18,19597874,Europe,32.79678,False,,False
+Romania,2019,3.04,36633.363,19501542,Europe,34.25017,False,,False
+Romania,2020,3.17,35482.195,19392467,Europe,35.68721,False,,False
+Romania,2021,3.22,37730.37,19248159,Europe,37.11097,False,,False
+Romania,2022,3.57,39377.973,19166776,Europe,38.23628,False,,False
+Romania,2023,3.93,40301.5,19118482,Europe,38.23628,False,bmi:GLB,True
+Russia,2017,2.25,35570.39,146186798,Europe,26.43276,False,,False
+Russia,2018,2.28,36536.695,146430146,Europe,26.77684,False,,False
+Russia,2019,2.45,37319.32,146533063,Europe,27.11705,False,,False
+Russia,2020,2.57,36376.336,146371295,Europe,27.45495,False,,False
+Russia,2021,2.77,38638.43,145836172,Europe,27.7768,False,,False
+Russia,2022,3.09,38214.496,145579889,Europe,28.04944,False,,False
+Russia,2023,3.17,39887.34,145440502,Europe,28.04944,False,bmi:GLB,True
+Rwanda,2017,3.05,2351.597,12202062,Africa,3.16088,False,,False
+Rwanda,2018,2.89,2493.44,12488000,Africa,3.40847,False,,False
+Rwanda,2019,2.99,2667.4646,12776102,Africa,3.67215,False,,False
+Rwanda,2020,3.3,2520.3174,13065838,Africa,3.95306,False,,False
+Rwanda,2021,3.31,2733.4355,13355260,Africa,4.25166,False,,False
+Rwanda,2022,3.87,2892.4597,13651025,Africa,4.56908,False,,False
+Rwanda,2023,4.59,3062.999,13954473,Africa,4.56908,False,bmi:GLB,True
+Saint Kitts and Nevis,2017,3.37,29948.92,47075,America,42.82592,False,,False
+Saint Kitts and Nevis,2018,3.51,30576.248,47032,America,43.58385,False,,False
+Saint Kitts and Nevis,2019,3.65,31512.193,46976,America,44.34437,False,,False
+Saint Kitts and Nevis,2020,3.81,26736.928,46896,America,45.10648,False,,False
+Saint Kitts and Nevis,2021,3.95,26896.617,46786,America,45.86787,False,,False
+Saint Kitts and Nevis,2022,4.59,29712.686,46732,America,46.61522,False,,False
+Saint Kitts and Nevis,2023,4.84,30966.332,46783,America,46.61522,False,bmi:GLB,True
+Saint Lucia,2017,3.6,22422.598,176352,America,29.78383,False,,False
+Saint Lucia,2018,3.8,22981.918,177032,America,30.57369,False,,False
+Saint Lucia,2019,4.03,22738.248,177675,America,31.38012,False,,False
+Saint Lucia,2020,4.41,17142.045,178261,America,32.20626,False,,False
+Saint Lucia,2021,4.57,19101.166,178540,America,33.0611,False,,False
+Saint Lucia,2022,4.9,22962.281,178794,America,33.93452,False,,False
+Saint Lucia,2023,5.22,23403.744,179291,America,33.93452,False,bmi:GLB,True
+Saint Vincent and the Grenadines,2017,4.3,15533.222,105674,America,29.88657,False,,False
+Saint Vincent and the Grenadines,2018,4.44,16139.066,104939,America,30.59861,False,,False
+Saint Vincent and the Grenadines,2019,4.48,16365.325,104183,America,31.32182,False,,False
+Saint Vincent and the Grenadines,2020,4.65,15763.705,103540,America,32.05409,False,,False
+Saint Vincent and the Grenadines,2021,4.87,16200.899,102848,America,32.80342,False,,False
+Saint Vincent and the Grenadines,2022,5.48,16835.023,102063,America,33.56653,False,,False
+Saint Vincent and the Grenadines,2023,6.03,17858.244,101331,America,33.56653,False,bmi:GLB,True
+Sao Tome and Principe,2017,2.31,5521.2026,206986,Africa,12.50113,False,,False
+Sao Tome and Principe,2018,2.63,5674.7236,210198,Africa,13.00792,False,,False
+Sao Tome and Principe,2019,2.98,5702.0835,213405,Africa,13.52654,False,,False
+Sao Tome and Principe,2020,3.29,5742.9473,217450,Africa,14.03,False,,False
+Sao Tome and Principe,2021,3.8,5732.6943,221975,Africa,14.52803,False,,False
+Sao Tome and Principe,2022,4.17,5632.1387,226313,Africa,15.03851,False,,False
+Sao Tome and Principe,2023,4.43,5541.302,230882,Africa,15.03851,False,bmi:GLB,True
+Saudi Arabia,2017,2.46,57942.547,30782400,Asia,37.85023,False,,False
+Saudi Arabia,2018,2.46,61359.465,30365119,Asia,38.30225,False,,False
+Saudi Arabia,2019,2.48,62647.715,30472809,Asia,38.7484,False,,False
+Saudi Arabia,2020,2.43,57420.734,30991206,Asia,39.46707,False,,False
+Saudi Arabia,2021,2.62,62690.496,31328374,Asia,40.358,False,,False
+Saudi Arabia,2022,2.87,67178.59,32175351,Asia,41.1081,False,,False
+Saudi Arabia,2023,2.96,64481.844,33264289,Asia,41.1081,False,bmi:GLB,True
+Senegal,2017,2.65,3871.4514,15475001,Africa,7.34309,False,,False
+Senegal,2018,2.72,3998.2864,15914495,Africa,7.58629,False,,False
+Senegal,2019,2.79,4070.6123,16352926,Africa,7.84299,False,,False
+Senegal,2020,2.88,4018.0413,16789217,Africa,8.11252,False,,False
+Senegal,2021,3.04,4173.6772,17220866,Africa,8.39039,False,,False
+Senegal,2022,3.44,4228.734,17651099,Africa,8.68215,False,,False
+Senegal,2023,3.63,4304.7617,18077573,Africa,8.68215,False,bmi:GLB,True
+Serbia,2017,3.56,19437.904,7073507,Europe,23.39587,False,,False
+Serbia,2018,3.64,20453.082,7020014,Europe,23.88757,False,,False
+Serbia,2019,3.84,21539.922,6966155,Europe,24.4088,False,,False
+Serbia,2020,3.86,21477.877,6907814,Europe,24.94657,False,,False
+Serbia,2021,4.01,23404.998,6835429,Europe,25.49247,False,,False
+Serbia,2022,4.63,24633.07,6791215,Europe,26.05491,False,,False
+Serbia,2023,5.19,25740.203,6773204,Europe,26.05491,False,bmi:GLB,True
+Seychelles,2017,3.53,31595.668,112443,Africa,27.48618,False,,False
+Seychelles,2018,3.5,32841.426,115053,Africa,28.00323,False,,False
+Seychelles,2019,3.53,34346.07,117662,Africa,28.54433,False,,False
+Seychelles,2020,3.46,30056.2,120299,Africa,29.10129,False,,False
+Seychelles,2021,3.79,29979.828,123000,Africa,29.67629,False,,False
+Seychelles,2022,4.05,27978.178,125533,Africa,30.26695,False,,False
+Seychelles,2023,4.22,28635.355,127961,Africa,30.26695,False,bmi:GLB,True
+Sierra Leone,2017,2.64,2755.9043,7379300,Africa,5.73562,False,,False
+Sierra Leone,2018,2.8,2769.8696,7554568,Africa,5.85972,False,,False
+Sierra Leone,2019,2.76,2855.229,7731994,Africa,5.99645,False,,False
+Sierra Leone,2020,2.83,2755.1025,7912557,Africa,6.1459,False,,False
+Sierra Leone,2021,3.08,2851.9521,8094603,Africa,6.30555,False,,False
+Sierra Leone,2022,3.39,2937.3735,8276809,Africa,6.47527,False,,False
+Sierra Leone,2023,3.74,3037.6765,8460523,Africa,6.47527,False,bmi:GLB,True
+Singapore,2017,2.78,116471.82,5604087,Asia,10.59605,False,,False
+Singapore,2018,2.86,119927.766,5634366,Asia,11.13614,False,,False
+Singapore,2019,2.92,120114.13,5669562,Asia,11.69943,False,,False
+Singapore,2020,3.0,115893.04,5620151,Asia,12.28996,False,,False
+Singapore,2021,3.09,132617.36,5546291,Asia,12.90418,False,,False
+Singapore,2022,3.31,133571.97,5649888,Asia,13.53592,False,,False
+Singapore,2023,3.46,129555.24,5789092,Asia,13.53592,False,bmi:GLB,True
+Sint Maarten (Dutch part),2017,4.43,46088.36,39012,America,28.227119969298244,False,bmi:REG[America],True
+Sint Maarten (Dutch part),2018,4.58,42154.1,39736,America,28.836340578947368,False,bmi:REG[America],True
+Sint Maarten (Dutch part),2019,4.67,45996.793,40410,America,29.559088516666673,False,bmi:REG[America],True
+Sint Maarten (Dutch part),2020,4.78,39265.76,41027,America,30.3035119622807,False,bmi:REG[America],True
+Sint Maarten (Dutch part),2021,4.82,40507.066,41593,America,31.056122609649126,False,bmi:REG[America],True
+Sint Maarten (Dutch part),2022,4.93,43877.25,42163,America,31.82160144122807,False,bmi:REG[America],True
+Sint Maarten (Dutch part),2023,5.06,44894.695,42775,America,31.82160144122807,False,bmi:GLB,True
+Slovakia,2017,2.46,35042.72,5435702,Europe,26.58054,False,,False
+Slovakia,2018,2.53,36415.723,5443229,Europe,27.39027,False,,False
+Slovakia,2019,2.69,37194.137,5450627,Europe,28.20953,False,,False
+Slovakia,2020,2.89,36201.414,5455028,Europe,29.03329,False,,False
+Slovakia,2021,3.01,38346.094,5442766,Europe,29.85681,False,,False
+Slovakia,2022,3.54,38623.67,5473195,Europe,30.28089,False,,False
+Slovakia,2023,4.14,39497.535,5518057,Europe,30.28089,False,bmi:GLB,True
+Slovenia,2017,2.6,41703.305,2062410,Europe,19.86365,False,,False
+Slovenia,2018,2.7,43371.98,2069484,Europe,20.25425,False,,False
+Slovenia,2019,2.85,44580.777,2083438,Europe,20.67782,False,,False
+Slovenia,2020,2.98,42474.227,2102421,Europe,21.14687,False,,False
+Slovenia,2021,3.01,45914.06,2113495,Europe,21.65935,False,,False
+Slovenia,2022,3.42,47064.152,2115231,Europe,22.20498,False,,False
+Slovenia,2023,3.72,47868.387,2118394,Europe,22.20498,False,bmi:GLB,True
+Solomon Islands,2017,2.765,34887.5755,12824903,Oceania,29.784115,True,"Cost of a healthy diet:NEI[Fiji,Australia]|gdp:NEI[Fiji,Australia]|population:NEI[Fiji,Australia]|bmi:NEI[Fiji,Australia]",True
+Solomon Islands,2018,2.815,35531.6675,13018442,Oceania,30.36947,True,"Cost of a healthy diet:NEI[Fiji,Australia]|gdp:NEI[Fiji,Australia]|population:NEI[Fiji,Australia]|bmi:NEI[Fiji,Australia]",True
+Solomon Islands,2019,2.9050000000000002,35702.268,13198810,Oceania,30.96477,True,"Cost of a healthy diet:NEI[Fiji,Australia]|gdp:NEI[Fiji,Australia]|population:NEI[Fiji,Australia]|bmi:NEI[Fiji,Australia]",True
+Solomon Islands,2020,2.995,34157.356,13329379,Oceania,31.580599999999997,True,"Cost of a healthy diet:NEI[Fiji,Australia]|gdp:NEI[Fiji,Australia]|population:NEI[Fiji,Australia]|bmi:NEI[Fiji,Australia]",True
+Solomon Islands,2021,3.21,34433.7665,13436568,Oceania,32.208525,True,"Cost of a healthy diet:NEI[Fiji,Australia]|gdp:NEI[Fiji,Australia]|population:NEI[Fiji,Australia]|bmi:NEI[Fiji,Australia]",True
+Solomon Islands,2022,3.53,36322.9985,13560208,Oceania,32.83326,True,"Cost of a healthy diet:NEI[Fiji,Australia]|gdp:NEI[Fiji,Australia]|population:NEI[Fiji,Australia]|bmi:NEI[Fiji,Australia]",True
+Solomon Islands,2023,3.84,37056.8235,13687638,Oceania,32.83326,True,"Cost of a healthy diet:NEI[Fiji,Australia]|gdp:NEI[Fiji,Australia]|population:NEI[Fiji,Australia]|bmi:GLB",True
+Somalia,2017,3.61,1527.1122,14916630,Africa,10.24997,False,,False
+Somalia,2018,3.88,1504.4391,15452489,Africa,10.70275,False,,False
+Somalia,2019,3.98,1491.1075,16030969,Africa,11.17756,False,,False
+Somalia,2020,3.93,1396.0535,16651200,Africa,11.66618,False,,False
+Somalia,2021,4.08,1392.4642,17271435,Africa,12.16913,False,,False
+Somalia,2022,4.65,1387.8137,17801895,Africa,12.69808,False,,False
+Somalia,2023,4.65,1402.47,18358622,Africa,12.69808,False,bmi:GLB,True
+Somaliland,2017,3.1733333333333333,3057.2989333333335,14916630,Africa,6.80098,True,"Cost of a healthy diet:NEI[Somalia,Ethiopia,Djibouti]|gdp:NEI[Somalia,Ethiopia,Djibouti]|population:NEI[Somalia,Ethiopia,Djibouti]|bmi:NEI[Somalia,Ethiopia,Djibouti]",True
+Somaliland,2018,3.3066666666666666,3135.3695000000002,15452489,Africa,7.136970000000001,True,"Cost of a healthy diet:NEI[Somalia,Ethiopia,Djibouti]|gdp:NEI[Somalia,Ethiopia,Djibouti]|population:NEI[Somalia,Ethiopia,Djibouti]|bmi:NEI[Somalia,Ethiopia,Djibouti]",True
+Somaliland,2019,3.4499999999999997,3246.1275666666666,16030969,Africa,7.490706666666667,True,"Cost of a healthy diet:NEI[Somalia,Ethiopia,Djibouti]|gdp:NEI[Somalia,Ethiopia,Djibouti]|population:NEI[Somalia,Ethiopia,Djibouti]|bmi:NEI[Somalia,Ethiopia,Djibouti]",True
+Somaliland,2020,3.563333333333334,3234.693333333333,16651200,Africa,7.860913333333333,True,"Cost of a healthy diet:NEI[Somalia,Ethiopia,Djibouti]|gdp:NEI[Somalia,Ethiopia,Djibouti]|population:NEI[Somalia,Ethiopia,Djibouti]|bmi:NEI[Somalia,Ethiopia,Djibouti]",True
+Somaliland,2021,3.7866666666666666,3313.661733333333,17271435,Africa,8.248013333333333,True,"Cost of a healthy diet:NEI[Somalia,Ethiopia,Djibouti]|gdp:NEI[Somalia,Ethiopia,Djibouti]|population:NEI[Somalia,Ethiopia,Djibouti]|bmi:NEI[Somalia,Ethiopia,Djibouti]",True
+Somaliland,2022,4.266666666666667,3408.0288333333338,17801895,Africa,8.656433333333332,True,"Cost of a healthy diet:NEI[Somalia,Ethiopia,Djibouti]|gdp:NEI[Somalia,Ethiopia,Djibouti]|population:NEI[Somalia,Ethiopia,Djibouti]|bmi:NEI[Somalia,Ethiopia,Djibouti]",True
+Somaliland,2023,4.373333333333334,3568.5108999999998,18358622,Africa,8.656433333333332,True,"Cost of a healthy diet:NEI[Somalia,Ethiopia,Djibouti]|gdp:NEI[Somalia,Ethiopia,Djibouti]|population:NEI[Somalia,Ethiopia,Djibouti]|bmi:GLB",True
+South Africa,2017,3.0,14591.437,57635158,Africa,28.02176,False,,False
+South Africa,2018,2.94,14571.376,58613001,Africa,28.43469,False,,False
+South Africa,2019,2.94,14370.238,59587880,Africa,28.84686,False,,False
+South Africa,2020,3.0,13266.786,60562374,Africa,29.2544,False,,False
+South Africa,2021,3.14,13711.294,61502602,Africa,29.65177,False,,False
+South Africa,2022,3.46,13777.192,62378417,Africa,30.03376,False,,False
+South Africa,2023,3.76,13690.39,63212386,Africa,30.03376,False,bmi:GLB,True
+South Korea,2017,4.73,44787.65,51486268,Asia,5.19567,False,,False
+South Korea,2018,4.92,45890.43,51640894,Asia,5.46886,False,,False
+South Korea,2019,4.9,46757.26,51767844,Asia,5.75904,False,,False
+South Korea,2020,5.18,46361.598,51858481,Asia,6.06794,False,,False
+South Korea,2021,5.55,48419.645,51848401,Asia,6.39314,False,,False
+South Korea,2022,6.05,49777.93,51782515,Asia,6.73334,False,,False
+South Korea,2023,6.39,50414.207,51748744,Asia,6.73334,False,bmi:GLB,True
+South Sudan,2017,3.0716666666666668,2671.934983333333,45956034,Africa,6.4022033333333335,True,"Cost of a healthy diet:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|gdp:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|population:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|bmi:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]",True
+South Sudan,2018,3.001666666666667,2694.5926999999997,47218853,Africa,6.720996666666667,True,"Cost of a healthy diet:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|gdp:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|population:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|bmi:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]",True
+South Sudan,2019,3.095,2727.7765833333333,48375504,Africa,7.060145000000001,True,"Cost of a healthy diet:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|gdp:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|population:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|bmi:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]",True
+South Sudan,2020,3.1616666666666666,2677.9021,49503282,Africa,7.420813333333334,True,"Cost of a healthy diet:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|gdp:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|population:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|bmi:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]",True
+South Sudan,2021,3.336666666666666,2717.2220166666666,50643048,Africa,7.804146666666667,True,"Cost of a healthy diet:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|gdp:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|population:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|bmi:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]",True
+South Sudan,2022,3.595,2754.4227333333333,51817901,Africa,8.210195,True,"Cost of a healthy diet:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|gdp:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|population:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|bmi:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]",True
+South Sudan,2023,3.795,2667.040333333333,52690904,Africa,8.210195,True,"Cost of a healthy diet:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|gdp:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|population:NEI[Democratic Republic of Congo,Kenya,Sudan,Central African Republic,Ethiopia,Uganda]|bmi:GLB",True
+Spain,2017,2.53,45446.25,46868594,Europe,20.55954,False,,False
+Spain,2018,2.57,46325.21,47092817,Europe,20.26958,False,,False
+Spain,2019,2.71,46896.418,47435121,Europe,19.96951,False,,False
+Spain,2020,2.75,41553.45,47679482,Europe,19.68164,False,,False
+Spain,2021,2.94,44251.664,47735670,Europe,19.40798,False,,False
+Spain,2022,3.4,46649.562,47828386,Europe,19.16706,False,,False
+Spain,2023,3.83,47341.17,47911583,Europe,19.16706,False,bmi:GLB,True
+Sri Lanka,2017,3.86,14572.485,22087525,Asia,7.97149,False,,False
+Sri Lanka,2018,3.81,14759.825,22253116,Asia,8.46438,False,,False
+Sri Lanka,2019,3.7,14637.444,22410552,Asia,8.97363,False,,False
+Sri Lanka,2020,3.66,13886.651,22561808,Asia,9.49996,False,,False
+Sri Lanka,2021,4.27,14316.135,22700377,Asia,10.0449,False,,False
+Sri Lanka,2022,4.87,13249.065,22834965,Asia,10.60543,False,,False
+Sri Lanka,2023,4.89,13024.94,22971615,Asia,10.60543,False,bmi:GLB,True
+Sudan,2017,2.59,4061.0183,42714311,Africa,12.35042,False,,False
+Sudan,2018,2.77,3816.66,44230597,Africa,12.90614,False,,False
+Sudan,2019,2.87,3625.5232,45548179,Africa,13.503,False,,False
+Sudan,2020,2.86,3401.2498,46789237,Africa,14.13712,False,,False
+Sudan,2021,3.03,3248.9756,48066930,Africa,14.80176,False,,False
+Sudan,2022,2.75,3132.0771,49383344,Africa,15.49623,False,,False
+Sudan,2023,2.94,2181.079,50042800,Africa,15.49623,False,bmi:GLB,True
+Suriname,2017,4.4,22070.514,593720,America,25.73275,False,,False
+Suriname,2018,4.33,22938.535,599519,America,26.36193,False,,False
+Suriname,2019,4.67,22966.74,605779,America,26.99139,False,,False
+Suriname,2020,4.94,19091.361,612320,America,27.63182,False,,False
+Suriname,2021,5.44,18458.234,617905,America,28.29558,False,,False
+Suriname,2022,5.88,18742.588,623172,America,28.98193,False,,False
+Suriname,2023,6.4,19043.705,628892,America,28.98193,False,bmi:GLB,True
+Sweden,2017,2.71,59883.668,10057864,Europe,16.00645,False,,False
+Sweden,2018,2.77,60318.46,10175400,Europe,16.07548,False,,False
+Sweden,2019,2.91,61232.484,10279120,Europe,16.14687,False,,False
+Sweden,2020,3.0,59572.477,10353682,Europe,16.22679,False,,False
+Sweden,2021,3.06,62731.7,10416134,Europe,16.31432,False,,False
+Sweden,2022,3.5,63215.438,10487335,Europe,16.4103,False,,False
+Sweden,2023,3.83,62845.484,10551493,Europe,16.4103,False,bmi:GLB,True
+Switzerland,2017,2.39,77626.91,8453630,Europe,13.41364,False,,False
+Switzerland,2018,2.45,79261.36,8516341,Europe,13.46228,False,,False
+Switzerland,2019,2.55,79596.7,8577525,Europe,13.5137,False,,False
+Switzerland,2020,2.59,77324.89,8640582,Europe,13.56942,False,,False
+Switzerland,2021,2.63,81001.414,8707019,Europe,13.64625,False,,False
+Switzerland,2022,2.85,82777.3,8792180,Europe,13.74016,False,,False
+Switzerland,2023,3.01,82302.05,8870564,Europe,13.74016,False,bmi:GLB,True
+Syria,2017,2.5,4977.792,19224671,Asia,30.46027,False,,False
+Syria,2018,2.55,4956.093,19577849,Asia,30.67682,False,,False
+Syria,2019,2.61,4825.4062,20353536,Asia,30.71288,False,,False
+Syria,2020,3.91,4633.3496,21049431,Asia,30.83128,False,,False
+Syria,2021,5.01,4592.8384,21628837,Asia,31.02562,False,,False
+Syria,2022,5.4,4454.8535,22462170,Asia,31.17818,False,,False
+Syria,2023,5.61,4189.8374,23594623,Asia,31.17818,False,bmi:GLB,True
+Taiwan,2017,3.71,15345.36514,51486268,Asia,4.487278000000001,True,"Cost of a healthy diet:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|gdp:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|population:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|bmi:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]",True
+Taiwan,2018,3.808,15933.857399999999,51640894,Asia,4.748662,True,"Cost of a healthy diet:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|gdp:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|population:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|bmi:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]",True
+Taiwan,2019,3.8880000000000003,16472.4656,51767844,Asia,5.023854,True,"Cost of a healthy diet:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|gdp:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|population:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|bmi:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]",True
+Taiwan,2020,4.116,16158.511200000003,51858481,Asia,5.314078,True,"Cost of a healthy diet:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|gdp:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|population:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|bmi:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]",True
+Taiwan,2021,4.288,16726.46104,51848401,Asia,5.61926,True,"Cost of a healthy diet:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|gdp:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|population:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|bmi:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]",True
+Taiwan,2022,4.608,17371.239739999997,51782515,Asia,5.939114000000001,True,"Cost of a healthy diet:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|gdp:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|population:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|bmi:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]",True
+Taiwan,2023,4.895999999999999,17785.2246,51748744,Asia,5.939114000000001,True,"Cost of a healthy diet:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|gdp:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|population:NEI[Philippines,South Korea,Vietnam,Laos,Cambodia]|bmi:GLB",True
+Tajikistan,2017,2.99,3312.712,9085942,Asia,17.19466,False,,False
+Tajikistan,2018,2.99,3479.6924,9307345,Asia,17.88645,False,,False
+Tajikistan,2019,3.17,3649.8838,9529970,Asia,18.59565,False,,False
+Tajikistan,2020,3.43,3724.749,9749312,Asia,19.31249,False,,False
+Tajikistan,2021,3.53,3985.9126,9966912,Asia,20.04547,False,,False
+Tajikistan,2022,3.68,4213.7563,10182228,Asia,20.80941,False,,False
+Tajikistan,2023,3.68,4472.324,10389807,Asia,20.80941,False,bmi:GLB,True
+Tanzania,2017,2.14,3319.3767,55652888,Africa,8.72751,False,,False
+Tanzania,2018,2.3,3392.6887,57437134,Africa,9.21477,False,,False
+Tanzania,2019,2.45,3484.6326,59174889,Africa,9.72141,False,,False
+Tanzania,2020,2.64,3449.8215,60972803,Africa,10.25206,False,,False
+Tanzania,2021,2.79,3493.083,62830410,Africa,10.80856,False,,False
+Tanzania,2022,3.1,3546.981,64711822,Africa,11.39353,False,,False
+Tanzania,2023,3.32,3620.7935,66617607,Africa,11.39353,False,bmi:GLB,True
+Thailand,2017,4.27,20094.678,71160183,Asia,12.15475,False,,False
+Thailand,2018,4.34,20879.902,71376081,Asia,12.60619,False,,False
+Thailand,2019,4.5,21277.84,71522264,Asia,13.06406,False,,False
+Thailand,2020,4.65,19957.258,71641484,Asia,13.53404,False,,False
+Thailand,2021,4.75,20242.77,71727338,Asia,14.01727,False,,False
+Thailand,2022,5.17,20762.795,71735321,Asia,14.50924,False,,False
+Thailand,2023,5.46,21191.453,71702436,Asia,14.50924,False,bmi:GLB,True
+Timor-Leste,2017,3.61,11772.574,267346654,Asia,8.5134,True,Cost of a healthy diet:NEI[Indonesia]|gdp:NEI[Indonesia]|population:NEI[Indonesia]|bmi:NEI[Indonesia],True
+Timor-Leste,2018,3.68,12262.231,269951847,Asia,9.06837,True,Cost of a healthy diet:NEI[Indonesia]|gdp:NEI[Indonesia]|population:NEI[Indonesia]|bmi:NEI[Indonesia],True
+Timor-Leste,2019,3.68,12757.785,272489381,Asia,9.64154,True,Cost of a healthy diet:NEI[Indonesia]|gdp:NEI[Indonesia]|population:NEI[Indonesia]|bmi:NEI[Indonesia],True
+Timor-Leste,2020,3.86,12388.545,274814861,Asia,10.23832,True,Cost of a healthy diet:NEI[Indonesia]|gdp:NEI[Indonesia]|population:NEI[Indonesia]|bmi:NEI[Indonesia],True
+Timor-Leste,2021,4.0,12757.074,276758056,Asia,10.86129,True,Cost of a healthy diet:NEI[Indonesia]|gdp:NEI[Indonesia]|population:NEI[Indonesia]|bmi:NEI[Indonesia],True
+Timor-Leste,2022,4.39,13334.266,278830527,Asia,11.50446,True,Cost of a healthy diet:NEI[Indonesia]|gdp:NEI[Indonesia]|population:NEI[Indonesia]|bmi:NEI[Indonesia],True
+Timor-Leste,2023,4.63,13889.975,281190068,Asia,11.50446,True,Cost of a healthy diet:NEI[Indonesia]|gdp:NEI[Indonesia]|population:NEI[Indonesia]|bmi:GLB,True
+Togo,2017,2.54,2389.2124,8057138,Africa,8.04478,False,,False
+Togo,2018,2.6,2442.647,8258782,Africa,8.47613,False,,False
+Togo,2019,2.66,2501.0308,8463070,Africa,8.93324,False,,False
+Togo,2020,2.81,2490.053,8669721,Africa,9.41633,False,,False
+Togo,2021,3.12,2577.202,8878382,Africa,9.92236,False,,False
+Togo,2022,3.5,2662.2593,9089742,Africa,10.44978,False,,False
+Togo,2023,3.58,2767.5166,9304346,Africa,10.44978,False,bmi:GLB,True
+Trinidad and Tobago,2017,3.72,34153.883,1445265,America,27.18021,False,,False
+Trinidad and Tobago,2018,3.87,33753.594,1470522,America,27.51743,False,,False
+Trinidad and Tobago,2019,3.93,33793.707,1484898,America,27.89324,False,,False
+Trinidad and Tobago,2020,4.11,30723.404,1481026,America,28.33544,False,,False
+Trinidad and Tobago,2021,4.43,30424.664,1487715,America,28.73922,False,,False
+Trinidad and Tobago,2022,4.98,30793.4,1495923,America,29.15095,False,,False
+Trinidad and Tobago,2023,5.35,31193.916,1502938,America,29.15095,False,bmi:GLB,True
+Tunisia,2017,3.66,12953.523,11650504,Africa,24.89414,False,,False
+Tunisia,2018,3.72,13163.591,11765515,Africa,25.57657,False,,False
+Tunisia,2019,3.79,13249.224,11875084,Africa,26.25088,False,,False
+Tunisia,2020,3.81,11955.566,11974058,Africa,26.92617,False,,False
+Tunisia,2021,3.97,12444.326,12048625,Africa,27.59794,False,,False
+Tunisia,2022,4.38,12702.453,12119338,Africa,28.264,False,,False
+Tunisia,2023,4.77,12622.96,12200434,Africa,28.264,False,bmi:GLB,True
+Turkey,2017,3.45,27851.982,83083667,Asia,31.2609,False,,False
+Turkey,2018,3.59,28305.46,84415966,Asia,31.86981,False,,False
+Turkey,2019,3.88,28132.053,85357670,Asia,32.47944,False,,False
+Turkey,2020,3.73,28378.553,86091691,Asia,33.069,False,,False
+Turkey,2021,3.81,31338.266,86686254,Asia,33.64245,False,,False
+Turkey,2022,4.44,32748.318,87058469,Asia,34.25613,False,,False
+Turkey,2023,4.65,34282.535,87270502,Asia,34.25613,False,bmi:GLB,True
+Turkmenistan,2017,3.08,18226.534566666665,31819172,Asia,20.901003333333332,True,"Cost of a healthy diet:NEI[Kazakhstan,Uzbekistan,Iran]|gdp:NEI[Kazakhstan,Uzbekistan,Iran]|population:NEI[Kazakhstan,Uzbekistan,Iran]|bmi:NEI[Kazakhstan,Uzbekistan,Iran]",True
+Turkmenistan,2018,3.1033333333333335,18440.561999999998,32373489,Asia,21.598113333333334,True,"Cost of a healthy diet:NEI[Kazakhstan,Uzbekistan,Iran]|gdp:NEI[Kazakhstan,Uzbekistan,Iran]|population:NEI[Kazakhstan,Uzbekistan,Iran]|bmi:NEI[Kazakhstan,Uzbekistan,Iran]",True
+Turkmenistan,2019,3.2099999999999995,18698.000333333333,32964700,Asia,22.298253333333335,True,"Cost of a healthy diet:NEI[Kazakhstan,Uzbekistan,Iran]|gdp:NEI[Kazakhstan,Uzbekistan,Iran]|population:NEI[Kazakhstan,Uzbekistan,Iran]|bmi:NEI[Kazakhstan,Uzbekistan,Iran]",True
+Turkmenistan,2020,3.1833333333333336,18378.70433333333,33586373,Asia,22.99704,True,"Cost of a healthy diet:NEI[Kazakhstan,Uzbekistan,Iran]|gdp:NEI[Kazakhstan,Uzbekistan,Iran]|population:NEI[Kazakhstan,Uzbekistan,Iran]|bmi:NEI[Kazakhstan,Uzbekistan,Iran]",True
+Turkmenistan,2021,3.34,19048.463,34243696,Asia,23.687973333333332,True,"Cost of a healthy diet:NEI[Kazakhstan,Uzbekistan,Iran]|gdp:NEI[Kazakhstan,Uzbekistan,Iran]|population:NEI[Kazakhstan,Uzbekistan,Iran]|bmi:NEI[Kazakhstan,Uzbekistan,Iran]",True
+Turkmenistan,2022,3.8299999999999996,19481.718333333334,34938953,Asia,24.374466666666667,True,"Cost of a healthy diet:NEI[Kazakhstan,Uzbekistan,Iran]|gdp:NEI[Kazakhstan,Uzbekistan,Iran]|population:NEI[Kazakhstan,Uzbekistan,Iran]|bmi:NEI[Kazakhstan,Uzbekistan,Iran]",True
+Turkmenistan,2023,4.086666666666667,20207.649999999998,35652311,Asia,24.374466666666667,True,"Cost of a healthy diet:NEI[Kazakhstan,Uzbekistan,Iran]|gdp:NEI[Kazakhstan,Uzbekistan,Iran]|population:NEI[Kazakhstan,Uzbekistan,Iran]|bmi:GLB",True
+Turks and Caicos Islands,2017,2.8,16498.691,39931,America,28.22711996929825,False,bmi:REG[America],True
+Turks and Caicos Islands,2018,2.91,30286.12,41580,America,28.836340578947368,False,bmi:REG[America],True
+Turks and Caicos Islands,2019,2.99,30611.213,43191,America,29.559088516666666,False,bmi:REG[America],True
+Turks and Caicos Islands,2020,3.13,19702.537,44405,America,30.3035119622807,False,bmi:REG[America],True
+Turks and Caicos Islands,2021,3.27,25056.488,45262,America,31.056122609649123,False,bmi:REG[America],True
+Turks and Caicos Islands,2022,3.63,28209.625,45869,America,31.82160144122807,False,bmi:REG[America],True
+Turks and Caicos Islands,2023,3.88,31839.371,46221,America,31.82160144122807,False,bmi:GLB,True
+Uganda,2017,3.12,2543.8477,40177384,Africa,4.78315,False,,False
+Uganda,2018,3.03,2613.88,41565839,Africa,5.12728,False,,False
+Uganda,2019,2.93,2689.4102,42999636,Africa,5.5056,False,,False
+Uganda,2020,2.9,2678.009,44457148,Africa,5.92244,False,,False
+Uganda,2021,2.95,2684.9204,45910931,Africa,6.38127,False,,False
+Uganda,2022,3.36,2724.906,47312718,Africa,6.88494,False,,False
+Uganda,2023,3.68,2791.0557,48656606,Africa,6.88494,False,bmi:GLB,True
+Ukraine,2017,2.7542857142857144,30038.33357142857,9785608,Europe,28.045055714285713,True,"Cost of a healthy diet:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|gdp:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|population:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|bmi:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]",True
+Ukraine,2018,2.818571428571429,31510.716857142856,9774395,Europe,28.706904285714284,True,"Cost of a healthy diet:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|gdp:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|population:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|bmi:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]",True
+Ukraine,2019,2.9814285714285718,32630.167999999998,9770346,Europe,29.368034285714288,True,"Cost of a healthy diet:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|gdp:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|population:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|bmi:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]",True
+Ukraine,2020,3.117142857142857,31760.431571428573,9749459,Europe,30.02390571428571,True,"Cost of a healthy diet:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|gdp:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|population:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|bmi:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]",True
+Ukraine,2021,3.202857142857142,33993.56,9707848,Europe,30.665245714285714,True,"Cost of a healthy diet:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|gdp:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|population:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|bmi:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]",True
+Ukraine,2022,3.6399999999999997,34596.23657142858,9684308,Europe,30.93924714285714,True,"Cost of a healthy diet:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|gdp:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|population:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|bmi:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]",True
+Ukraine,2023,3.9499999999999997,35357.235499999995,9686465,Europe,30.93924714285714,True,"Cost of a healthy diet:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|gdp:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|population:NEI[Russia,Belarus,Poland,Hungary,Moldova,Romania,Slovakia]|bmi:GLB",True
+United Arab Emirates,2017,2.46,68871.85,9234330,Asia,29.71277,False,,False
+United Arab Emirates,2018,2.74,68854.97,9346870,Asia,30.0836,False,,False
+United Arab Emirates,2019,2.87,68887.84,9377855,Asia,30.43723,False,,False
+United Arab Emirates,2020,2.85,65784.68,9448529,Asia,30.82811,False,,False
+United Arab Emirates,2021,2.66,67401.125,9789055,Asia,31.25144,False,,False
+United Arab Emirates,2022,2.93,68867.83,10242085,Asia,31.54617,False,,False
+United Arab Emirates,2023,3.11,68577.54,10642089,Asia,31.54617,False,bmi:GLB,True
+United Kingdom,2017,1.7,51601.14,66354473,Europe,27.40171,False,,False
+United Kingdom,2018,1.75,52071.27,66752473,Europe,27.6555,False,,False
+United Kingdom,2019,1.83,52645.543,67110958,Europe,27.90822,False,,False
+United Kingdom,2020,1.86,47144.723,67351860,Europe,28.16976,False,,False
+United Kingdom,2021,1.9,51004.426,67668788,Europe,28.43704,False,,False
+United Kingdom,2022,2.21,52982.176,68179315,Europe,28.70708,False,,False
+United Kingdom,2023,2.5,52502.914,68682965,Europe,28.70708,False,bmi:GLB,True
+United States,2017,2.17,66155.555,332204657,America,40.24966,False,,False
+United States,2018,2.18,67719.766,335056492,America,40.78046,False,,False
+United States,2019,2.2,69112.6,337790069,America,41.30959,False,,False
+United States,2020,2.28,67342.07,339436156,America,41.84385,False,,False
+United States,2021,2.36,71307.4,340161438,America,42.36097,False,,False
+United States,2022,2.63,72679.26,341534041,America,42.86787,False,,False
+United States,2023,2.76,74158.72,343477330,America,42.86787,False,bmi:GLB,True
+Uruguay,2017,2.78,29762.434,3388444,America,30.20801,False,,False
+Uruguay,2018,2.93,29757.94,3394538,America,31.06208,False,,False
+Uruguay,2019,3.08,30010.574,3397206,America,31.93985,False,,False
+Uruguay,2020,3.45,27788.186,3398966,America,32.83513,False,,False
+Uruguay,2021,3.65,29431.885,3396693,America,33.74313,False,,False
+Uruguay,2022,4.01,30804.703,3390913,America,34.66752,False,,False
+Uruguay,2023,4.29,31059.254,3388083,America,34.66752,False,bmi:GLB,True
+Uzbekistan,2017,4.11,8047.0537,31819172,Asia,23.00886,False,,False
+Uzbekistan,2018,4.07,8348.961,32373489,Asia,24.07068,False,,False
+Uzbekistan,2019,4.0,8755.126,32964700,Asia,25.16017,False,,False
+Uzbekistan,2020,3.97,8727.411,33586373,Asia,26.2659,False,,False
+Uzbekistan,2021,4.06,9247.644,34243696,Asia,27.38298,False,,False
+Uzbekistan,2022,4.52,9607.562,34938953,Asia,28.51616,False,,False
+Uzbekistan,2023,4.78,10007.686,35652311,Asia,28.51616,False,bmi:GLB,True
+Vanuatu,2017,2.925,29641.8955,2865756,Oceania,31.256175,True,"Cost of a healthy diet:NEI[Fiji,New Zealand]|gdp:NEI[Fiji,New Zealand]|population:NEI[Fiji,New Zealand]|bmi:NEI[Fiji,New Zealand]",True
+Vanuatu,2018,2.92,30280.445,2909012,Oceania,31.80762,True,"Cost of a healthy diet:NEI[Fiji,New Zealand]|gdp:NEI[Fiji,New Zealand]|population:NEI[Fiji,New Zealand]|bmi:NEI[Fiji,New Zealand]",True
+Vanuatu,2019,3.055,30422.569,2952158,Oceania,32.36526,True,"Cost of a healthy diet:NEI[Fiji,New Zealand]|gdp:NEI[Fiji,New Zealand]|population:NEI[Fiji,New Zealand]|bmi:NEI[Fiji,New Zealand]",True
+Vanuatu,2020,3.1550000000000002,28679.787500000002,2992433,Oceania,32.92573,True,"Cost of a healthy diet:NEI[Fiji,New Zealand]|gdp:NEI[Fiji,New Zealand]|population:NEI[Fiji,New Zealand]|bmi:NEI[Fiji,New Zealand]",True
+Vanuatu,2021,3.335,29340.9385,3012206,Oceania,33.483774999999994,True,"Cost of a healthy diet:NEI[Fiji,New Zealand]|gdp:NEI[Fiji,New Zealand]|population:NEI[Fiji,New Zealand]|bmi:NEI[Fiji,New Zealand]",True
+Vanuatu,2022,3.7299999999999995,31190.435,3025580,Oceania,34.043865,True,"Cost of a healthy diet:NEI[Fiji,New Zealand]|gdp:NEI[Fiji,New Zealand]|population:NEI[Fiji,New Zealand]|bmi:NEI[Fiji,New Zealand]",True
+Vanuatu,2023,4.07,31367.9995,3048494,Oceania,34.043865,True,"Cost of a healthy diet:NEI[Fiji,New Zealand]|gdp:NEI[Fiji,New Zealand]|population:NEI[Fiji,New Zealand]|bmi:GLB",True
+Venezuela,2017,3.5366666666666666,15837.384666666665,48131076,America,22.96672,True,"Cost of a healthy diet:NEI[Brazil,Colombia,Guyana]|gdp:NEI[Brazil,Colombia,Guyana]|population:NEI[Brazil,Colombia,Guyana]|bmi:NEI[Brazil,Colombia,Guyana]",True
+Venezuela,2018,3.6300000000000003,16000.74566666667,49024463,America,23.67389,True,"Cost of a healthy diet:NEI[Brazil,Colombia,Guyana]|gdp:NEI[Brazil,Colombia,Guyana]|population:NEI[Brazil,Colombia,Guyana]|bmi:NEI[Brazil,Colombia,Guyana]",True
+Venezuela,2019,3.7999999999999994,16252.604666666666,49907987,America,24.424613333333337,True,"Cost of a healthy diet:NEI[Brazil,Colombia,Guyana]|gdp:NEI[Brazil,Colombia,Guyana]|population:NEI[Brazil,Colombia,Guyana]|bmi:NEI[Brazil,Colombia,Guyana]",True
+Venezuela,2020,4.083333333333333,17474.382,50629997,America,25.241353333333333,True,"Cost of a healthy diet:NEI[Brazil,Colombia,Guyana]|gdp:NEI[Brazil,Colombia,Guyana]|population:NEI[Brazil,Colombia,Guyana]|bmi:NEI[Brazil,Colombia,Guyana]",True
+Venezuela,2021,4.39,19441.574333333334,51188174,America,26.043313333333334,True,"Cost of a healthy diet:NEI[Brazil,Colombia,Guyana]|gdp:NEI[Brazil,Colombia,Guyana]|population:NEI[Brazil,Colombia,Guyana]|bmi:NEI[Brazil,Colombia,Guyana]",True
+Venezuela,2022,4.94,24693.65566666667,51737944,America,26.871736666666667,True,"Cost of a healthy diet:NEI[Brazil,Colombia,Guyana]|gdp:NEI[Brazil,Colombia,Guyana]|population:NEI[Brazil,Colombia,Guyana]|bmi:NEI[Brazil,Colombia,Guyana]",True
+Venezuela,2023,5.293333333333333,28925.056666666667,52321152,America,26.871736666666667,True,"Cost of a healthy diet:NEI[Brazil,Colombia,Guyana]|gdp:NEI[Brazil,Colombia,Guyana]|population:NEI[Brazil,Colombia,Guyana]|bmi:GLB",True
+Vietnam,2017,3.27,10290.549,95176978,Asia,1.32914,False,,False
+Vietnam,2018,3.33,10936.894,96237319,Asia,1.45889,False,,False
+Vietnam,2019,3.47,11628.614,97173778,Asia,1.59831,False,,False
+Vietnam,2020,3.79,11851.396,98079196,Asia,1.74839,False,,False
+Vietnam,2021,3.88,12048.902,98935101,Asia,1.90933,False,,False
+Vietnam,2022,4.17,12979.764,99680656,Asia,2.0817,False,,False
+Vietnam,2023,4.34,13545.935,100352189,Asia,2.0817,False,bmi:GLB,True
+Western Sahara,2017,3.526666666666666,9976.0982,35446395,Africa,19.18945,True,"Cost of a healthy diet:NEI[Mauritania,Algeria,Morocco]|gdp:NEI[Mauritania,Algeria,Morocco]|population:NEI[Mauritania,Algeria,Morocco]|bmi:NEI[Mauritania,Algeria,Morocco]",True
+Western Sahara,2018,3.526666666666667,10036.271233333333,35839760,Africa,19.823536666666666,True,"Cost of a healthy diet:NEI[Mauritania,Algeria,Morocco]|gdp:NEI[Mauritania,Algeria,Morocco]|population:NEI[Mauritania,Algeria,Morocco]|bmi:NEI[Mauritania,Algeria,Morocco]",True
+Western Sahara,2019,3.5566666666666666,10043.195133333333,36210907,Africa,20.463463333333333,True,"Cost of a healthy diet:NEI[Mauritania,Algeria,Morocco]|gdp:NEI[Mauritania,Algeria,Morocco]|population:NEI[Mauritania,Algeria,Morocco]|bmi:NEI[Mauritania,Algeria,Morocco]",True
+Western Sahara,2020,3.6,9403.984466666667,36584208,Africa,21.10852,True,"Cost of a healthy diet:NEI[Mauritania,Algeria,Morocco]|gdp:NEI[Mauritania,Algeria,Morocco]|population:NEI[Mauritania,Algeria,Morocco]|bmi:NEI[Mauritania,Algeria,Morocco]",True
+Western Sahara,2021,3.8866666666666663,9652.232333333333,36954443,Africa,21.755456666666664,True,"Cost of a healthy diet:NEI[Mauritania,Algeria,Morocco]|gdp:NEI[Mauritania,Algeria,Morocco]|population:NEI[Mauritania,Algeria,Morocco]|bmi:NEI[Mauritania,Algeria,Morocco]",True
+Western Sahara,2022,4.386666666666667,9833.846899999999,37329068,Africa,22.406049999999997,True,"Cost of a healthy diet:NEI[Mauritania,Algeria,Morocco]|gdp:NEI[Mauritania,Algeria,Morocco]|population:NEI[Mauritania,Algeria,Morocco]|bmi:NEI[Mauritania,Algeria,Morocco]",True
+Western Sahara,2023,4.713333333333334,10095.582333333334,37712516,Africa,22.406049999999997,True,"Cost of a healthy diet:NEI[Mauritania,Algeria,Morocco]|gdp:NEI[Mauritania,Algeria,Morocco]|population:NEI[Mauritania,Algeria,Morocco]|bmi:GLB",True
+Yemen,2017,2.375,48316.8285,17659898,Asia,32.03873,True,"Cost of a healthy diet:NEI[Oman,Saudi Arabia]|gdp:NEI[Oman,Saudi Arabia]|population:NEI[Oman,Saudi Arabia]|bmi:NEI[Oman,Saudi Arabia]",True
+Yemen,2018,2.425,50016.535,17481498,Asia,32.63084,True,"Cost of a healthy diet:NEI[Oman,Saudi Arabia]|gdp:NEI[Oman,Saudi Arabia]|population:NEI[Oman,Saudi Arabia]|bmi:NEI[Oman,Saudi Arabia]",True
+Yemen,2019,2.4850000000000003,50470.051,17532028,Asia,33.26045,True,"Cost of a healthy diet:NEI[Oman,Saudi Arabia]|gdp:NEI[Oman,Saudi Arabia]|population:NEI[Oman,Saudi Arabia]|bmi:NEI[Oman,Saudi Arabia]",True
+Yemen,2020,2.455,47490.667,17756854,Asia,34.071780000000004,True,"Cost of a healthy diet:NEI[Oman,Saudi Arabia]|gdp:NEI[Oman,Saudi Arabia]|population:NEI[Oman,Saudi Arabia]|bmi:NEI[Oman,Saudi Arabia]",True
+Yemen,2021,2.535,50704.976500000004,17914402,Asia,34.92574,True,"Cost of a healthy diet:NEI[Oman,Saudi Arabia]|gdp:NEI[Oman,Saudi Arabia]|population:NEI[Oman,Saudi Arabia]|bmi:NEI[Oman,Saudi Arabia]",True
+Yemen,2022,2.785,53479.399999999994,18452790,Asia,35.64749,True,"Cost of a healthy diet:NEI[Oman,Saudi Arabia]|gdp:NEI[Oman,Saudi Arabia]|population:NEI[Oman,Saudi Arabia]|bmi:NEI[Oman,Saudi Arabia]",True
+Yemen,2023,2.92,51095.455,19156778,Asia,35.64749,True,"Cost of a healthy diet:NEI[Oman,Saudi Arabia]|gdp:NEI[Oman,Saudi Arabia]|population:NEI[Oman,Saudi Arabia]|bmi:GLB",True
+Zambia,2017,2.73,3612.5059,17441328,Africa,7.10811,False,,False
+Zambia,2018,2.79,3646.9597,17973574,Africa,7.52446,False,,False
+Zambia,2019,2.88,3591.5642,18513839,Africa,7.96285,False,,False
+Zambia,2020,2.96,3391.5955,19059394,Africa,8.42463,False,,False
+Zambia,2021,3.28,3503.035,19603610,Africa,8.90834,False,,False
+Zambia,2022,3.61,3585.1238,20152935,Africa,9.4169,False,,False
+Zambia,2023,3.81,3673.4841,20723967,Africa,9.4169,False,bmi:GLB,True
+Zimbabwe,2017,3.54,3453.5059,14812484,Africa,10.27429,False,,False
+Zimbabwe,2018,2.8600000000000003,9395.5477,14812484,Africa,14.640054999999998,True,"Cost of a healthy diet:NEI[South Africa,Botswana,Zambia,Mozambique]|gdp:NEI[South Africa,Botswana,Zambia,Mozambique]|bmi:NEI[South Africa,Botswana,Zambia,Mozambique]",True
+Zimbabwe,2019,2.9099999999999997,9399.175525,14812484,Africa,15.068192500000002,True,"Cost of a healthy diet:NEI[South Africa,Botswana,Zambia,Mozambique]|gdp:NEI[South Africa,Botswana,Zambia,Mozambique]|bmi:NEI[South Africa,Botswana,Zambia,Mozambique]",True
+Zimbabwe,2020,3.025,8603.474575,14812484,Africa,15.5097675,True,"Cost of a healthy diet:NEI[South Africa,Botswana,Zambia,Mozambique]|gdp:NEI[South Africa,Botswana,Zambia,Mozambique]|bmi:NEI[South Africa,Botswana,Zambia,Mozambique]",True
+Zimbabwe,2021,3.265,9158.047349999999,14812484,Africa,15.960965000000002,True,"Cost of a healthy diet:NEI[South Africa,Botswana,Zambia,Mozambique]|gdp:NEI[South Africa,Botswana,Zambia,Mozambique]|bmi:NEI[South Africa,Botswana,Zambia,Mozambique]",True
+Zimbabwe,2022,3.565,9371.5886,14812484,Africa,16.422735,True,"Cost of a healthy diet:NEI[South Africa,Botswana,Zambia,Mozambique]|gdp:NEI[South Africa,Botswana,Zambia,Mozambique]|bmi:NEI[South Africa,Botswana,Zambia,Mozambique]",True
+Zimbabwe,2023,3.85,9451.99765,14812484,Africa,16.422735,True,"Cost of a healthy diet:NEI[South Africa,Botswana,Zambia,Mozambique]|gdp:NEI[South Africa,Botswana,Zambia,Mozambique]|bmi:GLB",True

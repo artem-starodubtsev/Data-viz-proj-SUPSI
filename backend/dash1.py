@@ -42,7 +42,15 @@ INDEX_STRING = """
 # -----------------------------
 # Load + prep data (shared)
 # -----------------------------
-df = pd.read_csv("data/data.csv")
+#df = pd.read_csv("data/data.csv")
+df = pd.read_csv("data/data_filled_neighbors.csv")
+
+df = df.drop(
+    columns=["is_imputed", "imputed_from", "row_added", "values_imputed"],
+    errors="ignore",   # <- prevents KeyError if a column isn't present
+)
+
+
 
 # print(df['Region'].unique())
 

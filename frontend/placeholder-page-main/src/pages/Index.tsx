@@ -73,18 +73,35 @@ const Index = () => {
                 </header>
 
                 {/* Long Description */}
-                <div className="mx-auto max-w-[65%] animate-fade-in [animation-delay:100ms]">
-                    <ReportSection>
-                        <p className="font-body leading-relaxed text-card-foreground">
-                            BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH
-                            BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH
-                            BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH
-                            BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH
-                            BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH
-                            BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH
-                        </p>
-                    </ReportSection>
+                <div className="flex justify-center px-6">
+                    {/* 100% bigger overall: wider container */}
+                    <div className="w-[min(1600px,96vw)] overflow-hidden rounded-2xl border bg-card shadow-card">
+                        <div className="grid grid-cols-1 md:grid-cols-2">
+                            {/* bigger/taller image, same 50/50 split */}
+                            <div className="relative min-h-[420px] md:min-h-[560px]">
+                                <img
+                                    src="/food.png"
+                                    alt="Report overview"
+                                    className="h-full w-full object-cover"
+                                />
+                            </div>
+
+                            {/* more space, but KEEP text sizes */}
+                            <div className="flex flex-col justify-center gap-4 p-10 md:p-14">
+                                <h2 className="font-display text-3xl font-semibold text-card-foreground">
+                                    Overview
+                                </h2>
+
+                                <p className="font-body text-lg leading-relaxed text-muted-foreground whitespace-pre-line">
+                                    Your longer description goes here...
+                                    {"\n\n"}
+                                    Second paragraph here...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
 
                 {/* Main Embed with attached caption - 2:1 ratio (horizontal) */}
                 <div className="animate-fade-in [animation-delay:200ms]">
@@ -98,10 +115,21 @@ const Index = () => {
                         </div>
                     </ReportSection>
                     <div className="flex justify-center">
-            <span
-                className="rounded-b-lg border border-t-0 border-border bg-secondary px-6 py-2.5 font-body text-sm text-secondary-foreground shadow-soft">
-              HERE WE CAN SEE BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH
-            </span>
+                        <div className="flex justify-center px-6">
+                            <div className="w-[min(1600px,96vw)]">
+                                <div
+                                    className="rounded-b-2xl border border-t-0 border-border bg-card px-10 py-5 font-body text-sm text-card-foreground shadow-card whitespace-pre-line"
+                                >
+                                    HERE WE CAN SEE
+                                    {"\n\n"}
+                                    BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH
+                                    {"\n\n"}
+                                    BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH
+                                    {"\n\n"}
+                                    BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
