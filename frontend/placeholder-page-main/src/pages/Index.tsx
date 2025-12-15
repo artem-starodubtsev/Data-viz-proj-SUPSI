@@ -40,7 +40,9 @@ const sectionContent = [
       "What to watch\n" +
       "• Price spikes can arrive quickly through fuel/shipping costs and exchange-rate changes.\n\n" +
       "Takeaway\n" +
-      "High costs are driven by inflation + trade structure, not a lack of agriculture.\n\n"
+      "High costs are driven by inflation + trade structure, not a lack of agriculture.\n\n" +
+      "Region note\n" +
+      "In our visualizations, Latin America and the Caribbean are combined into this single “America” region.",
   },
   {
     title: "Asia",
@@ -182,7 +184,6 @@ const Index = () => {
 
           <div className="flex justify-center px-6">
             <div className="w-[92vw] md:w-[60vw]">
-              {/* caption font size increased */}
               <div className="rounded-b-2xl border border-t-0 border-border bg-card px-10 py-6 font-body text-base leading-relaxed text-card-foreground shadow-card whitespace-pre-line">
                 <div className="space-y-4 text-base">
                   <div className="space-y-1">
@@ -261,7 +262,6 @@ const Index = () => {
         {/* Interactive Section - 2:1 ratio (horizontal) */}
         <ReportSection className="animate-fade-in [animation-delay:300ms] p-4">
           <div className="aspect-[2/1] flex gap-4">
-            {/* Text + Embed Grid - 1:1 split */}
             <div className="flex-1 grid grid-cols-2 gap-6">
               {/* Description */}
               <div className="flex flex-col justify-center space-y-4 p-4">
@@ -272,7 +272,6 @@ const Index = () => {
                   {sectionContent[activePage].title}
                 </h2>
 
-                {/* map text font size increased + whitespace-pre-line for bullets */}
                 <p
                   className="font-body text-base leading-relaxed text-muted-foreground whitespace-pre-line animate-slide-in [animation-delay:50ms]"
                   key={`desc-${activePage}`}
@@ -321,12 +320,13 @@ const Index = () => {
               <h2 className="font-display text-xl font-semibold text-card-foreground">
                 Obesity — Regional Trend (2017–2022)
               </h2>
-              <p className="font-body text-sm leading-relaxed text-muted-foreground whitespace-pre-line">
-                Write your explanation here…{"\n\n"}
-                Example points to mention:
-                {"\n"}• which region increases/decreases the most
-                {"\n"}• any notable spikes/drops
-                {"\n"}• what the trend suggests over 2017–2022
+
+              <p className="font-body text-base leading-relaxed text-muted-foreground whitespace-pre-line">
+                {`Across every region, obesity rises steadily from 2017 to 2022. The important feature is how “smooth” the lines are: there are no dramatic spikes or reversals, just a consistent upward drift. That kind of near-linear growth points to long-term, structural drivers—food environments, urban lifestyles, and gradual dietary change—rather than short, one-off events.
+
+This time-series also helps interpret our earlier GDP vs BMI scatter. We saw a broad positive relationship between wealth and BMI, but also a wide spread among high-income countries. Here, even regions that already sit high on the BMI scale (especially America, and then Europe/Oceania) continue to climb, showing that wealth doesn’t automatically protect against obesity once a processed-food environment is established. Meanwhile, Asia and Africa trend upward too, reinforcing that obesity is not only a “rich-country” issue.
+
+The affordability maps provide a second explanation for why the rise is so persistent. In high-income regions, healthy diets may be affordable, but ultra-processed foods can be even cheaper and more convenient—making the default choice calorie-dense. In lower-income regions where healthy diets are often unaffordable, the pathway is different: limited access to diverse, nutrient-rich foods can coexist with growing availability of low-cost processed calories. Taken together, these charts show a global pattern: baseline obesity levels differ by region, but the direction of change is consistently upward.`}
               </p>
             </div>
           </div>
@@ -341,10 +341,15 @@ const Index = () => {
               </h2>
 
               <p className="mt-8 font-body text-lg leading-relaxed text-muted-foreground whitespace-pre-line">
-                Write your conclusion here…
-                {"\n\n"}
-                Summarize the key patterns you found across the visualizations, highlight the most important
-                takeaways, and end with a short statement about why the results matter.
+                {`Across our visualizations, one message stays consistent: nutrition outcomes are shaped by both wealth and place, but neither factor works alone.
+
+The BMI vs GDP scatter shows a broad upward relationship—countries with higher GDP per capita tend to sit at higher average BMI. At the same time, the spread among wealthy countries is large, which tells us that economic growth does not automatically “lock in” a single health outcome. Culture, policy, and food environments can push countries above or below the typical pattern.
+
+The affordability maps explain part of that variation. Some regions face an affordability crisis where nutrient-dense foods are priced out relative to income, limiting dietary diversity and reinforcing dependence on cheap staples. Other regions have generally affordable healthy diets, yet still struggle because ultra-processed foods remain cheaper and more convenient than fresh alternatives. In both cases, the food system—pricing, logistics, and what is easiest to access—strongly influences what people actually eat.
+
+Finally, the obesity trend chart shows that these pressures are not temporary. Obesity rises steadily across every region from 2017 to 2022, suggesting slow, structural drivers rather than short-term shocks. Baseline levels differ by region, but the direction is consistently upward.
+
+Overall, our hypothesis is only partially supported: higher wealth often correlates with higher BMI, but geography, affordability, and policy help determine how strong that relationship becomes. Understanding these interacting forces matters because it shifts the solution from individual choice to system design—making healthy diets not only possible, but realistically accessible.`}
               </p>
             </div>
           </div>
