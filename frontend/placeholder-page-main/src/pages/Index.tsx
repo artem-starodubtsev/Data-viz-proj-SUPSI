@@ -114,23 +114,17 @@ const Index = () => {
                             />
                         </div>
                     </ReportSection>
-                    <div className="flex justify-center">
-                        <div className="flex justify-center px-6">
-                            <div className="w-[min(1600px,96vw)]">
-                                <div
-                                    className="rounded-b-2xl border border-t-0 border-border bg-card px-10 py-5 font-body text-sm text-card-foreground shadow-card whitespace-pre-line"
-                                >
-                                    HERE WE CAN SEE
-                                    {"\n\n"}
-                                    BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH
-                                    {"\n\n"}
-                                    BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH
-                                    {"\n\n"}
-                                    BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH-BLAH
-                                </div>
+                    <div className="flex justify-center px-6">
+                        <div className="w-[92vw] md:w-[60vw]">
+                            <div
+                                className="rounded-b-2xl border border-t-0 border-border bg-card px-10 py-5 font-body text-sm text-card-foreground shadow-card whitespace-pre-line">
+                                HERE WE CAN SEE
+                                {"\n\n"}
+                                BLAH-BLAH-BLAH...
                             </div>
                         </div>
                     </div>
+
                 </div>
 
                 {/* Interactive Section - 2:1 ratio (horizontal) */}
