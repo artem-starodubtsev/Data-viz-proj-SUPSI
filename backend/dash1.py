@@ -2,6 +2,7 @@ import numpy as np
 from flask import Flask
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
+from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import pandas as pd
 import copy
@@ -371,6 +372,82 @@ def zoom_map(region):
             fr.layout.update(geo=geo_update)
 
     return fig
+
+# -----------------------------
+# App 3 (independent): line chart from obesity.csv (by Region)
+# -----------------------------
+df_ob = pd.read_csv("data/obesity.csv")   # <- put obesity.csv in your data/ folder
+
+# detect the metric column automatically (the non-Entity/Code/Year column)
+metric_col = [c for c in df_ob.columns if c not in ["Entity", "Code", "Year"]][0]
+metric_label = metric_col  # keep original for axis label
+
+# bring Regions (only mapping, not mixing metrics)
+region_map = df[["Entity", "Region"]].drop_duplicates()
+df_ob = df_ob.merge(region_map, on="Entity", how="left")
+
+# clean
+df_ob = df_ob[df_ob["Entity"] != "World"]
+df_ob = df_ob.dropna(subset=["Region", metric_col])
+
+# OPTIONAL: limit years if you want (delete these 2 lines if not needed)
+df_ob = df_ob[df_ob["Year"].between(2017, 2022)]
+
+# aggregate to region-level (simple mean; change to weighted if you want)
+df_ob_region = (
+    df_ob.groupby(["Region", "Year"], as_index=False)[metric_col]
+    .mean()
+)
+
+fig_line = px.line(
+    df_ob_region,
+    x="Year",
+    y=metric_col,
+    color="Region",
+    color_discrete_map=REGION_COLORS,
+    markers=True,
+    labels={metric_col: metric_label},
+)
+
+fig_line.update_layout(
+    template="plotly_white",
+    margin=dict(l=0, r=0, t=40, b=0),
+    font=dict(family=roboto, size=14),
+)
+fig_line.update_xaxes(dtick=1)
+fig_line.update_yaxes(title_text=metric_label)
+
+app3 = Dash(__name__, server=server, url_base_pathname="/app3/")
+app3.index_string = INDEX_STRING
+
+app3.layout = html.Div(
+    style={
+        "height": "100vh",
+        "width": "100vw",
+        "margin": 0,
+        "padding": 0,
+        "display": "flex",
+        "flexDirection": "column",
+        "fontFamily": roboto,
+    },
+    children=[
+        html.H1(
+            "Trend on obesity",
+            style={"textAlign": "center", "margin": "8px 0"},
+        ),
+        html.Div(
+            style={"flex": "1", "minHeight": 0},
+            children=dcc.Graph(
+                id="app3-line",
+                figure=fig_line,
+                style={"height": "100%", "width": "100%"},
+                config={"displayModeBar": True},
+                animate=False,
+            ),
+        ),
+    ],
+)
+
 
 
 # -----------------------------

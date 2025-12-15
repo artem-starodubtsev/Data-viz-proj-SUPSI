@@ -176,6 +176,54 @@ const Index = () => {
                         </div>
                     </div>
                 </ReportSection>
+
+                {/* App 3 — Line chart section (no paging) */}
+                <ReportSection className="animate-fade-in [animation-delay:400ms] p-4">
+                    <div className="aspect-[2/1] grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {/* Left: app3 iframe */}
+                        <div className="h-full">
+                            <iframe
+                                src="http://127.0.0.1:8050/app3/"
+                                className="h-full w-full rounded-lg"
+                                allowFullScreen
+                            />
+                        </div>
+
+                        {/* Right: text */}
+                        <div className="flex flex-col justify-center space-y-4 p-4">
+                            <h2 className="font-display text-xl font-semibold text-card-foreground">
+                                Obesity — Regional Trend (2017–2022)
+                            </h2>
+                            <p className="font-body text-sm leading-relaxed text-muted-foreground whitespace-pre-line">
+                                Write your explanation here…{"\n\n"}
+                                Example points to mention:
+                                {"\n"}• which region increases/decreases the most
+                                {"\n"}• any notable spikes/drops
+                                {"\n"}• what the trend suggests over 2017–2022
+                            </p>
+                        </div>
+                    </div>
+                </ReportSection>
+                {/* Conclusion (title top + centered horizontally, single text block) */}
+                <div className="flex justify-center px-6 animate-fade-in [animation-delay:400ms]">
+                    <div className="w-[min(1600px,96vw)] overflow-hidden rounded-2xl border bg-card shadow-card">
+                        <div className="p-10 md:p-14 min-h-[420px] md:min-h-[560px]">
+                            <h2 className="text-center font-display text-3xl font-semibold text-card-foreground">
+                                Conclusion
+                            </h2>
+
+                            <p className="mt-8 font-body text-lg leading-relaxed text-muted-foreground whitespace-pre-line">
+                                Write your conclusion here…
+                                {"\n\n"}
+                                Summarize the key patterns you found across the visualizations, highlight the
+                                most important takeaways, and end with a short statement about why the results
+                                matter.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </main>
     );
