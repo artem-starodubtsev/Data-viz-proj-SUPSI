@@ -248,7 +248,7 @@ app2.layout = html.Div(
             style={
                 "textAlign": "center",
                 "margin": "4px 0",
-                "fontSize": "20px",
+                #"fontSize": "20px",
                 "lineHeight": "1.1",
             },
         ),
