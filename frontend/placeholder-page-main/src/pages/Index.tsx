@@ -12,7 +12,7 @@ const sectionContent = [
       "• CAP support and relatively short, resilient supply chains help stabilize prices for fresh foods.\n" +
       "• Strong local sourcing traditions support availability, but can keep premium products pricier.\n\n" +
       "What to watch\n" +
-      "• Costs are rising in parts of Eastern Europe as geopolitical instability disrupts markets.\n\n" +
+      "• Costs are rising in parts of South Europe as geopolitical instability disrupts markets.\n\n" +
       "Takeaway\n" +
       "Europe is largely stable and affordable, but the trend is uneven across sub-regions.",
   },
