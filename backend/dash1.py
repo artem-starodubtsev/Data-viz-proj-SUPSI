@@ -87,6 +87,14 @@ fig_bubbles = px.scatter(
     animation_frame="Year",
     animation_group="Entity",
     hover_name="Entity",
+hover_data={
+        "population": True,        # hide raw if you want
+        "log_population": False,    # hide size metric if you want
+        "gdp": ":,.0f",
+        "bmi": ":.1f",
+        "Year": True,
+        "Region": True,
+    },
     text="label",  # <-- labels only for selected countries
     size_max=80,
     log_x=True,
@@ -116,6 +124,12 @@ fig_bubbles.update_layout(
     title=dict(
         font=dict(size=20)  # optional override
     ),
+)
+
+fig_bubbles.update_traces(
+    hovertemplate=fig_bubbles.data[0].hovertemplate.replace(
+        "population=", "Population="
+    )
 )
 
 fig_bubbles.update_layout(font=dict(family=roboto))
@@ -391,7 +405,7 @@ df_ob = df_ob[df_ob["Entity"] != "World"]
 df_ob = df_ob.dropna(subset=["Region", metric_col])
 
 # OPTIONAL: limit years if you want (delete these 2 lines if not needed)
-df_ob = df_ob[df_ob["Year"].between(2017, 2022)]
+df_ob = df_ob[df_ob["Year"].between(2017, 2023)]
 
 # aggregate to region-level (simple mean; change to weighted if you want)
 df_ob_region = (
