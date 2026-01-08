@@ -39,7 +39,7 @@ const regionData = [
   {
     title: "Africa",
     subtitle: "Affordability Crisis",
-    color: "hsl(35, 80%, 50%)",
+    color: "hsl(0, 65%, 55%)",
     content: [
       "Over 70% are unable to afford a nutrient-adequate diet—the highest burden globally.",
       "Supply chain inefficiencies and conflict raise prices and reduce reliable access.",
@@ -49,7 +49,7 @@ const regionData = [
   {
     title: "America",
     subtitle: "Inflation Hotspot",
-    color: "hsl(0, 65%, 55%)",
+    color: "hsl(180, 50%, 45%)",
     content: [
       "This region often records some of the highest average costs for a healthy diet.",
       "Caribbean economies are frequently import-dependent, pushing up prices for perishables.",
@@ -69,7 +69,7 @@ const regionData = [
   {
     title: "Oceania",
     subtitle: "Logistics Split",
-    color: "hsl(180, 50%, 45%)",
+    color: "hsl(35, 80%, 50%)",
     content: [
       "Regional averages are strongly influenced by Australia and New Zealand—major food producers.",
       "In Pacific Island nations, imported processed foods are cheap while fresh produce is expensive.",
