@@ -142,7 +142,7 @@ fig_map = px.choropleth(
     color="Cost of a healthy diet",
     hover_name="Entity",
     animation_frame="Year",
-    range_color=[0, 8],
+    #range_color=[0, 8],
     color_continuous_scale="Viridis",
     projection="mercator",
     labels={"Cost of a healthy diet": "Cost of a healthy diet"},
@@ -204,17 +204,17 @@ app1.layout = html.Div(
         "fontFamily": roboto,
     },
     children=[
-        html.H1(
-            "BMI vs GDP",
-            style={"textAlign": "center", "margin": "8px 0"},
-        ),
+        # html.H1(
+        #     "BMI vs GDP",
+        #     style={"textAlign": "center", "margin": "8px 0"},
+        # ),
         html.Div(
             style={"flex": "1", "minHeight": 0},
             children=dcc.Graph(
                 id="diet-gdp-bubbles",
                 figure=fig_bubbles,
                 style={"height": "100%", "width": "100%"},
-                config={"displayModeBar": True},
+                config={"displayModeBar": False},
                 # IMPORTANT:
                 # This figure already has Plotly Express frames.
                 # Let Plotly's own slider/play control handle animation.
@@ -235,55 +235,25 @@ app2.layout = html.Div(
         "padding": 0,
         "display": "flex",
         "flexDirection": "column",
-        "gap": "4px",
         "fontFamily": roboto,
     },
     children=[
-        # Store + Interval for React -> Dash bridge
         dcc.Store(id="region-store", data="World"),
         dcc.Interval(id="region-poll", interval=200, n_intervals=0),
 
-        html.H1(
-            "Cost of a Healthy Diet — World Map",
-            style={
-                "textAlign": "center",
-                "margin": "4px 0",
-                #"fontSize": "20px",
-                "lineHeight": "1.1",
-            },
-        ),
-
-        # Square frame
         html.Div(
-            style={
-                "flex": "1",
-                "minHeight": 0,
-                "display": "flex",
-                "justifyContent": "center",
-                "alignItems": "center",
-                "padding": "4px",
-            },
-            children=[
-                html.Div(
-                    style={
-                        "width": "min(92vh, 98vw)",
-                        "aspectRatio": "1 / 1",
-                    },
-                    children=dcc.Graph(
-                        id="diet-map",
-                        figure=fig_map,
-                        style={"height": "100%", "width": "100%"},
-                        config={"displayModeBar": True, "responsive": True},
-                        # IMPORTANT:
-                        # This figure already has Plotly Express frames.
-                        # Turning Dash animate on can prevent layout/geo updates from showing.
-                        animate=False,
-                    ),
-                )
-            ],
-        )
+            style={"flex": "1", "minHeight": 0},  # <-- THIS is the key
+            children=dcc.Graph(
+                id="diet-map",
+                figure=fig_map,
+                style={"height": "100%", "width": "100%"},  # <-- fill available height
+                config={"displayModeBar": False, "responsive": True},
+                animate=False,
+            ),
+        ),
     ],
 )
+
 
 # -----------------------------
 # React -> Dash bridge:
@@ -330,7 +300,7 @@ def make_map(dataframe, region):
         color="Cost of a healthy diet",
         hover_name="Entity",
         animation_frame="Year",
-        range_color=[0, 8],
+        range_color=[2, 8],
         color_continuous_scale=colorscale,
         projection="mercator",
         labels={"Cost of a healthy diet": "Cost of a healthy diet"},
@@ -431,17 +401,17 @@ app3.layout = html.Div(
         "fontFamily": roboto,
     },
     children=[
-        html.H1(
-            "Trend on obesity",
-            style={"textAlign": "center", "margin": "8px 0"},
-        ),
+        # html.H1(
+        #     "Trend on obesity",
+        #     style={"textAlign": "center", "margin": "8px 0"},
+        # ),
         html.Div(
             style={"flex": "1", "minHeight": 0},
             children=dcc.Graph(
                 id="app3-line",
                 figure=fig_line,
                 style={"height": "100%", "width": "100%"},
-                config={"displayModeBar": True},
+                config={"displayModeBar": False},
                 animate=False,
             ),
         ),
