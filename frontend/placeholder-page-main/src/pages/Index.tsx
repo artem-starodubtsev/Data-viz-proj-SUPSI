@@ -9,7 +9,6 @@ import Slide from "@/components/Slide";
 import SlideIndicator from "@/components/SlideIndicator";
 import {
   DollarSign,
-  Globe,
   Heart,
   MapPin,
   AlertTriangle,
@@ -79,7 +78,6 @@ const regionData = [
   },
 ];
 
-// Background component for slides
 const SlideBackground = ({image, className = ""}: { image: string; className?: string }) => (
   <>
     <div className={`absolute inset-0 ${className}`}>
@@ -89,7 +87,6 @@ const SlideBackground = ({image, className = ""}: { image: string; className?: s
   </>
 );
 
-// Download button component for visualization placeholders
 const DownloadButton = () => (
   <button
     className="absolute bottom-3 right-3 flex items-center gap-1.5 text-xs text-muted-foreground/50 hover:text-muted-foreground transition-colors">
@@ -102,7 +99,6 @@ const Index = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [activeRegion, setActiveRegion] = useState(0);
 
-  // Ref to the app2 (regional map) iframe
   const dashMapRef = useRef<HTMLIFrameElement | null>(null);
 
   const sendRegion = useCallback((regionIndex: number) => {
@@ -114,9 +110,7 @@ const Index = () => {
 
   const scrollToSlide = useCallback((index: number) => {
     const slides = containerRef.current?.querySelectorAll(".snap-slide");
-    if (slides && slides[index]) {
-      slides[index].scrollIntoView({behavior: "smooth"});
-    }
+    if (slides && slides[index]) slides[index].scrollIntoView({behavior: "smooth"});
   }, []);
 
   useEffect(() => {
@@ -134,9 +128,7 @@ const Index = () => {
 
       slides.forEach((slide, index) => {
         const slideTop = (slide as HTMLElement).offsetTop;
-        if (Math.abs(scrollTop - slideTop) < slideHeight / 2) {
-          setCurrentSlide(index);
-        }
+        if (Math.abs(scrollTop - slideTop) < slideHeight / 2) setCurrentSlide(index);
       });
     };
 
@@ -144,23 +136,24 @@ const Index = () => {
     return () => container.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Optional: allow the Dash app to drive region selection in React
   useEffect(() => {
     const handler = (event: MessageEvent) => {
       const data: any = event?.data;
       if (!data || typeof data !== "object") return;
+
       const type = data.type;
       const region = data.region;
+
       if ((type === "REGION_SELECTED" || type === "SET_REGION") && typeof region === "string") {
         const idx = regionData.findIndex((r) => r.title === region);
         if (idx >= 0) setActiveRegion((prev) => (prev === idx ? prev : idx));
       }
     };
+
     window.addEventListener("message", handler);
     return () => window.removeEventListener("message", handler);
   }, []);
 
-  // Keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "ArrowDown" || e.key === "PageDown") {
@@ -193,8 +186,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-[hsl(220,20%,10%)/80] via-transparent to-transparent"/>
 
         <div className="relative z-10 text-center px-6 max-w-7xl">
-          <span
-            className="inline-block font-body text-sm md:text-base tracking-widest uppercase text-primary-foreground/70 mb-6 animate-slide-up">
+          <span className="inline-block font-body text-sm md:text-base tracking-widest uppercase text-primary-foreground/70 mb-6 animate-slide-up">
             A Visual Story of Global Nutrition
           </span>
 
@@ -347,7 +339,8 @@ const Index = () => {
           </div>
 
           <div className="flex-1 min-h-0 flex flex-col lg:flex-row gap-6">
-            <div className="order-1 lg:order-2 w-full lg:w-96 shrink-0 flex flex-col gap-4 min-h-0">
+            {/* Sidebar */}
+            <div className="order-1 lg:order-2 w-full lg:w-96 shrink-0 flex flex-col gap-4 lg:self-start">
               <div className="flex lg:flex-col gap-2 flex-wrap lg:flex-nowrap">
                 {regionData.map((region, index) => (
                   <button
@@ -358,9 +351,7 @@ const Index = () => {
                         ? "bg-card/95 shadow-soft border-2"
                         : "bg-muted/50 hover:bg-muted/70 border-2 border-transparent"
                     }`}
-                    style={{
-                      borderColor: activeRegion === index ? region.color : "transparent",
-                    }}
+                    style={{borderColor: activeRegion === index ? region.color : "transparent"}}
                   >
                     <span className="flex items-center gap-2">
                       <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{backgroundColor: region.color}} />
@@ -370,9 +361,10 @@ const Index = () => {
                 ))}
               </div>
 
+              {/* ✅ FIX: tight details card (no flex-1) */}
               <div
                 key={activeRegion}
-                className="flex-1 min-h-0 p-6 lg:p-8 rounded-2xl bg-card/95 backdrop-blur-sm border border-border shadow-elevated animate-fade-in-scale overflow-auto"
+                className="p-6 lg:p-8 rounded-2xl bg-card/95 backdrop-blur-sm border border-border shadow-elevated animate-fade-in-scale w-full max-h-[55vh] overflow-auto"
               >
                 <div className="flex items-center gap-4 mb-4">
                   <div className="w-1 h-12 rounded-full" style={{backgroundColor: regionData[activeRegion].color}} />
@@ -396,15 +388,14 @@ const Index = () => {
                   {regionData[activeRegion].content.map((paragraph, index) => (
                     <div key={index} className="flex gap-3">
                       <span className="mt-2 w-1.5 h-1.5 rounded-full bg-muted-foreground/40 shrink-0"/>
-                      <p className="font-body text-base leading-relaxed text-muted-foreground">
-                        {paragraph}
-                      </p>
+                      <p className="font-body text-base leading-relaxed text-muted-foreground">{paragraph}</p>
                     </div>
                   ))}
                 </div>
               </div>
             </div>
 
+            {/* Map */}
             <div className="order-2 lg:order-1 flex-1 min-h-0">
               <div className="h-full bg-card/95 backdrop-blur-sm rounded-2xl border border-border shadow-elevated p-4 lg:p-8 animate-fade-in-scale delay-200 flex flex-col min-h-0">
                 <div className="relative flex-1 min-h-0 bg-muted/30 rounded-lg overflow-hidden">
@@ -436,9 +427,8 @@ const Index = () => {
             </div>
           </div>
 
-          {/* KEY CHANGE: items-start so sidebar can be tight */}
+          {/* ✅ tight sidebar behavior like Wealth vs BMI */}
           <div className="flex-1 flex gap-6 min-h-0 items-start">
-            {/* Chart (kept tall) */}
             <div className="flex-1 self-stretch bg-card/95 backdrop-blur-sm rounded-2xl border border-border shadow-elevated p-4 lg:p-8 animate-slide-in-left flex flex-col">
               <div className="relative flex-1 bg-muted/30 rounded-lg overflow-hidden aspect-[4/3] lg:aspect-square max-h-full">
                 <iframe
@@ -450,7 +440,6 @@ const Index = () => {
               </div>
             </div>
 
-            {/* Sidebar card (NOW tight like Wealth vs. BMI) */}
             <div className="w-96 shrink-0 animate-slide-up delay-100 self-start">
               <div className="bg-card/95 backdrop-blur-sm rounded-2xl border border-border shadow-elevated p-6 lg:p-8">
                 <p className="font-body text-base leading-relaxed text-muted-foreground">
@@ -509,9 +498,7 @@ const Index = () => {
                   <div className="w-1 rounded-full bg-primary shrink-0"/>
                   <p className="font-body text-lg leading-relaxed text-muted-foreground">
                     Across our visualizations, one message stays consistent:{" "}
-                    <span className="font-medium text-foreground">
-                      nutrition outcomes are shaped by both wealth and place
-                    </span>
+                    <span className="font-medium text-foreground">nutrition outcomes are shaped by both wealth and place</span>
                     , but neither factor works alone.
                   </p>
                 </div>
