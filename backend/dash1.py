@@ -62,7 +62,7 @@ df = df[df["Entity"].isin(set(df.loc[df["Year"] == 2018, "Entity"]))]
 
 df.dropna(inplace=True)
 
-df['log_population'] = np.pow(np.log2(df['population']), 10)
+df['log_population'] = np.pow(np.log2(df['population']), 13)
 
 df2 = df.copy()
 df2["label"] = df2["Entity"].where(df2["Entity"].isin(countries_to_label), "")
@@ -100,6 +100,13 @@ hover_data={
     log_x=True,
     #title="BMI vs GDP over Time",
     range_y=[-5, 50],
+)
+
+fig_bubbles.add_hrect(
+    y0=30, y1=50,               # match your range_y upper bound
+    fillcolor="rgba(255, 0, 0, 0.09)",  # pick any color/opacity
+    line_width=0,
+    layer="below"               # keep it behind bubbles
 )
 
 roboto = "Roboto, system-ui, -apple-system, Segoe UI, Arial, sans-serif"

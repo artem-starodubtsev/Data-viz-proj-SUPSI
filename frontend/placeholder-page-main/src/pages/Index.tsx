@@ -21,7 +21,7 @@ const slideLabels = [
   "Introduction",
   "Wealth vs BMI",
   "Regional Overview",
-  "Obesity Trends",
+  "Obesity Trend",
   "Conclusion",
 ];
 
