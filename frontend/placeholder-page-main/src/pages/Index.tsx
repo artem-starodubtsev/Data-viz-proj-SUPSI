@@ -421,7 +421,7 @@ const Index = () => {
           <div className="flex items-center justify-between mb-4">
             <div className="animate-slide-up">
               <h2 className="font-display text-4xl md:text-5xl font-semibold text-foreground">
-                Obesity Trends
+                Obesity Trend
               </h2>
               <span className="font-body text-lg text-muted-foreground">2017 – 2022</span>
             </div>
