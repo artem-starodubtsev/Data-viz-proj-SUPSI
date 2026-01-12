@@ -49,7 +49,7 @@ ABOBA
 [<img src="assets/v2.png" width="800" alt="Placeholder image">]()
 
 ### Obesity Trend
-[<img src="assets/v1.png" width="800" alt="Placeholder image">]()
+[<img src="assets/v3.png" width="800" alt="Placeholder image">]()
 
 
 ## Key findings
