@@ -401,9 +401,8 @@ df_ob = df_ob[df_ob["Entity"] != "World"]
 df_ob = df_ob.dropna(subset=["Region", metric_col])
 
 # OPTIONAL: limit years if you want (delete these 2 lines if not needed)
-df_ob = df_ob[df_ob["Year"].between(2017, 2024)]
+df_ob = df_ob[df_ob["Year"].between(2017, 2023)]
 
-print(df_ob.Year.value_counts())
 
 # aggregate to region-level (simple mean; change to weighted if you want)
 df_ob_region = (
