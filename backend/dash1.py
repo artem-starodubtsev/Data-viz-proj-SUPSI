@@ -68,11 +68,11 @@ df2 = df.copy()
 df2["label"] = df2["Entity"].where(df2["Entity"].isin(countries_to_label), "")
 
 REGION_COLORS = {
-    "Europe": "#636EFA",
-    "Africa": "#EF553B",
-    "America": "#00aa76",
-    "Asia": "#AB63FA",
-    "Oceania": "#FFA15A",
+    "Europe": "#4477AA",
+    "Africa": "#EE6677",
+    "America": "#66CCEE",
+    "Asia": "#228833",
+    "Oceania": "#AA3377",
 }
 # -----------------------------
 # App 1 figure (your bubble chart)
@@ -302,15 +302,25 @@ app2.clientside_callback(
 # -----------------------------
 # Update map view when region changes
 # -----------------------------
+
+REGION_COLORS_LIGHT = {
+    "Europe": "#B4C9DD",
+    "Africa": "#F8C2C9",
+    "America": "#C2EBF8",
+    "Asia": "#A7CFAD",
+    "Oceania": "#DDADC9",
+}
+
 def make_map(dataframe, region):
     # pick colorscale
     if region == "World":
         colorscale = "Viridis"
     else:
         base = REGION_COLORS.get(region, "#636EFA")
+        light = REGION_COLORS_LIGHT.get(region, "#F8C2C9")
         # light -> base (you can tweak the light end)
         colorscale = [
-            [0.0, "#d5d5d5"],
+            [0.0, light],
             [1.0, base],
         ]
 
@@ -329,6 +339,11 @@ def make_map(dataframe, region):
     )
 
     fig.update_layout(coloraxis_colorbar=dict(title=""))
+
+    fig.update_coloraxes(
+        colorbar_title_text="$ per day for healthy diet",
+        colorbar_title_side="right",
+    )
 
     fig.update_layout(template="plotly_white", margin=dict(l=0, r=0, t=40, b=0))
 
@@ -399,6 +414,8 @@ fig_line = px.line(
     markers=True,
     labels={metric_col: metric_label},
 )
+
+fig_line.update_yaxes(title_text="% of adults with obesity")
 
 fig_line.update_layout(
     template="plotly_white",
