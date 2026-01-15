@@ -6,6 +6,10 @@ from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import pandas as pd
 import copy
+import os
+from flask import send_from_directory, abort
+
+DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 
 ANIMATION_DURATION_MS = 1000
 
@@ -397,7 +401,9 @@ df_ob = df_ob[df_ob["Entity"] != "World"]
 df_ob = df_ob.dropna(subset=["Region", metric_col])
 
 # OPTIONAL: limit years if you want (delete these 2 lines if not needed)
-df_ob = df_ob[df_ob["Year"].between(2017, 2023)]
+df_ob = df_ob[df_ob["Year"].between(2017, 2024)]
+
+print(df_ob.Year.value_counts())
 
 # aggregate to region-level (simple mean; change to weighted if you want)
 df_ob_region = (
@@ -456,7 +462,17 @@ app3.layout = html.Div(
     ],
 )
 
+ALLOWED_DOWNLOADS = {
+    "data.csv",
+    "data_filled_neighbors.csv",
+    "obesity.csv",
+}
 
+@server.route("/download/<path:filename>")
+def download_csv(filename):
+    if filename not in ALLOWED_DOWNLOADS:
+        abort(404)
+    return send_from_directory(DATA_DIR, filename, as_attachment=True)
 
 # -----------------------------
 # Run

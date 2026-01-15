@@ -14,6 +14,8 @@ import {
     AlertTriangle,
     ChevronDown,
     Download,
+    FileText,
+    X
 } from "lucide-react";
 
 const slideLabels = [
@@ -87,17 +89,218 @@ const SlideBackground = ({image, className = ""}: { image: string; className?: s
     </>
 );
 
-const DownloadButton = () => (
-    <button
-        className="absolute bottom-3 right-3 flex items-center gap-1.5 text-xs text-muted-foreground/50 hover:text-muted-foreground transition-colors">
+
+const API_BASE = "http://localhost:8050";
+
+type ProtocolData = {
+    title: string;
+    timestamp: string;
+    dataSourceText: string;
+    dataSourceHref?: string;   // <- optional link
+    datasetText: string;
+    datasetHref?: string;
+    steps: string[];
+};
+
+
+const PROTOCOLS: Record<string, ProtocolData> = {
+    wealthBmi: {
+        title: "Wealth vs. BMI (bubble chart)",
+        timestamp: "2017–2023",
+        dataSourceText: "TODO",
+        dataSourceHref: "https://ourworldindata.org/",
+        datasetText: "Download the dataset and the metadata",
+        datasetHref: `${API_BASE}/download/data_filled_neighbors.csv`,
+        steps: [
+            "Load the dataset (data_filled_neighbors.csv).",
+            'Filter out the aggregate "World" entity.',
+            "Restrict to countries that exist in Year=2018 (for animation).",
+            "Compute bubble size metric log_population (for better visibility)",
+            "Create a label field for selected countries (Switzerland, United States, India, China)",
+            "Build a scatter: x=gdp (log scale), y=bmi, color=Region, size=population, animated by Year.",
+            "Add a highlighted BMI band (horizontal rectangle) for BMI 30–50 to mark obesity threshold range.",
+            "Style chart: custom hover formatting, fonts, axis tick settings, and animation transition durations.",
+        ],
+    },
+
+    regionalOverview: {
+        title: "Regional Overview (choropleth map)",
+        timestamp: "2017–2023",
+        dataSourceText: "TODO",
+        dataSourceHref: "https://ourworldindata.org/",
+        datasetText: "Download the dataset and the metadata",
+        datasetHref: `${API_BASE}/download/data_filled_neighbors.csv`,
+        steps: [
+            "Load the dataset (data_filled_neighbors.csv).",
+            'Filter out the aggregate "World" entity.',
+            'Create a choropleth with country names: locations="Entity", locationmode="country names".',
+            'Use "Cost of a healthy diet" as the color metric and animate by Year.',
+            "Set the projection to Mercator and apply a fixed color range (2 to 8 as min and max).",
+            "create a two-stop colorscale from a light region tint to the region’s base color.",
+            "Update the colorbar title to “$ per day for healthy diet” and place it on the right side.",
+            "When the region changes, filter the dataframe to that region and rebuild the choropleth.",
+            "Apply region-specific zoom (center + projection scale) to both the base layout AND every animation frame.",
+        ],
+    },
+
+    obesityTrend: {
+        title: "Obesity Trend (line chart)",
+        timestamp: "2017–2023",
+        dataSourceText: "TODO",
+        dataSourceHref: "https://ourworldindata.org/",
+        datasetText: "Download the dataset and the metadata",
+        datasetHref: `${API_BASE}/download/obesity.csv`,
+        steps: [
+            "Load the dataset (obesity.csv).",
+            "Create a country → Region lookup from the main dataset and merge it into obesity.csv.",
+            'Filter out the aggregate "World" entity.',
+            "Restrict the time window to 2017–2023 for the visualization.",
+            "Aggregate to region-year values using mean (group by Region and Year).",
+            "Build a Plotly line chart: x=Year, y=obesity metric, color=Region, markers enabled.",
+            "Style axes (integer year ticks) and apply consistent region colors (REGION_COLORS).",
+            "Apply layout styling (plotly_white template, margins, font stack) to match the project theme.",
+        ],
+    },
+};
+
+
+const DownloadButton = ({url, filename = "dataset", label = "dataset"}) => (
+    <a
+        href={`${API_BASE}${url}`}
+        download={filename}
+        className="absolute bottom-3 right-3 flex items-center gap-1.5 text-xs text-muted-foreground/50 hover:text-muted-foreground transition-colors"
+    >
         <Download className="w-3.5 h-3.5"/>
-        <span>dataset</span>
+        <span>{label}{'\u00A0'}</span>
+    </a>
+);
+
+const ProtocolButton = ({onClick, label = "protocol"}: { onClick: () => void; label?: string }) => (
+    <button
+        type="button"
+        onClick={onClick}
+        className="absolute bottom-10 right-3 flex items-center gap-1.5 text-xs text-muted-foreground/50 hover:text-muted-foreground transition-colors"
+    >
+        <FileText className="w-3.5 h-3.5"/>
+        <span>{label}</span>
     </button>
 );
+
+const ProtocolModal = (
+    {
+        open,
+        onClose,
+        data,
+    }: {
+        open: boolean;
+        onClose: () => void;
+        data: ProtocolData;
+    }
+) => {
+    useEffect(() => {
+        if (!open) return;
+
+        const onKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "Escape") onClose();
+        };
+
+        window.addEventListener("keydown", onKeyDown);
+        return () => window.removeEventListener("keydown", onKeyDown);
+    }, [open, onClose]);
+
+    if (!open) return null;
+
+    return (
+        <div
+            className="fixed inset-0 z-[9999] bg-black/50 flex items-center justify-center p-4"
+            onMouseDown={(e) => {
+                if (e.target === e.currentTarget) onClose();
+            }}
+        >
+            <div
+                className="relative w-full max-w-2xl max-h-[85vh] overflow-auto rounded-2xl bg-background p-6 md:p-10 shadow-lg">
+                <button
+                    type="button"
+                    onClick={onClose}
+                    className="absolute right-4 top-4 p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/40 transition"
+                    aria-label="Close protocol"
+                >
+                    <X className="w-4 h-4"/>
+                </button>
+
+                <h1 className="text-3xl md:text-4xl font-bold text-foreground">
+                    {data.title}
+                </h1>
+                <p className="mt-1 text-lg text-foreground">Visualization protocol</p>
+
+                <div className="mt-10 space-y-8 text-foreground">
+                    <section>
+                        <h2 className="text-lg font-bold">Timestamp</h2>
+                        <p className="mt-2">{data.timestamp}</p>
+                    </section>
+
+                    <section>
+                        <h2 className="text-lg font-bold">Data source</h2>
+                        <p className="mt-2">
+                            {data.dataSourceHref ? (
+                                <a
+                                    href={data.dataSourceHref}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="underline underline-offset-4 hover:text-foreground/80"
+                                >
+                                    {data.dataSourceText}
+                                </a>
+                            ) : (
+                                data.dataSourceText
+                            )}
+                        </p>
+                    </section>
+
+
+                    <section>
+                        <h2 className="text-lg font-bold">Dataset</h2>
+                        <p className="mt-2">
+                            {data.datasetHref ? (
+                                <a
+                                    href={data.datasetHref}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="underline underline-offset-4 hover:text-foreground/80"
+                                >
+                                    {data.datasetText}
+                                </a>
+                            ) : (
+                                data.datasetText
+                            )}
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2 className="text-lg font-bold">Protocol</h2>
+                        <ol className="mt-3 list-decimal pl-6 space-y-1">
+                            {data.steps.map((s, i) => (
+                                <li key={i}>{s}</li>
+                            ))}
+                        </ol>
+                    </section>
+                </div>
+            </div>
+        </div>
+    );
+};
 
 const Index = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [activeRegion, setActiveRegion] = useState(0);
+
+    const [protocolOpen, setProtocolOpen] = useState(false);
+    const [protocolData, setProtocolData] = useState<ProtocolData>(PROTOCOLS.wealthBmi);
+
+    const openProtocol = useCallback((data: ProtocolData) => {
+        setProtocolData(data);
+        setProtocolOpen(true);
+    }, []);
 
     const dashMapRef = useRef<HTMLIFrameElement | null>(null);
 
@@ -176,6 +379,12 @@ const Index = () => {
                 currentSlide={currentSlide}
                 onSlideChange={scrollToSlide}
                 labels={slideLabels}
+            />
+
+            <ProtocolModal
+                open={protocolOpen}
+                onClose={() => setProtocolOpen(false)}
+                data={protocolData}
             />
 
             {/* Slide 1: Title */}
@@ -306,7 +515,11 @@ const Index = () => {
                                     className="h-full w-full"
                                     allowFullScreen
                                 />
-                                <DownloadButton/>
+                                <div className="relative">
+                                    <ProtocolButton onClick={() => openProtocol(PROTOCOLS.wealthBmi)}/>
+                                    <DownloadButton url="/download/data_filled_neighbors.csv"
+                                                    filename="data_filled_neighbors.csv" label="dataset "/>
+                                </div>
                             </div>
                         </div>
 
@@ -320,7 +533,10 @@ const Index = () => {
                                             title: "Overall Pattern",
                                             desc: "Lower GDP countries cluster at lower BMI values"
                                         },
-                                        {title: "High Income Spread", desc: "Wealthy nations show wide BMI variation"},
+                                        {
+                                            title: "High Income Spread",
+                                            desc: "Wealthy nations show wide BMI variation"
+                                        },
                                         {title: "Outliers", desc: "Switzerland (low BMI) vs USA (high BMI)"},
                                         {
                                             title: "Regional Clustering",
@@ -424,7 +640,11 @@ const Index = () => {
                                         allowFullScreen
                                         onLoad={() => sendRegion(activeRegion)}
                                     />
-                                    <DownloadButton/>
+                                    <div className="relative">
+                                        <ProtocolButton onClick={() => openProtocol(PROTOCOLS.regionalOverview)}/>
+                                        <DownloadButton url="/download/data_filled_neighbors.csv"
+                                                        filename="data_filled_neighbors.csv" label="dataset "/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -441,7 +661,7 @@ const Index = () => {
                             <h2 className="font-display text-4xl md:text-5xl font-semibold text-foreground">
                                 Obesity Trend
                             </h2>
-                            <span className="font-body text-lg text-muted-foreground">2017 – 2022</span>
+                            <span className="font-body text-lg text-muted-foreground">2017 – 2023</span>
                         </div>
                     </div>
 
@@ -456,7 +676,11 @@ const Index = () => {
                                     className="h-full w-full"
                                     allowFullScreen
                                 />
-                                <DownloadButton/>
+                                <div className="relative">
+                                    <ProtocolButton onClick={() => openProtocol(PROTOCOLS.obesityTrend)}/>
+                                    <DownloadButton url="/download/obesity.csv" filename="obesity.csv"
+                                                    label="dataset "/>
+                                </div>
                             </div>
                         </div>
 
