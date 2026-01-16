@@ -36,6 +36,8 @@ Petar put links to datasets here below:
 ## Data pre-processing
 Petar
 
+[Jupyter notebook with preprocessing](assets/preprocessing.ipynb)
+
 ```Python
 import pandas as pd
 
