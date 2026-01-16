@@ -20,7 +20,13 @@ after that navigate to [localhost:5173](localhost:5173)
 This project examines the profound influence of geographic location and socioeconomic status on individual nutritional outcomes and lifestyle behaviors. While globalization has increased food availability, it has also created a "food environment" disparity where wealth and location dictate access to quality nutrition. Exploring scientific, geographical and financial data, this study analyzes relationships between the citated factors and how they vary over continents. The findings suggest that health is not merely a result of individual "willpower," but is heavily structured by the cultural, environmental and financial constraints of one's surroundings. The project concludes by exposing some of the insights captured by the group.
 
 ## Introduction
-Madhi
+In the modern era, the old dictum "you are what you eat" has evolved into a more complex reality: you are what you can afford and access. While personal choice plays a role in health, the structural forces of geography and wealth act as the primary architects of our daily lives.
+
+Where a person lives determines their "food environment." In many developed nations, this has led to two phenomena:
+- Food deserts: areas where fresh, affordable, and nutritious food is unavailable.
+- Food swamps, where an abundance of high-calorie, low-nutrient fast food overwhelms healthy options.
+
+Wealth acts as a buffer against poor health. High-income individuals can afford "health premiums," such as organic products, specialized diets, and gym memberships. In opposition, for those in lower socioeconomic brackets, energy-dense but nutrient-poor foods (like refined grains and sugars) are often the most rational economic choice, as they provide the highest calorie count per dollar.
 
 ## Data sources
 Here are the links to he original datasets for Our World in data:
@@ -78,7 +84,7 @@ A multi-line trend chart showing adult obesity rates by region from 2017 to 2022
 
 
 ## Key findings
-Mahdi
+1. 
 
 ## Next steps
 ???
