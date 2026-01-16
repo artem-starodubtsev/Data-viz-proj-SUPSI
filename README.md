@@ -84,7 +84,8 @@ A multi-line trend chart showing adult obesity rates by region from 2017 to 2022
 
 
 ## Key findings
-1. 
+1. GDP per capita and average BMI seems to be quite correlated. But most important, it is interesting to see *Clusters* of countries of the same geographical area, showing how geograpy influence wealth and health
+2. 
 
 ## Next steps
 ???
