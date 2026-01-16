@@ -1,7 +1,7 @@
 SUPSI 2025-26  
 Data Visualization course
 
-# Project title
+# Where you live determines what you eat
 Authors: [Artem Starodubtsev](https://github.com/artem-starodubtsev), [Petar Hristov Neykov](https://github.com/peykoff), [Mahdi Hamrouni](https://github.com/MahdiHamrouni)
 
 We do not have a web page as we need to deploy backend.
