@@ -38,7 +38,7 @@ Here are the links to he original datasets for Our World in data:
 ### **1. Data Loading and Cleaning**
 
 * **Datasets Loaded:** The script imports datasets concerning Obesity rates, Cost of a Healthy Diet, GDP per capita, Population projections.
-* **Filtering:** The time range was restricted primarily to **2017–2023** across all datasets.
+* **Filtering:** The time range was restricted primarily to **2017-2023** across all datasets.
 * **Standardization:** Complex column names were renamed to simpler identifiers (e.g., `gdp`, `bmi`, `population`) and unnecessary columns (like specific country codes or demographic variants) were dropped.
 
 ### **2. Feature Engineering and Merging**
@@ -62,7 +62,7 @@ We chose to visualise important data surrounding the research following question
 These three important questions are explored with the following visualisations:
 
 ### Wealth vs. BMI
-A bubble chart comparing countries’ GDP per capita (log scale) on the x-axis to BMI on the y-axis. Color groups countries by region and bubble size represents a third variable (typically country size such as population). A year slider lets you see how the relationship changes over time (e.g., 2017–2023).
+A bubble chart comparing countries’ GDP per capita (log scale) on the x-axis to BMI on the y-axis. Color groups countries by region and bubble size represents a third variable (typically country size such as population). A year slider lets you see how the relationship changes over time (e.g., 2017-2023).
 
 [<img src="assets/v1.png" width="800" alt="Placeholder image">]()
 
