@@ -462,9 +462,8 @@ app3.layout = html.Div(
 )
 
 ALLOWED_DOWNLOADS = {
-    "data.csv",
-    "data_filled_neighbors.csv",
-    "obesity.csv",
+    "dataset1.zip",
+    "dataset2.zip"
 }
 
 @server.route("/download/<path:filename>")

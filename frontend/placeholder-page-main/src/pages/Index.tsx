@@ -43,7 +43,7 @@ const regionData = [
         subtitle: "Affordability Crisis",
         color: "hsl(353, 80%, 67%)",
         content: [
-            "Over 70% are unable to afford a nutrient-adequate diet—the highest burden globally.",
+            "Over 70% are unable to afford a nutrient-adequate diet-the highest burden globally.",
             "Supply chain inefficiencies and conflict raise prices and reduce reliable access.",
             "Diets rely heavily on starchy staples; nutrient-dense foods are far more expensive.",
         ],
@@ -73,7 +73,7 @@ const regionData = [
         subtitle: "Logistics Split",
         color: "hsl(326, 54%, 43%)",
         content: [
-            "Regional averages are strongly influenced by Australia and New Zealand—major food producers.",
+            "Regional averages are strongly influenced by Australia and New Zealand-major food producers.",
             "In Pacific Island nations, imported processed foods are cheap while fresh produce is expensive.",
             "Climate shocks and shipping disruptions disproportionately raise the cost of fresh foods.",
         ],
@@ -107,10 +107,10 @@ const PROTOCOLS: Record<string, ProtocolData> = {
     wealthBmi: {
         title: "Wealth vs. BMI (bubble chart)",
         timestamp: "2017–2023",
-        dataSourceText: "TODO",
-        dataSourceHref: "https://ourworldindata.org/",
+        dataSourceText: "GDP per capita",
+        dataSourceHref: "https://ourworldindata.org/grapher/gdp-per-capita-worldbank?v=1&csvType=full&useColumnShortNames=false",
         datasetText: "Download the dataset and the metadata",
-        datasetHref: `${API_BASE}/download/data_filled_neighbors.csv`,
+        datasetHref: `${API_BASE}/download/dataset1.zip`,
         steps: [
             "Load the dataset (data_filled_neighbors.csv).",
             'Filter out the aggregate "World" entity.',
@@ -126,10 +126,10 @@ const PROTOCOLS: Record<string, ProtocolData> = {
     regionalOverview: {
         title: "Regional Overview (choropleth map)",
         timestamp: "2017–2023",
-        dataSourceText: "TODO",
-        dataSourceHref: "https://ourworldindata.org/",
+        dataSourceText: "Daily cost of a healthy diet",
+        dataSourceHref: "https://ourworldindata.org/grapher/cost-healthy-diet?v=1&csvType=full&useColumnShortNames=false",
         datasetText: "Download the dataset and the metadata",
-        datasetHref: `${API_BASE}/download/data_filled_neighbors.csv`,
+        datasetHref: `${API_BASE}/download/dataset1.zip`,
         steps: [
             "Load the dataset (data_filled_neighbors.csv).",
             'Filter out the aggregate "World" entity.',
@@ -146,10 +146,10 @@ const PROTOCOLS: Record<string, ProtocolData> = {
     obesityTrend: {
         title: "Obesity Trend (line chart)",
         timestamp: "2017–2023",
-        dataSourceText: "TODO",
-        dataSourceHref: "https://ourworldindata.org/",
+        dataSourceText: "Obesity in adults",
+        dataSourceHref: "https://ourworldindata.org/grapher/share-of-adults-defined-as-obese?tab=line",
         datasetText: "Download the dataset and the metadata",
-        datasetHref: `${API_BASE}/download/obesity.csv`,
+        datasetHref: `${API_BASE}/download/dataset2.zip`,
         steps: [
             "Load the dataset (obesity.csv).",
             "Create a country → Region lookup from the main dataset and merge it into obesity.csv.",
@@ -484,7 +484,7 @@ const Index = () => {
                                 The Health Impact
                             </h3>
                             <p className="font-body text-muted-foreground text-center">
-                                Correlating socio-economic inputs with health outcomes—obesity vs. undernutrition.
+                                Correlating socio-economic inputs with health outcomes-obesity vs. undernutrition.
                             </p>
                         </button>
                     </div>
@@ -517,8 +517,8 @@ const Index = () => {
                                 />
                                 <div className="relative">
                                     <ProtocolButton onClick={() => openProtocol(PROTOCOLS.wealthBmi)}/>
-                                    <DownloadButton url="/download/data_filled_neighbors.csv"
-                                                    filename="data_filled_neighbors.csv" label="dataset "/>
+                                    <DownloadButton url="/download/dataset1.zip"
+                                                    filename="dataset1.zip" label="dataset "/>
                                 </div>
                             </div>
                         </div>
@@ -642,8 +642,8 @@ const Index = () => {
                                     />
                                     <div className="relative">
                                         <ProtocolButton onClick={() => openProtocol(PROTOCOLS.regionalOverview)}/>
-                                        <DownloadButton url="/download/data_filled_neighbors.csv"
-                                                        filename="data_filled_neighbors.csv" label="dataset "/>
+                                        <DownloadButton url="/download/dataset1.zip"
+                                                        filename="dataset1.zip" label="dataset "/>
                                     </div>
                                 </div>
                             </div>
@@ -678,7 +678,7 @@ const Index = () => {
                                 />
                                 <div className="relative">
                                     <ProtocolButton onClick={() => openProtocol(PROTOCOLS.obesityTrend)}/>
-                                    <DownloadButton url="/download/obesity.csv" filename="obesity.csv"
+                                    <DownloadButton url="/download/dataset2.zip" filename="dataset2.zip"
                                                     label="dataset "/>
                                 </div>
                             </div>
@@ -695,8 +695,8 @@ const Index = () => {
                                 </p>
 
                                 <p className="mt-4 font-body text-base leading-relaxed text-muted-foreground">
-                                    That kind of near-linear growth points to long-term, structural drivers—food
-                                    environments, urban lifestyles, and gradual dietary change—rather than short,
+                                    That kind of near-linear growth points to long-term, structural drivers-food
+                                    environments, urban lifestyles, and gradual dietary change-rather than short,
                                     one-off
                                     events.
                                 </p>
@@ -737,7 +737,7 @@ const Index = () => {
                                     Understanding these interacting forces matters because it shifts the solution
                                     from{" "}
                                     <span className="text-primary">individual choice</span> to{" "}
-                                    <span className="text-primary">system design</span>—making healthy diets not only
+                                    <span className="text-primary">system design</span>-making healthy diets not only
                                     possible, but realistically accessible.
                                 </p>
                             </div>
@@ -761,7 +761,7 @@ const Index = () => {
                                 <div className="flex gap-4">
                                     <div className="w-1 rounded-full bg-accent shrink-0"/>
                                     <p className="font-body text-lg leading-relaxed text-muted-foreground">
-                                        The BMI vs GDP scatter shows a broad upward relationship—countries with higher
+                                        The BMI vs GDP scatter shows a broad upward relationship-countries with higher
                                         GDP
                                         per capita tend to sit at higher average BMI. At the same time, the spread among
                                         wealthy countries is large, which tells us that economic growth does not
