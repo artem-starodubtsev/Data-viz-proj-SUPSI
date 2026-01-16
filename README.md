@@ -38,15 +38,6 @@ Petar
 
 [Jupyter notebook with preprocessing](assets/preprocessing.ipynb)
 
-```Python
-import pandas as pd
-
-df = pd.read_excel("data/data.xlsx")
-
-df = df[df["Entity"] != "World"]
-df = df[df["Entity"].isin(set(df.loc[df["Year"] == 2018, "Entity"]))]
-```
-
 ## Data visualizations
 ABOBA
 
