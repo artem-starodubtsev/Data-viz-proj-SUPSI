@@ -52,15 +52,29 @@ Based on the provided notebook, here is a description of the data processing wor
 [Jupyter notebook with preprocessing](assets/preprocessing.ipynb)
 
 ## Data visualizations
-ABOBA
+We chose to visualise important data surrounding the research following questions:
+
+- How does economic wealth (GDP per capita) relate to BMI?
+
+- How does geography/region affects the affordability of a healthy diet across regions?
+
+- What is a general trend on obesity across all regions?
+
+These two important questions are explored with the following visualisations:
 
 ### Wealth vs. BMI
+A bubble chart comparing countries’ GDP per capita (log scale) on the x-axis to BMI on the y-axis. Color groups countries by region and bubble size represents a third variable (typically country size such as population). A year slider lets you see how the relationship changes over time (e.g., 2017–2023).
+
 [<img src="assets/v1.png" width="800" alt="Placeholder image">]()
 
 ### Regional Overview
+A map of regions shaded by the cost per day for a healthy diet (darker = higher cost), with a color bar indicating the dollar range. Year slider shows how costs evolve over time.
+
 [<img src="assets/v2.png" width="800" alt="Placeholder image">]()
 
 ### Obesity Trend
+A multi-line trend chart showing adult obesity rates by region from 2017 to 2022. Each colored line represents a region, making it easy to compare levels and trends—overall, the rates rise over time, with the Americas highest and Africa lowest in this view.
+
 [<img src="assets/v3.png" width="800" alt="Placeholder image">]()
 
 
