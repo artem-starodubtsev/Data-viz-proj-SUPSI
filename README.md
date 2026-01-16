@@ -34,7 +34,6 @@ Here are the links to he original datasets for Our World in data:
 - [Dataset 4 on GDP per capita](https://ourworldindata.org/grapher/gdp-per-capita-worldbank?v=1&csvType=full&useColumnShortNames=false)
 
 ## Data pre-processing
-Based on the provided notebook, here is a description of the data processing workflow formatted in Markdown:
 
 ### **1. Data Loading and Cleaning**
 
