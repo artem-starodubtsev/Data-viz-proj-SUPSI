@@ -84,8 +84,9 @@ A multi-line trend chart showing adult obesity rates by region from 2017 to 2022
 
 
 ## Key findings
-1. GDP per capita and average BMI seems to be quite correlated. But most important, it is interesting to see *Clusters* of countries of the same geographical area, showing how geograpy influence wealth and health
-2. 
+1. GDP per capita and average BMI seems to be quite correlated. But most important, it is interesting to see **Clusters** of countries of the same geographical area, showing how **geograpy influence wealth and health**.
+2. Second visualizations helps understand underlying patterns of healthy diet cost for each country divided by their position. For sure inflation plays a fundamental role in the generalized increase of cost. But there is more to see: in facts, not in all countries the cost has not increased for various reasons.
+3. The final visualization gives us the last piece of the puzzle in order to globally understand the studied phenomena. Even regions with affordable healthy diets continue to climb, showing that wealth doesn't automatically protect against obesity.
 
 ## Next steps
 ???
