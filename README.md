@@ -60,7 +60,7 @@ We chose to visualise important data surrounding the research following question
 
 - What is a general trend on obesity across all regions?
 
-These two important questions are explored with the following visualisations:
+These three important questions are explored with the following visualisations:
 
 ### Wealth vs. BMI
 A bubble chart comparing countries’ GDP per capita (log scale) on the x-axis to BMI on the y-axis. Color groups countries by region and bubble size represents a third variable (typically country size such as population). A year slider lets you see how the relationship changes over time (e.g., 2017–2023).
@@ -77,6 +77,9 @@ A multi-line trend chart showing adult obesity rates by region from 2017 to 2022
 
 [<img src="assets/v3.png" width="800" alt="Placeholder image">]()
 
+### Page demo
+
+[<img src="assets/demo.gif" width="800" alt="Placeholder image">]()
 
 ## Key findings
 Mahdi
