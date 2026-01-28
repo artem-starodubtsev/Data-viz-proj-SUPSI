@@ -20,7 +20,13 @@ after that navigate to [localhost:5173](localhost:5173)
 This project examines the profound influence of geographic location and socioeconomic status on individual nutritional outcomes and lifestyle behaviors. While globalization has increased food availability, it has also created a "food environment" disparity where wealth and location dictate access to quality nutrition. Exploring scientific, geographical and financial data, this study analyzes relationships between the citated factors and how they vary over continents. The findings suggest that health is not merely a result of individual "willpower," but is heavily structured by the cultural, environmental and financial constraints of one's surroundings. The project concludes by exposing some of the insights captured by the group.
 
 ## Introduction
-Madhi
+In the modern era, the old dictum "you are what you eat" has evolved into a more complex reality: you are what you can afford and access. While personal choice plays a role in health, the structural forces of geography and wealth act as the primary architects of our daily lives.
+
+Where a person lives determines their "food environment." In many developed nations, this has led to two phenomena:
+- Food deserts: areas where fresh, affordable, and nutritious food is unavailable.
+- Food swamps, where an abundance of high-calorie, low-nutrient fast food overwhelms healthy options.
+
+Wealth acts as a buffer against poor health. High-income individuals can afford "health premiums," such as organic products, specialized diets, and gym memberships. In opposition, for those in lower socioeconomic brackets, energy-dense but nutrient-poor foods (like refined grains and sugars) are often the most rational economic choice, as they provide the highest calorie count per dollar.
 
 ## Data sources
 Here are the links to he original datasets for Our World in data:
@@ -34,12 +40,11 @@ Here are the links to he original datasets for Our World in data:
 - [Dataset 4 on GDP per capita](https://ourworldindata.org/grapher/gdp-per-capita-worldbank?v=1&csvType=full&useColumnShortNames=false)
 
 ## Data pre-processing
-Based on the provided notebook, here is a description of the data processing workflow formatted in Markdown:
 
 ### **1. Data Loading and Cleaning**
 
 * **Datasets Loaded:** The script imports datasets concerning Obesity rates, Cost of a Healthy Diet, GDP per capita, Population projections.
-* **Filtering:** The time range was restricted primarily to **2017–2023** across all datasets.
+* **Filtering:** The time range was restricted primarily to **2017-2023** across all datasets.
 * **Standardization:** Complex column names were renamed to simpler identifiers (e.g., `gdp`, `bmi`, `population`) and unnecessary columns (like specific country codes or demographic variants) were dropped.
 
 ### **2. Feature Engineering and Merging**
@@ -63,7 +68,7 @@ We chose to visualise important data surrounding the research following question
 These three important questions are explored with the following visualisations:
 
 ### Wealth vs. BMI
-A bubble chart comparing countries’ GDP per capita (log scale) on the x-axis to BMI on the y-axis. Color groups countries by region and bubble size represents a third variable (typically country size such as population). A year slider lets you see how the relationship changes over time (e.g., 2017–2023).
+A bubble chart comparing countries’ GDP per capita (log scale) on the x-axis to BMI on the y-axis. Color groups countries by region and bubble size represents a third variable (typically country size such as population). A year slider lets you see how the relationship changes over time (e.g., 2017-2023).
 
 [<img src="assets/v1.png" width="800" alt="Placeholder image">]()
 
@@ -82,7 +87,6 @@ A multi-line trend chart showing adult obesity rates by region from 2017 to 2022
 [<img src="assets/demo.gif" width="800" alt="Placeholder image">]()
 
 ## Key findings
-Mahdi
-
-## Next steps
-???
+1. GDP per capita and average BMI seems to be quite correlated. But most important, it is interesting to see **Clusters** of countries of the same geographical area, showing how **geograpy influence wealth and health**.
+2. Second visualizations helps understand underlying patterns of healthy diet cost for each country divided by their position. For sure inflation plays a fundamental role in the generalized increase of cost. But there is more to see: in facts, not in all countries the cost has not increased for various reasons.
+3. The final visualization gives us the last piece of the puzzle in order to globally understand the studied phenomena. Even regions with affordable healthy diets continue to climb, showing that wealth doesn't automatically protect against obesity.
